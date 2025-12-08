@@ -109,4 +109,4 @@ Para evoluir este MVP para um produto final robusto, planejamos as seguintes eta
 5. **🔐 Autenticação**: Proteger a API com chave de acesso (API Key) ou OAuth2.
 
 ---
-*Desenvolvido com 💻 e ☕ por [Seu Nome/Time]*
+*Desenvolvido com 💻 e ☕ por [Araken Carmo Neto / hackathon ONE ALURA]*
