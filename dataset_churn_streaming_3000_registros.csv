@@ -1,0 +1,3001 @@
+cliente_id,idade,tempo_assinatura_meses,plano_assinatura,valor_mensal,visualizacoes_mes,tempo_medio_sessao_min,contatos_suporte,avaliacao_conteudo,metodo_pagamento,dispositivo_principal,churn
+CLI00001,23,30,PREMIUM,39.90,54,47,6,2.9,Débito,mobile,0
+CLI00002,26,58,PREMIUM,39.90,44,43,8,4.9,Credito,Mobile,0
+CLI00003,74,39,Premium,39.90,13,130,6,1.9,,mobile,0
+CLI00004,62,40,basico,19.90,36,175,5,3.3,Boleto,Mobile,1
+CLI00005,67,40,Padrão,29.90,40,90,1,1.4,PIX,Desktop,0
+CLI00006,77,43,PREMIUM,39.90,57,169,9,3.7,,TV,0
+CLI00007,70,18,Básico,19.90,39,185,7,4.8,Credito,tv,1
+CLI00008,54,6,Padrão,29.90,58,69,2,2.3,Credito,TV,0
+CLI00009,49,18,Básico,19.90,9,22,5,1.0,PIX,Tablet,0
+CLI00010,21,41,PREMIUM,39.90,79,121,3,0.5,"Cartão de Crédito",tv,0
+CLI00011,56,4,basico,19.90,35,18,7,2.9,Boleto,Tablet,1
+CLI00012,50,48,PREMIUM,39.90,7,169,3,0.4,Boleto,TV,1
+CLI00013,46,18,basico,19.90,81,160,5,4.9,Débito,Mobile,0
+CLI00014,30,41,Básico,19.90,27,178,6,2.8,Credito,TV,0
+CLI00015,24,1,Básico,19.90,73,166,7,3.6,Credito,Tablet,1
+CLI00016,47,22,Básico,19.90,2,42,1,2.6,Credito,Desktop,0
+CLI00017,62,55,basico,19.90,93,179,4,1.2,,Tablet,0
+CLI00018,25,10,Básico,19.90,30,117,4,4.4,Débito,mobile,1
+CLI00019,60,11,Padrão,29.90,67,27,1,2.5,,TV,0
+CLI00020,31,21,basico,19.90,8,83,3,1.9,"Cartão de Crédito",Mobile,1
+CLI00021,49,3,Padrão,29.90,38,17,2,1.8,,mobile,1
+CLI00022,25,12,Padrão,29.90,27,138,5,4.1,,TV,0
+CLI00023,56,55,basico,19.90,64,71,0,4.0,,mobile,0
+CLI00024,43,60,Básico,19.90,79,133,3,4.4,Credito,tv,0
+CLI00025,44,48,PREMIUM,39.90,75,129,4,0.5,Débito,TV,0
+CLI00026,31,15,Premium,39.90,70,61,0,4.3,Credito,Tablet,0
+CLI00027,44,12,Básico,19.90,54,50,6,0.4,Boleto,mobile,1
+CLI00028,25,2,PREMIUM,39.90,11,120,9,3.2,"Cartão de Crédito",TV,1
+CLI00029,48,32,Básico,19.90,39,165,4,3.8,Credito,TV,1
+CLI00030,68,51,Básico,19.90,3,17,7,0.1,,Desktop,1
+CLI00031,66,30,Padrão,29.90,32,49,5,2.7,"Cartão de Crédito",TV,0
+CLI00032,56,37,Padrão,29.90,84,142,,2.1,,tv,0
+CLI00033,39,38,PREMIUM,39.90,14,107,0,4.9,"Cartão de Crédito",Desktop,0
+CLI00034,41,19,Básico,19.90,46,13,5,3.9,"Cartão de Crédito",TV,1
+CLI00035,38,32,Premium,39.90,12,39,9,3.4,,Tablet,1
+CLI00036,74,60,PREMIUM,39.90,39,64,8,0.6,Débito,Mobile,1
+CLI00037,69,3,basico,19.90,18,133,2,2.2,Credito,Tablet,1
+CLI00038,22,20,Premium,39.90,75,135,0,2.5,Credito,Mobile,0
+CLI00039,50,53,Padrão,29.90,35,66,1,3.3,PIX,TV,0
+CLI00040,71,29,Padrão,29.90,86,135,2,4.2,Boleto,tv,0
+CLI00041,22,24,Padrão,29.90,87,18,5,4.6,,TV,1
+CLI00042,69,5,PREMIUM,39.90,13,12,6,1.1,"Cartão de Crédito",Mobile,1
+CLI00043,67,53,Padrão,29.90,9,188,1,4.6,"Cartão de Crédito",TV,1
+CLI00044,63,15,Básico,19.90,81,58,7,2.0,"Cartão de Crédito",Desktop,0
+CLI00045,31,30,Padrão,29.90,29,155,9,2.0,PIX,tv,0
+CLI00046,37,6,Premium,39.90,72,105,5,4.8,"Cartão de Crédito",Tablet,0
+CLI00047,72,36,PREMIUM,39.90,77,105,1,2.8,,TV,0
+CLI00048,69,7,Premium,39.90,53,85,7,3.4,PIX,TV,0
+CLI00049,38,30,Premium,39.90,77,130,7,1.9,Boleto,Tablet,0
+CLI00050,62,21,basico,19.90,3,70,0,0.9,Credito,Mobile,1
+CLI00051,48,48,Premium,39.90,68,76,0,3.7,"Cartão de Crédito",mobile,0
+CLI00052,62,49,Padrão,29.90,98,145,9,2.4,"Cartão de Crédito",tv,1
+CLI00053,28,52,Padrão,29.90,13,26,3,0.3,PIX,Tablet,1
+CLI00054,68,11,PREMIUM,39.90,34,13,1,2.2,Boleto,Desktop,1
+CLI00055,28,12,Padrão,29.90,34,117,0,2.6,Boleto,Desktop,0
+CLI00056,47,56,Premium,39.90,85,76,8,2.8,Débito,mobile,0
+CLI00057,41,3,basico,19.90,98,76,5,4.3,Débito,Mobile,1
+CLI00058,59,47,basico,19.90,57,152,3,3.6,Credito,TV,0
+CLI00059,44,56,Premium,39.90,72,116,1,4.7,Credito,tv,0
+CLI00060,32,10,Padrão,29.90,26,165,1,5.0,PIX,tv,0
+CLI00061,32,29,Premium,39.90,54,186,9,0.5,,TV,0
+CLI00062,53,20,PREMIUM,39.90,56,165,0,2.6,Débito,Mobile,0
+CLI00063,63,35,Padrão,29.90,15,27,8,0.6,Credito,Mobile,1
+CLI00064,65,16,Premium,39.90,34,72,2,0.2,Credito,TV,1
+CLI00065,75,25,Padrão,29.90,44,181,2,1.7,PIX,mobile,0
+CLI00066,63,41,Padrão,29.90,68,37,0,0.4,Boleto,mobile,1
+CLI00067,44,43,Básico,19.90,96,21,6,3.3,Débito,tv,0
+CLI00068,47,13,Padrão,29.90,93,94,6,3.3,,tv,0
+CLI00069,72,4,Padrão,29.90,77,29,7,0.7,Boleto,TV,1
+CLI00070,62,43,Premium,39.90,59,23,1,0.5,PIX,mobile,1
+CLI00071,64,13,Padrão,29.90,30,31,3,4.8,Boleto,mobile,1
+CLI00072,74,38,Premium,39.90,52,90,5,4.5,Débito,Mobile,0
+CLI00073,49,22,Padrão,29.90,75,50,8,0.1,PIX,TV,0
+CLI00074,71,34,PREMIUM,39.90,54,168,8,2.4,PIX,TV,0
+CLI00075,44,34,Premium,39.90,16,103,4,0.5,,TV,1
+CLI00076,30,55,Básico,19.90,59,58,8,4.8,Boleto,tv,0
+CLI00077,35,47,basico,19.90,55,66,7,4.3,,Mobile,1
+CLI00078,60,32,PREMIUM,39.90,26,17,9,1.1,Débito,tv,1
+CLI00079,24,9,Básico,19.90,53,70,6,1.5,"Cartão de Crédito",mobile,1
+CLI00080,48,47,Básico,19.90,91,157,7,2.5,,Tablet,0
+CLI00081,29,55,Básico,19.90,96,47,3,1.2,Boleto,Mobile,0
+CLI00082,48,46,PREMIUM,39.90,18,86,4,1.3,,tv,0
+CLI00083,24,33,Padrão,29.90,28,39,0,2.2,"Cartão de Crédito",Desktop,0
+CLI00084,59,36,Premium,39.90,20,175,3,4.9,"Cartão de Crédito",mobile,0
+CLI00085,74,50,Premium,39.90,46,189,3,1.4,"Cartão de Crédito",Desktop,0
+CLI00086,73,55,basico,19.90,47,71,3,0.8,Débito,mobile,0
+CLI00087,68,51,Básico,19.90,74,173,1,1.7,PIX,TV,1
+CLI00088,69,36,Básico,19.90,75,128,3,0.1,Boleto,mobile,0
+CLI00089,65,11,Básico,19.90,19,108,1,2.8,Débito,mobile,0
+CLI00090,32,44,PREMIUM,39.90,46,142,9,1.6,PIX,Desktop,1
+CLI00091,20,28,Padrão,29.90,74,26,2,1.1,Boleto,TV,0
+CLI00092,43,17,basico,19.90,36,182,7,2.5,Boleto,mobile,0
+CLI00093,22,11,Básico,19.90,40,149,2,4.1,,tv,0
+CLI00094,51,2,Premium,39.90,96,50,2,1.4,,Mobile,1
+CLI00095,18,54,basico,19.90,68,62,3,3.1,PIX,mobile,0
+CLI00096,47,45,Padrão,29.90,21,85,4,1.4,Débito,Tablet,1
+CLI00097,62,52,PREMIUM,39.90,28,132,5,0.1,Débito,Mobile,1
+CLI00098,41,NaN,Básico,19.90,42,177,,4.2,PIX,mobile,0
+CLI00099,63,17,PREMIUM,39.90,78,177,9,1.4,,tv,0
+CLI00100,60,53,basico,19.90,31,105,9,3.9,Boleto,Tablet,0
+CLI00101,21,55,Premium,39.90,1,112,8,1.8,Boleto,Tablet,1
+CLI00102,18,53,PREMIUM,39.90,78,39,5,3.7,Credito,TV,0
+CLI00103,18,1,Premium,39.90,9,142,0,0.7,Débito,Mobile,1
+CLI00104,60,50,Padrão,29.90,87,188,6,0.1,Débito,mobile,1
+CLI00105,52,12,Padrão,29.90,80,134,4,3.0,PIX,Tablet,0
+CLI00106,21,35,Padrão,29.90,55,177,0,4.4,Boleto,Tablet,0
+CLI00107,53,20,PREMIUM,39.90,17,42,0,2.5,"Cartão de Crédito",tv,0
+CLI00108,29,44,Padrão,29.90,1,58,1,3.1,Boleto,Desktop,1
+CLI00109,67,37,basico,19.90,58,49,7,4.4,PIX,Tablet,0
+CLI00110,,16,PREMIUM,39.90,30,168,3,4.5,"Cartão de Crédito",mobile,0
+CLI00111,51,11,Premium,39.90,74,88,2,3.4,Credito,mobile,0
+CLI00112,72,25,PREMIUM,39.90,69,72,2,0.5,PIX,mobile,1
+CLI00113,19,59,Básico,19.90,12,78,2,4.4,Credito,Desktop,0
+CLI00114,69,58,Básico,19.90,10,34,7,3.2,Boleto,Desktop,1
+CLI00115,19,32,Básico,19.90,78,51,3,3.9,,Mobile,0
+CLI00116,64,12,Padrão,29.90,17,128,0,3.4,Credito,Desktop,1
+CLI00117,68,47,basico,19.90,18,73,0,3.6,Débito,TV,1
+CLI00118,75,30,basico,19.90,27,183,9,1.0,PIX,TV,0
+CLI00119,27,39,basico,19.90,81,116,7,2.2,,tv,0
+CLI00120,25,52,PREMIUM,39.90,95,55,5,1.7,Boleto,TV,1
+CLI00121,61,42,PREMIUM,39.90,36,184,3,0.1,PIX,Tablet,0
+CLI00122,51,38,PREMIUM,39.90,12,72,8,1.9,Credito,Mobile,0
+CLI00123,72,1,basico,19.90,40,153,4,4.0,Débito,mobile,1
+CLI00124,40,48,Premium,39.90,20,38,7,3.8,Débito,Mobile,1
+CLI00125,66,30,Padrão,29.90,57,97,3,4.8,,mobile,0
+CLI00126,18,1,PREMIUM,39.90,83,152,5,4.8,"Cartão de Crédito",tv,0
+CLI00127,69,52,Padrão,29.90,17,42,5,4.7,,TV,1
+CLI00128,48,54,Padrão,29.90,13,52,6,4.4,Boleto,mobile,0
+CLI00129,61,13,Básico,19.90,86,160,2,4.6,Boleto,Desktop,0
+CLI00130,41,60,PREMIUM,39.90,0,130,,4.8,,Desktop,1
+CLI00131,44,6,Básico,19.90,92,26,9,2.7,Credito,tv,0
+CLI00132,49,13,basico,19.90,47,65,7,3.6,,tv,1
+CLI00133,56,44,PREMIUM,39.90,43,173,0,0.7,Débito,tv,1
+CLI00134,55,22,basico,19.90,50,125,2,3.0,Credito,Mobile,0
+CLI00135,25,37,basico,19.90,96,114,2,2.3,,Mobile,1
+CLI00136,72,51,PREMIUM,39.90,29,117,0,3.2,Credito,Tablet,0
+CLI00137,50,45,Padrão,29.90,6,31,8,1.9,Credito,Tablet,1
+CLI00138,61,58,Básico,19.90,83,77,9,2.8,Débito,tv,1
+CLI00139,66,31,PREMIUM,39.90,18,31,3,1.9,Credito,mobile,0
+CLI00140,24,45,Básico,19.90,89,105,7,4.8,Boleto,Tablet,0
+CLI00141,27,49,Padrão,29.90,82,142,2,0.3,"Cartão de Crédito",Tablet,0
+CLI00142,26,39,basico,19.90,60,29,7,4.3,Credito,Mobile,1
+CLI00143,28,47,PREMIUM,39.90,94,79,5,3.6,"Cartão de Crédito",Desktop,1
+CLI00144,52,26,Premium,39.90,40,113,8,0.9,,Mobile,0
+CLI00145,53,52,Básico,19.90,0,171,1,4.9,Credito,tv,1
+CLI00146,40,33,Padrão,29.90,98,125,4,4.9,PIX,mobile,0
+CLI00147,47,41,Básico,19.90,1,17,5,4.2,PIX,Mobile,1
+CLI00148,19,37,Padrão,29.90,89,166,2,1.6,Débito,TV,0
+CLI00149,57,58,Premium,39.90,10,154,5,1.3,PIX,Tablet,1
+CLI00150,43,7,Premium,39.90,22,140,5,3.0,,Mobile,0
+CLI00151,40,2,Básico,19.90,40,12,3,3.4,Boleto,tv,1
+CLI00152,59,27,Premium,39.90,52,47,1,4.2,Débito,Desktop,1
+CLI00153,32,45,Padrão,29.90,58,18,4,3.6,Débito,Mobile,1
+CLI00154,50,NaN,Premium,39.90,3,31,5,3.5,Credito,Mobile,0
+CLI00155,37,51,Básico,19.90,27,11,0,2.6,Boleto,TV,0
+CLI00156,50,12,PREMIUM,39.90,95,188,8,3.4,Credito,tv,0
+CLI00157,,NaN,basico,19.90,44,68,9,4.9,,Mobile,0
+CLI00158,68,54,Padrão,29.90,28,131,9,4.9,"Cartão de Crédito",Mobile,0
+CLI00159,68,58,Básico,19.90,99,130,0,2.8,Credito,mobile,1
+CLI00160,74,27,Básico,19.90,15,173,0,0.8,,Tablet,1
+CLI00161,58,18,Padrão,29.90,8,18,9,4.4,Credito,Desktop,1
+CLI00162,50,24,PREMIUM,39.90,70,106,4,1.4,Débito,TV,0
+CLI00163,69,55,Padrão,29.90,43,12,6,1.5,"Cartão de Crédito",Tablet,1
+CLI00164,66,6,Padrão,29.90,88,141,3,1.8,,Mobile,0
+CLI00165,28,8,Premium,39.90,36,38,4,1.1,"Cartão de Crédito",Tablet,0
+CLI00166,52,39,basico,19.90,34,69,9,1.0,Boleto,tv,1
+CLI00167,51,35,basico,19.90,69,19,0,1.8,Credito,Tablet,0
+CLI00168,63,25,Padrão,29.90,36,63,3,2.2,Credito,Mobile,0
+CLI00169,24,51,PREMIUM,39.90,55,38,6,3.6,,tv,1
+CLI00170,28,53,basico,19.90,39,163,2,1.6,Credito,tv,0
+CLI00171,34,60,basico,19.90,71,80,5,4.0,Débito,Desktop,0
+CLI00172,70,13,basico,19.90,34,35,5,2.6,Boleto,tv,1
+CLI00173,34,10,PREMIUM,39.90,42,104,8,0.8,PIX,tv,1
+CLI00174,65,22,Padrão,29.90,40,62,3,1.3,Credito,Desktop,1
+CLI00175,19,6,PREMIUM,39.90,16,172,7,4.8,"Cartão de Crédito",Tablet,1
+CLI00176,23,58,Padrão,29.90,99,46,4,1.3,Credito,Mobile,1
+CLI00177,39,44,Básico,19.90,85,90,8,1.8,"Cartão de Crédito",Desktop,1
+CLI00178,54,44,Básico,19.90,26,50,9,1.6,Boleto,mobile,0
+CLI00179,42,19,Básico,19.90,36,25,4,4.7,Boleto,TV,1
+CLI00180,75,17,PREMIUM,39.90,74,151,7,1.4,PIX,tv,0
+CLI00181,63,59,Padrão,29.90,35,147,6,3.3,Boleto,TV,1
+CLI00182,22,56,Básico,19.90,18,80,5,4.3,,Mobile,1
+CLI00183,35,1,basico,19.90,61,53,8,2.2,Credito,TV,1
+CLI00184,54,11,Padrão,29.90,74,15,3,2.4,"Cartão de Crédito",Mobile,1
+CLI00185,48,16,basico,19.90,48,33,6,4.0,"Cartão de Crédito",Desktop,0
+CLI00186,73,46,Premium,39.90,97,48,4,1.1,"Cartão de Crédito",Mobile,1
+CLI00187,65,47,basico,19.90,87,93,3,4.6,"Cartão de Crédito",tv,0
+CLI00188,66,59,Padrão,29.90,38,63,2,0.5,PIX,Tablet,0
+CLI00189,40,38,Premium,39.90,81,103,8,4.9,Boleto,TV,0
+CLI00190,72,49,Premium,39.90,9,18,5,1.3,Credito,mobile,1
+CLI00191,58,7,PREMIUM,39.90,64,155,1,2.4,Credito,Mobile,0
+CLI00192,37,27,PREMIUM,39.90,10,119,9,4.5,Débito,Desktop,0
+CLI00193,69,34,basico,19.90,15,144,1,2.9,Credito,Mobile,0
+CLI00194,63,21,Premium,39.90,42,57,6,4.1,"Cartão de Crédito",tv,1
+CLI00195,42,29,basico,19.90,60,186,1,4.2,Credito,mobile,0
+CLI00196,66,13,basico,19.90,53,70,0,0.9,,mobile,0
+CLI00197,39,38,basico,19.90,54,20,8,4.3,PIX,Mobile,0
+CLI00198,77,6,Premium,39.90,56,21,0,3.3,,Desktop,0
+CLI00199,75,60,Premium,39.90,0,99,9,0.7,Boleto,tv,0
+CLI00200,34,60,basico,19.90,13,147,1,0.1,Boleto,mobile,0
+CLI00201,51,47,Premium,39.90,28,135,9,0.3,"Cartão de Crédito",Tablet,0
+CLI00202,48,2,Premium,39.90,67,22,6,3.1,"Cartão de Crédito",Mobile,1
+CLI00203,47,29,Básico,19.90,31,169,7,0.6,,Mobile,1
+CLI00204,,20,PREMIUM,39.90,50,145,,1.5,,Tablet,0
+CLI00205,69,27,Padrão,29.90,64,50,8,2.1,Credito,tv,0
+CLI00206,48,50,basico,19.90,63,145,7,0.0,Credito,mobile,1
+CLI00207,43,56,Premium,39.90,91,80,9,1.3,Débito,Tablet,1
+CLI00208,76,52,Básico,19.90,70,43,1,0.1,PIX,Tablet,0
+CLI00209,56,49,Premium,39.90,22,157,9,1.5,,Mobile,1
+CLI00210,28,58,Básico,19.90,23,18,8,3.7,PIX,Mobile,1
+CLI00211,24,2,basico,19.90,58,17,7,0.9,Credito,TV,1
+CLI00212,51,33,basico,19.90,82,53,9,4.6,Boleto,Desktop,0
+CLI00213,32,38,Padrão,29.90,7,28,0,0.8,Boleto,Mobile,1
+CLI00214,44,27,Premium,39.90,27,185,7,3.4,Boleto,mobile,0
+CLI00215,68,36,Básico,19.90,83,20,9,4.6,,tv,1
+CLI00216,70,51,Padrão,29.90,18,59,2,2.1,Débito,Desktop,0
+CLI00217,54,29,Padrão,29.90,69,19,7,2.9,PIX,Tablet,1
+CLI00218,49,20,Padrão,29.90,19,56,1,4.6,Débito,TV,0
+CLI00219,69,14,Padrão,29.90,85,128,4,2.3,Boleto,TV,0
+CLI00220,48,36,Padrão,29.90,61,39,3,4.4,Boleto,Mobile,0
+CLI00221,58,54,basico,19.90,1,78,9,4.1,,TV,1
+CLI00222,21,40,Premium,39.90,62,32,7,1.0,,Tablet,1
+CLI00223,35,22,Premium,39.90,91,121,1,0.1,Débito,Mobile,1
+CLI00224,66,49,Básico,19.90,67,149,4,1.6,Boleto,Tablet,1
+CLI00225,27,22,Premium,39.90,41,25,0,3.1,PIX,TV,1
+CLI00226,58,13,basico,19.90,72,139,5,4.9,Credito,mobile,0
+CLI00227,64,23,Básico,19.90,10,19,5,0.3,,tv,1
+CLI00228,55,5,Básico,19.90,56,164,1,4.9,Débito,tv,0
+CLI00229,61,2,Básico,19.90,21,106,5,2.6,Boleto,Tablet,1
+CLI00230,62,6,Básico,19.90,19,33,2,0.6,Credito,Mobile,0
+CLI00231,21,56,Premium,39.90,61,24,5,1.4,PIX,tv,0
+CLI00232,30,45,basico,19.90,69,78,4,1.9,Débito,mobile,1
+CLI00233,68,53,Premium,39.90,75,86,8,2.7,Débito,Tablet,1
+CLI00234,41,29,PREMIUM,39.90,21,70,4,0.7,"Cartão de Crédito",tv,1
+CLI00235,18,36,Padrão,29.90,25,163,1,3.4,Débito,Desktop,0
+CLI00236,70,50,basico,19.90,19,169,4,2.3,Credito,mobile,1
+CLI00237,72,44,Padrão,29.90,49,38,7,1.6,Débito,Tablet,0
+CLI00238,38,29,PREMIUM,39.90,98,163,5,0.2,Boleto,TV,0
+CLI00239,69,2,Básico,19.90,10,40,6,2.6,,Tablet,1
+CLI00240,54,54,Básico,19.90,13,100,0,3.0,Débito,tv,0
+CLI00241,41,23,Padrão,29.90,65,177,5,2.8,PIX,Mobile,0
+CLI00242,77,24,basico,19.90,4,74,3,3.7,"Cartão de Crédito",Tablet,0
+CLI00243,29,50,Padrão,29.90,26,141,1,4.8,PIX,Tablet,0
+CLI00244,58,20,Padrão,29.90,68,137,2,1.1,Débito,Desktop,0
+CLI00245,58,3,basico,,67,37,5,0.7,PIX,tv,0
+CLI00246,75,46,basico,19.90,4,162,1,0.3,"Cartão de Crédito",Tablet,0
+CLI00247,68,16,Premium,39.90,25,112,7,4.5,Débito,tv,0
+CLI00248,65,4,Premium,39.90,52,75,6,4.9,Credito,Tablet,1
+CLI00249,57,40,Padrão,29.90,57,137,3,0.1,"Cartão de Crédito",Tablet,1
+CLI00250,63,12,Básico,19.90,78,41,2,1.6,"Cartão de Crédito",tv,0
+CLI00251,38,42,Padrão,29.90,80,42,8,2.7,PIX,tv,0
+CLI00252,65,1,Premium,39.90,91,183,3,2.5,Boleto,mobile,0
+CLI00253,56,8,Premium,39.90,48,77,5,4.5,PIX,tv,0
+CLI00254,64,15,PREMIUM,39.90,67,50,0,2.2,Boleto,mobile,0
+CLI00255,73,38,PREMIUM,39.90,27,61,7,2.2,"Cartão de Crédito",TV,0
+CLI00256,31,10,PREMIUM,39.90,66,112,6,2.2,Credito,mobile,1
+CLI00257,40,18,Premium,39.90,25,129,0,1.1,"Cartão de Crédito",mobile,0
+CLI00258,18,55,Padrão,29.90,89,15,1,4.3,Boleto,Tablet,1
+CLI00259,69,44,Básico,19.90,42,101,7,3.3,Credito,Tablet,1
+CLI00260,54,7,Premium,39.90,31,163,8,2.6,PIX,tv,0
+CLI00261,25,17,Premium,39.90,78,163,3,2.6,Boleto,tv,0
+CLI00262,77,14,basico,19.90,21,153,2,4.7,,TV,0
+CLI00263,58,8,basico,19.90,47,127,3,1.0,Débito,TV,0
+CLI00264,31,50,Premium,39.90,70,58,3,4.9,PIX,Tablet,0
+CLI00265,57,27,PREMIUM,39.90,49,182,3,4.9,Boleto,Tablet,0
+CLI00266,27,26,Padrão,29.90,94,21,4,2.6,Boleto,TV,1
+CLI00267,39,2,Premium,39.90,27,78,7,3.6,,tv,1
+CLI00268,55,37,Básico,19.90,5,153,2,4.6,Débito,TV,1
+CLI00269,30,43,Premium,39.90,31,12,0,3.2,,Tablet,0
+CLI00270,24,47,Premium,39.90,25,18,1,2.7,Boleto,Mobile,0
+CLI00271,53,38,Padrão,29.90,93,85,4,0.6,Credito,tv,1
+CLI00272,50,25,PREMIUM,39.90,44,60,9,3.4,,tv,1
+CLI00273,62,15,PREMIUM,39.90,82,156,7,2.2,"Cartão de Crédito",TV,0
+CLI00274,71,51,basico,19.90,23,132,0,2.7,PIX,Tablet,1
+CLI00275,50,48,basico,19.90,78,43,4,0.8,PIX,Desktop,1
+CLI00276,73,51,PREMIUM,39.90,30,150,9,2.6,,TV,1
+CLI00277,33,20,Premium,39.90,24,182,6,0.3,Boleto,TV,0
+CLI00278,54,60,basico,19.90,86,33,9,4.0,Boleto,Mobile,1
+CLI00279,29,50,Padrão,29.90,94,96,8,3.6,"Cartão de Crédito",tv,0
+CLI00280,40,15,Padrão,29.90,5,175,7,4.5,Boleto,Desktop,0
+CLI00281,52,44,Premium,39.90,53,168,8,3.1,Débito,tv,0
+CLI00282,46,55,basico,19.90,92,175,1,4.4,"Cartão de Crédito",tv,0
+CLI00283,,27,Premium,39.90,94,104,8,0.4,,mobile,1
+CLI00284,22,25,PREMIUM,39.90,40,174,6,3.2,Credito,Mobile,0
+CLI00285,65,10,PREMIUM,39.90,34,138,0,3.9,Credito,TV,0
+CLI00286,34,60,Básico,19.90,75,60,3,3.7,PIX,TV,0
+CLI00287,53,47,Padrão,29.90,39,97,1,0.8,Débito,TV,0
+CLI00288,34,39,Premium,39.90,62,71,9,4.6,Boleto,Mobile,0
+CLI00289,21,30,PREMIUM,39.90,66,92,2,3.1,,Desktop,0
+CLI00290,36,15,Básico,19.90,94,166,3,4.9,Credito,Tablet,0
+CLI00291,67,31,Básico,19.90,3,76,1,4.3,Boleto,TV,1
+CLI00292,35,13,Padrão,29.90,56,61,2,3.1,PIX,Desktop,1
+CLI00293,75,24,PREMIUM,39.90,35,181,6,0.7,"Cartão de Crédito",mobile,1
+CLI00294,26,11,Básico,19.90,51,15,6,4.7,"Cartão de Crédito",Mobile,0
+CLI00295,73,29,Básico,,94,129,,0.1,PIX,Desktop,1
+CLI00296,57,54,Padrão,29.90,54,80,4,1.3,Boleto,mobile,0
+CLI00297,45,47,Premium,39.90,37,13,3,3.4,,tv,0
+CLI00298,75,59,Padrão,29.90,36,107,0,0.8,Boleto,mobile,0
+CLI00299,42,55,Premium,,18,97,5,1.9,Débito,TV,0
+CLI00300,58,47,Básico,19.90,98,28,3,3.6,Boleto,Tablet,1
+CLI00301,48,7,basico,19.90,0,186,6,4.1,,Desktop,0
+CLI00302,71,52,Básico,19.90,97,122,2,3.5,PIX,mobile,0
+CLI00303,45,22,basico,19.90,73,165,5,2.2,"Cartão de Crédito",Tablet,0
+CLI00304,57,3,basico,19.90,62,72,8,4.0,PIX,Mobile,1
+CLI00305,64,24,Premium,39.90,11,93,9,3.9,Débito,Mobile,0
+CLI00306,40,4,Básico,19.90,63,19,7,0.8,Credito,TV,1
+CLI00307,42,37,basico,19.90,40,12,2,2.2,,mobile,1
+CLI00308,32,28,Básico,19.90,5,61,2,3.4,"Cartão de Crédito",Tablet,0
+CLI00309,45,2,PREMIUM,39.90,35,163,8,4.2,,tv,1
+CLI00310,72,16,PREMIUM,39.90,5,105,1,3.2,Débito,tv,0
+CLI00311,68,26,Padrão,29.90,52,83,2,4.2,Débito,TV,0
+CLI00312,34,58,Básico,19.90,9,109,1,2.9,Credito,mobile,0
+CLI00313,76,24,Padrão,29.90,97,68,8,4.3,Boleto,Desktop,0
+CLI00314,64,19,Básico,19.90,31,21,2,0.1,"Cartão de Crédito",Tablet,1
+CLI00315,25,36,PREMIUM,39.90,12,105,1,1.8,PIX,Tablet,1
+CLI00316,,2,PREMIUM,39.90,6,25,7,4.8,,Mobile,1
+CLI00317,18,27,Básico,19.90,15,86,3,4.4,PIX,Tablet,0
+CLI00318,23,28,PREMIUM,39.90,8,149,1,2.8,Credito,Desktop,0
+CLI00319,30,11,Básico,19.90,38,94,2,0.3,"Cartão de Crédito",Mobile,0
+CLI00320,62,53,PREMIUM,39.90,27,89,5,1.1,Boleto,TV,0
+CLI00321,43,4,PREMIUM,39.90,5,181,4,0.3,Boleto,Desktop,1
+CLI00322,32,35,PREMIUM,39.90,80,37,6,2.3,,TV,0
+CLI00323,22,13,basico,19.90,61,115,8,2.4,Débito,Tablet,0
+CLI00324,71,34,Básico,19.90,52,135,4,2.7,PIX,tv,1
+CLI00325,19,16,basico,19.90,18,159,6,0.2,PIX,TV,1
+CLI00326,59,29,PREMIUM,39.90,69,189,5,3.7,,mobile,0
+CLI00327,30,6,Padrão,29.90,79,12,8,2.4,Credito,mobile,0
+CLI00328,69,12,Padrão,29.90,6,15,5,3.2,"Cartão de Crédito",mobile,0
+CLI00329,30,57,Básico,19.90,84,136,3,4.0,Débito,Tablet,0
+CLI00330,42,15,PREMIUM,39.90,64,70,6,0.7,"Cartão de Crédito",TV,1
+CLI00331,76,35,Padrão,29.90,82,32,2,2.8,Débito,Tablet,1
+CLI00332,28,25,Premium,39.90,58,121,6,0.5,"Cartão de Crédito",TV,1
+CLI00333,21,1,basico,19.90,2,40,6,4.5,Boleto,Mobile,1
+CLI00334,26,46,Padrão,29.90,65,174,7,3.3,"Cartão de Crédito",Desktop,1
+CLI00335,63,43,basico,19.90,98,60,4,2.6,"Cartão de Crédito",mobile,0
+CLI00336,57,15,PREMIUM,39.90,45,62,6,0.4,"Cartão de Crédito",Desktop,0
+CLI00337,38,22,PREMIUM,39.90,41,48,6,2.8,Boleto,mobile,1
+CLI00338,71,14,Premium,39.90,20,183,0,2.9,,Tablet,0
+CLI00339,35,49,Básico,19.90,9,49,4,4.1,"Cartão de Crédito",Tablet,0
+CLI00340,39,6,Básico,19.90,55,90,0,2.5,Débito,TV,0
+CLI00341,55,12,Premium,39.90,32,108,7,0.9,PIX,Tablet,1
+CLI00342,67,21,PREMIUM,39.90,28,92,4,3.7,Boleto,Mobile,0
+CLI00343,50,57,basico,19.90,73,15,9,3.5,Boleto,TV,0
+CLI00344,65,55,Premium,39.90,15,183,1,1.5,"Cartão de Crédito",Tablet,1
+CLI00345,41,33,Básico,19.90,53,165,6,2.9,"Cartão de Crédito",Desktop,0
+CLI00346,75,1,basico,19.90,88,180,7,1.6,PIX,Desktop,1
+CLI00347,39,1,Padrão,29.90,0,68,7,0.7,"Cartão de Crédito",Tablet,1
+CLI00348,38,34,Básico,19.90,3,47,7,0.8,"Cartão de Crédito",Mobile,1
+CLI00349,33,46,Básico,19.90,99,168,8,3.7,Boleto,Mobile,0
+CLI00350,37,54,Básico,19.90,98,62,5,3.6,Credito,mobile,1
+CLI00351,28,14,basico,19.90,96,49,0,1.6,"Cartão de Crédito",mobile,0
+CLI00352,57,36,Básico,19.90,3,68,8,4.1,Débito,Mobile,1
+CLI00353,37,34,Premium,39.90,20,142,5,0.6,Credito,TV,0
+CLI00354,65,52,basico,19.90,95,113,7,2.0,Boleto,TV,0
+CLI00355,75,37,basico,19.90,86,103,0,1.0,Boleto,TV,0
+CLI00356,69,32,Premium,39.90,77,26,4,0.9,Credito,mobile,1
+CLI00357,38,54,Básico,19.90,45,126,3,1.7,Boleto,mobile,0
+CLI00358,37,20,Premium,39.90,94,152,9,2.3,,Mobile,0
+CLI00359,74,17,basico,19.90,42,75,8,0.3,Credito,Tablet,1
+CLI00360,57,45,Básico,19.90,69,167,0,4.8,Débito,Desktop,0
+CLI00361,31,12,Premium,39.90,67,167,4,0.1,,tv,0
+CLI00362,72,52,basico,19.90,87,30,2,0.8,Credito,Desktop,1
+CLI00363,67,41,Padrão,29.90,53,131,8,0.4,Débito,TV,0
+CLI00364,20,18,Premium,39.90,0,142,6,4.0,PIX,Mobile,0
+CLI00365,27,40,Padrão,29.90,17,20,7,3.8,Credito,tv,0
+CLI00366,28,57,PREMIUM,39.90,6,168,4,0.4,"Cartão de Crédito",Tablet,1
+CLI00367,69,5,Básico,19.90,63,181,6,0.3,Débito,mobile,1
+CLI00368,56,15,Padrão,29.90,57,179,0,2.0,"Cartão de Crédito",Mobile,1
+CLI00369,47,14,Padrão,29.90,53,26,4,1.2,PIX,TV,0
+CLI00370,61,41,Premium,39.90,7,145,7,3.3,Credito,mobile,1
+CLI00371,32,54,Básico,19.90,71,32,7,2.5,Débito,Desktop,0
+CLI00372,41,31,basico,19.90,52,170,7,4.2,Boleto,mobile,1
+CLI00373,38,57,Padrão,29.90,68,53,9,2.2,,tv,0
+CLI00374,53,58,PREMIUM,39.90,19,175,9,1.4,Boleto,Tablet,0
+CLI00375,28,48,Padrão,29.90,15,169,3,3.5,Débito,Tablet,1
+CLI00376,52,10,Padrão,29.90,62,185,9,1.7,"Cartão de Crédito",Desktop,1
+CLI00377,25,42,Padrão,29.90,85,148,5,5.0,Boleto,Desktop,0
+CLI00378,44,46,Premium,39.90,19,87,2,2.8,Credito,Mobile,1
+CLI00379,40,60,basico,19.90,46,55,9,3.9,"Cartão de Crédito",Desktop,0
+CLI00380,39,22,basico,19.90,97,134,2,3.1,"Cartão de Crédito",Tablet,0
+CLI00381,65,20,Padrão,29.90,47,81,8,1.5,,mobile,1
+CLI00382,33,19,PREMIUM,39.90,24,172,1,2.5,Credito,mobile,0
+CLI00383,20,17,Premium,39.90,51,33,3,2.0,PIX,mobile,0
+CLI00384,36,31,Básico,19.90,59,178,4,3.5,Débito,Tablet,0
+CLI00385,37,23,Padrão,29.90,91,39,5,3.9,Boleto,mobile,0
+CLI00386,57,36,Padrão,29.90,34,152,9,3.9,PIX,Desktop,0
+CLI00387,66,19,PREMIUM,39.90,31,130,1,0.6,"Cartão de Crédito",TV,0
+CLI00388,,NaN,Básico,,75,54,,2.4,"Cartão de Crédito",Desktop,0
+CLI00389,30,39,Premium,39.90,16,142,2,3.8,PIX,Mobile,0
+CLI00390,56,36,basico,19.90,12,74,9,2.1,Credito,Tablet,0
+CLI00391,46,14,basico,19.90,75,152,3,1.4,Credito,mobile,0
+CLI00392,39,37,Básico,19.90,10,127,3,0.9,"Cartão de Crédito",Mobile,1
+CLI00393,53,44,PREMIUM,39.90,26,188,2,4.9,Débito,mobile,0
+CLI00394,26,46,Básico,19.90,14,25,1,0.9,Débito,Mobile,1
+CLI00395,23,53,basico,19.90,0,11,9,2.9,PIX,Tablet,1
+CLI00396,46,17,Básico,19.90,91,25,9,2.3,Boleto,tv,0
+CLI00397,38,41,basico,19.90,38,113,7,2.4,PIX,Desktop,1
+CLI00398,44,22,Padrão,29.90,41,151,6,3.7,PIX,Desktop,1
+CLI00399,35,53,Padrão,29.90,74,141,1,4.4,"Cartão de Crédito",mobile,1
+CLI00400,33,57,Básico,19.90,88,138,4,2.2,"Cartão de Crédito",mobile,0
+CLI00401,52,33,Premium,39.90,49,33,1,4.3,"Cartão de Crédito",Mobile,0
+CLI00402,19,50,basico,19.90,44,114,7,2.2,PIX,tv,0
+CLI00403,,1,Básico,,86,123,0,2.1,Débito,TV,1
+CLI00404,70,42,basico,19.90,10,33,3,2.9,,tv,0
+CLI00405,22,49,basico,19.90,49,164,8,0.7,Credito,Desktop,1
+CLI00406,34,26,Padrão,29.90,59,124,4,3.1,Boleto,Tablet,0
+CLI00407,69,7,basico,19.90,55,135,0,1.4,PIX,Mobile,1
+CLI00408,24,18,Básico,19.90,2,185,7,1.4,"Cartão de Crédito",tv,1
+CLI00409,45,17,Padrão,29.90,4,46,8,1.6,,Tablet,1
+CLI00410,25,55,PREMIUM,39.90,69,72,0,0.5,,Mobile,0
+CLI00411,70,22,Básico,19.90,69,14,0,2.2,"Cartão de Crédito",mobile,0
+CLI00412,69,48,Premium,39.90,12,60,2,4.7,,mobile,0
+CLI00413,77,26,Premium,39.90,75,165,3,2.4,PIX,Desktop,0
+CLI00414,48,44,Básico,19.90,59,74,1,4.0,Boleto,Desktop,0
+CLI00415,29,22,Premium,39.90,33,129,2,1.8,,Desktop,0
+CLI00416,66,10,Padrão,29.90,40,67,6,2.6,,Tablet,0
+CLI00417,49,44,Premium,39.90,3,23,1,4.6,Boleto,TV,1
+CLI00418,70,48,Premium,39.90,32,170,3,3.7,PIX,TV,0
+CLI00419,43,31,PREMIUM,39.90,56,61,4,1.8,,mobile,0
+CLI00420,61,54,Básico,19.90,69,83,6,2.8,,Tablet,0
+CLI00421,18,16,basico,19.90,39,132,7,1.7,Débito,Tablet,1
+CLI00422,48,42,basico,19.90,28,85,4,3.8,Boleto,Tablet,0
+CLI00423,44,26,Básico,19.90,71,111,2,4.2,"Cartão de Crédito",Tablet,0
+CLI00424,19,14,Padrão,29.90,83,166,2,4.3,Credito,Desktop,1
+CLI00425,18,37,basico,19.90,5,32,5,1.3,Boleto,Tablet,1
+CLI00426,77,50,Premium,39.90,94,176,7,0.2,PIX,Tablet,0
+CLI00427,26,1,Premium,39.90,66,43,7,3.1,Débito,Tablet,0
+CLI00428,24,32,basico,19.90,37,31,9,2.5,Débito,Mobile,0
+CLI00429,57,30,PREMIUM,39.90,58,84,7,2.4,Boleto,Desktop,0
+CLI00430,55,42,Básico,19.90,40,50,5,2.4,Boleto,Desktop,0
+CLI00431,39,1,Básico,19.90,90,163,4,0.6,"Cartão de Crédito",mobile,0
+CLI00432,43,33,Padrão,29.90,83,124,8,2.3,Débito,Desktop,1
+CLI00433,64,44,Premium,39.90,28,167,1,0.8,,Tablet,0
+CLI00434,47,51,Premium,39.90,40,130,9,4.6,Débito,Desktop,0
+CLI00435,28,39,Premium,39.90,23,31,4,2.0,Débito,tv,0
+CLI00436,71,18,Premium,39.90,23,114,4,3.5,Credito,Desktop,1
+CLI00437,42,57,Padrão,29.90,84,104,4,1.5,"Cartão de Crédito",tv,0
+CLI00438,74,6,Padrão,29.90,4,29,4,4.0,,Mobile,0
+CLI00439,57,1,basico,19.90,45,12,8,0.7,PIX,Mobile,1
+CLI00440,24,8,PREMIUM,39.90,85,36,4,4.4,PIX,Mobile,1
+CLI00441,18,57,PREMIUM,39.90,4,162,1,3.7,Débito,TV,0
+CLI00442,51,39,PREMIUM,39.90,40,106,3,2.4,Débito,mobile,0
+CLI00443,59,49,basico,19.90,81,69,9,3.3,Credito,Mobile,0
+CLI00444,29,30,PREMIUM,39.90,37,177,8,1.5,Credito,Mobile,0
+CLI00445,40,14,PREMIUM,39.90,86,102,7,1.7,"Cartão de Crédito",TV,0
+CLI00446,20,13,Padrão,29.90,20,128,1,1.1,,tv,0
+CLI00447,50,46,PREMIUM,39.90,8,182,0,1.2,,Desktop,1
+CLI00448,63,46,Padrão,29.90,72,181,7,0.6,Boleto,Desktop,0
+CLI00449,22,21,basico,19.90,14,112,8,4.5,"Cartão de Crédito",Mobile,1
+CLI00450,72,9,Básico,19.90,47,97,4,0.5,Credito,Desktop,0
+CLI00451,52,31,PREMIUM,39.90,52,92,7,4.0,Boleto,Desktop,0
+CLI00452,67,13,basico,19.90,11,30,4,3.6,,Desktop,1
+CLI00453,62,1,Premium,39.90,97,73,0,4.9,Boleto,Tablet,1
+CLI00454,48,9,PREMIUM,39.90,85,29,6,0.2,Débito,mobile,1
+CLI00455,32,46,Padrão,29.90,10,42,4,2.0,PIX,TV,1
+CLI00456,32,3,Padrão,29.90,96,27,8,4.7,"Cartão de Crédito",tv,1
+CLI00457,35,8,Premium,39.90,25,66,6,4.3,Débito,Desktop,0
+CLI00458,22,23,PREMIUM,39.90,39,67,3,0.6,PIX,Desktop,0
+CLI00459,70,38,Premium,39.90,70,105,5,1.2,Débito,mobile,1
+CLI00460,30,44,PREMIUM,39.90,23,129,1,4.0,Boleto,Mobile,0
+CLI00461,72,35,Padrão,29.90,93,124,9,3.5,Credito,tv,0
+CLI00462,37,20,PREMIUM,39.90,76,108,6,4.7,Boleto,Mobile,0
+CLI00463,35,21,PREMIUM,39.90,56,130,8,2.8,"Cartão de Crédito",tv,1
+CLI00464,58,60,PREMIUM,39.90,3,80,2,3.9,Credito,Mobile,1
+CLI00465,46,17,basico,19.90,47,149,7,1.9,Débito,mobile,1
+CLI00466,44,14,basico,19.90,94,29,8,4.6,,Tablet,0
+CLI00467,58,2,PREMIUM,39.90,74,56,0,2.5,"Cartão de Crédito",Tablet,0
+CLI00468,28,44,PREMIUM,39.90,15,50,0,1.4,Credito,Desktop,0
+CLI00469,54,4,Básico,19.90,78,70,1,3.9,,Desktop,0
+CLI00470,28,30,PREMIUM,39.90,83,102,1,4.0,Credito,Mobile,0
+CLI00471,34,25,Básico,19.90,27,167,8,4.6,Credito,tv,0
+CLI00472,62,50,Padrão,29.90,87,168,8,4.3,"Cartão de Crédito",tv,1
+CLI00473,76,1,Premium,39.90,60,172,0,2.6,Débito,Desktop,1
+CLI00474,21,2,PREMIUM,39.90,59,56,7,4.1,Boleto,Tablet,0
+CLI00475,50,24,Básico,19.90,46,42,5,3.5,Credito,Mobile,0
+CLI00476,26,42,Básico,19.90,32,132,3,2.5,Credito,Tablet,1
+CLI00477,49,29,Básico,19.90,40,101,1,3.5,,Mobile,0
+CLI00478,61,26,basico,19.90,57,95,2,2.9,Débito,mobile,0
+CLI00479,52,59,basico,19.90,62,134,8,3.1,Credito,Tablet,0
+CLI00480,76,31,Premium,39.90,44,106,5,0.8,Credito,Desktop,1
+CLI00481,72,29,PREMIUM,39.90,85,67,0,1.1,Credito,TV,0
+CLI00482,35,37,Padrão,29.90,85,31,2,4.4,Credito,Tablet,0
+CLI00483,33,24,basico,19.90,71,44,2,0.5,Credito,mobile,1
+CLI00484,35,34,Premium,39.90,38,130,5,1.7,PIX,mobile,0
+CLI00485,29,55,Padrão,29.90,40,82,5,3.5,Débito,Mobile,0
+CLI00486,19,60,PREMIUM,39.90,39,174,5,4.4,Débito,tv,0
+CLI00487,51,28,Padrão,29.90,30,85,6,3.1,Credito,Mobile,1
+CLI00488,36,60,Premium,39.90,73,175,2,0.2,"Cartão de Crédito",Desktop,0
+CLI00489,46,5,Básico,19.90,11,45,5,0.3,Débito,TV,1
+CLI00490,68,1,basico,19.90,43,26,8,4.0,Credito,mobile,1
+CLI00491,70,32,Básico,19.90,89,174,3,1.6,Débito,Tablet,0
+CLI00492,35,30,PREMIUM,39.90,66,135,6,3.8,,Desktop,0
+CLI00493,23,53,basico,19.90,89,41,6,4.6,,Tablet,0
+CLI00494,38,47,PREMIUM,39.90,46,50,6,4.1,PIX,Mobile,0
+CLI00495,39,50,basico,19.90,2,57,7,2.1,"Cartão de Crédito",Tablet,1
+CLI00496,36,55,PREMIUM,39.90,11,81,9,2.3,,Mobile,1
+CLI00497,34,58,Premium,39.90,26,47,5,1.6,Credito,tv,0
+CLI00498,53,57,Padrão,29.90,73,112,4,0.1,Credito,Mobile,1
+CLI00499,55,34,PREMIUM,39.90,93,181,0,0.0,Débito,TV,1
+CLI00500,65,50,PREMIUM,39.90,67,189,4,4.6,Credito,Tablet,1
+CLI00501,21,5,basico,19.90,14,51,5,2.4,Débito,tv,1
+CLI00502,46,38,Premium,39.90,65,29,6,3.8,"Cartão de Crédito",mobile,1
+CLI00503,,47,basico,19.90,55,106,,4.9,Débito,TV,0
+CLI00504,38,7,PREMIUM,39.90,58,140,8,1.2,"Cartão de Crédito",mobile,0
+CLI00505,56,42,Premium,39.90,57,37,1,0.2,Débito,tv,0
+CLI00506,25,12,PREMIUM,39.90,90,111,9,0.5,Boleto,TV,0
+CLI00507,49,44,Premium,39.90,18,124,8,0.3,Débito,Mobile,0
+CLI00508,43,51,Premium,39.90,45,91,1,4.6,"Cartão de Crédito",tv,0
+CLI00509,39,50,Padrão,29.90,19,79,7,3.2,Boleto,TV,1
+CLI00510,69,16,basico,19.90,57,64,9,0.4,Débito,TV,1
+CLI00511,44,47,Padrão,29.90,21,133,0,4.0,PIX,mobile,0
+CLI00512,19,48,Padrão,29.90,44,162,3,1.5,"Cartão de Crédito",Desktop,0
+CLI00513,41,55,Padrão,29.90,85,50,1,4.4,,Mobile,0
+CLI00514,66,29,Básico,19.90,98,16,2,2.3,,TV,0
+CLI00515,66,19,PREMIUM,39.90,8,41,7,3.6,Boleto,TV,1
+CLI00516,61,26,basico,19.90,16,27,7,4.5,"Cartão de Crédito",mobile,1
+CLI00517,70,2,PREMIUM,39.90,61,61,3,1.1,PIX,Tablet,0
+CLI00518,39,16,basico,19.90,19,95,3,4.8,Credito,Mobile,1
+CLI00519,27,49,Premium,39.90,85,57,8,3.8,,Tablet,1
+CLI00520,36,25,Básico,19.90,34,34,2,2.2,PIX,mobile,0
+CLI00521,75,26,basico,19.90,25,119,4,2.1,Credito,mobile,1
+CLI00522,51,52,PREMIUM,39.90,89,124,8,0.5,Débito,Desktop,0
+CLI00523,48,37,Premium,39.90,91,127,5,3.2,Débito,mobile,1
+CLI00524,23,52,Básico,19.90,89,27,1,4.8,Credito,mobile,0
+CLI00525,63,48,Básico,19.90,98,39,3,0.4,Credito,TV,0
+CLI00526,56,37,basico,19.90,91,24,4,4.9,Débito,Mobile,0
+CLI00527,31,38,Padrão,29.90,29,187,9,4.4,Credito,Mobile,0
+CLI00528,74,33,Básico,19.90,48,80,9,4.7,"Cartão de Crédito",Mobile,0
+CLI00529,25,43,PREMIUM,39.90,85,187,4,1.8,Boleto,Tablet,0
+CLI00530,71,24,PREMIUM,39.90,9,171,3,0.4,Credito,mobile,0
+CLI00531,51,13,PREMIUM,39.90,38,93,0,4.5,Credito,mobile,0
+CLI00532,23,1,Básico,19.90,47,152,7,4.8,Débito,Mobile,1
+CLI00533,75,53,PREMIUM,39.90,65,173,5,2.0,Débito,TV,1
+CLI00534,48,26,Premium,39.90,26,138,4,3.4,Credito,Tablet,0
+CLI00535,73,35,Premium,39.90,43,99,4,4.7,Débito,mobile,0
+CLI00536,76,46,Básico,19.90,61,121,3,3.4,,Desktop,1
+CLI00537,70,16,basico,19.90,89,130,0,0.5,,TV,0
+CLI00538,51,27,PREMIUM,39.90,1,61,0,3.1,Credito,Mobile,0
+CLI00539,21,13,Básico,19.90,17,157,7,0.2,,Desktop,1
+CLI00540,19,41,Premium,39.90,71,126,8,0.6,Boleto,Desktop,0
+CLI00541,35,18,PREMIUM,39.90,57,86,2,3.4,Débito,Tablet,0
+CLI00542,37,48,Básico,19.90,67,179,8,3.2,Boleto,Mobile,1
+CLI00543,29,30,Padrão,29.90,3,70,4,4.5,Boleto,TV,1
+CLI00544,72,36,Básico,19.90,75,134,5,1.0,"Cartão de Crédito",Desktop,0
+CLI00545,70,42,Básico,19.90,57,148,4,2.5,Boleto,Mobile,1
+CLI00546,76,54,Premium,39.90,18,152,4,2.0,"Cartão de Crédito",Tablet,0
+CLI00547,25,20,Premium,39.90,62,142,4,2.0,"Cartão de Crédito",TV,0
+CLI00548,27,5,Básico,19.90,49,171,2,1.1,Débito,mobile,1
+CLI00549,65,47,Premium,39.90,58,188,5,1.5,"Cartão de Crédito",Tablet,0
+CLI00550,43,58,Padrão,29.90,58,12,0,4.7,,tv,0
+CLI00551,34,5,Padrão,29.90,98,27,9,4.9,"Cartão de Crédito",Mobile,1
+CLI00552,68,21,Premium,39.90,42,68,2,1.1,"Cartão de Crédito",Mobile,0
+CLI00553,65,6,Padrão,29.90,46,134,7,4.6,Débito,Mobile,1
+CLI00554,76,18,Padrão,29.90,74,97,6,1.2,"Cartão de Crédito",TV,1
+CLI00555,33,53,Padrão,29.90,5,170,5,3.5,PIX,Mobile,1
+CLI00556,77,26,Básico,19.90,16,48,8,4.4,Credito,TV,0
+CLI00557,26,37,Básico,19.90,2,136,1,3.7,,TV,1
+CLI00558,70,1,Básico,19.90,74,78,2,0.4,,TV,1
+CLI00559,61,52,basico,19.90,8,74,6,1.2,"Cartão de Crédito",Tablet,0
+CLI00560,64,43,Padrão,29.90,78,70,9,1.6,Credito,Desktop,0
+CLI00561,26,12,basico,19.90,48,171,8,0.9,Boleto,Tablet,1
+CLI00562,72,14,PREMIUM,39.90,83,50,8,1.6,Débito,Mobile,0
+CLI00563,27,37,PREMIUM,39.90,68,78,1,1.2,Boleto,mobile,0
+CLI00564,29,42,basico,19.90,33,100,1,0.4,PIX,Tablet,0
+CLI00565,50,52,PREMIUM,39.90,25,24,7,0.5,Credito,tv,1
+CLI00566,69,11,Premium,39.90,92,94,5,2.0,Boleto,TV,0
+CLI00567,24,26,Premium,39.90,57,145,0,1.7,Credito,TV,1
+CLI00568,74,20,basico,19.90,96,28,4,2.7,Credito,TV,0
+CLI00569,71,1,PREMIUM,39.90,48,35,5,4.6,Débito,Mobile,1
+CLI00570,40,28,Padrão,29.90,23,148,8,0.4,Débito,mobile,1
+CLI00571,61,15,Básico,19.90,18,128,8,0.8,Débito,mobile,1
+CLI00572,22,47,Padrão,29.90,88,175,7,4.1,"Cartão de Crédito",mobile,1
+CLI00573,76,35,Padrão,29.90,2,89,9,4.3,Credito,Tablet,1
+CLI00574,49,40,Padrão,29.90,93,85,7,0.3,PIX,tv,0
+CLI00575,48,7,Premium,39.90,1,184,5,4.3,Boleto,Tablet,1
+CLI00576,30,8,Básico,19.90,27,139,7,4.0,Credito,Desktop,0
+CLI00577,75,1,Básico,19.90,37,138,7,1.2,PIX,Desktop,1
+CLI00578,18,21,Padrão,29.90,2,185,0,0.7,,Mobile,0
+CLI00579,58,7,Básico,19.90,26,107,7,3.7,Credito,Tablet,0
+CLI00580,70,15,Premium,39.90,13,131,3,3.9,Débito,mobile,1
+CLI00581,29,48,Padrão,29.90,16,98,9,2.5,Boleto,Desktop,1
+CLI00582,45,53,basico,19.90,29,98,7,2.1,Boleto,Mobile,0
+CLI00583,37,52,Básico,19.90,95,37,2,1.1,Credito,tv,0
+CLI00584,22,34,PREMIUM,39.90,22,35,2,4.0,Débito,mobile,0
+CLI00585,39,41,Básico,19.90,68,13,2,3.0,,TV,0
+CLI00586,64,38,Premium,39.90,51,52,5,4.0,,Tablet,1
+CLI00587,45,6,PREMIUM,39.90,51,18,3,4.0,"Cartão de Crédito",Mobile,0
+CLI00588,62,20,PREMIUM,39.90,9,86,,0.7,Débito,TV,1
+CLI00589,55,29,PREMIUM,39.90,82,187,3,0.9,PIX,TV,0
+CLI00590,44,44,Padrão,29.90,63,24,9,0.5,,mobile,1
+CLI00591,34,60,Padrão,29.90,68,156,5,2.5,Débito,tv,0
+CLI00592,40,49,basico,19.90,42,172,8,4.6,Boleto,TV,0
+CLI00593,21,49,Premium,39.90,31,162,0,4.2,"Cartão de Crédito",Tablet,0
+CLI00594,44,16,Básico,19.90,84,134,3,4.2,,Desktop,0
+CLI00595,63,33,basico,19.90,24,158,8,0.7,PIX,TV,0
+CLI00596,44,57,PREMIUM,39.90,77,63,7,4.6,Credito,Tablet,1
+CLI00597,50,44,Premium,39.90,19,109,2,3.0,"Cartão de Crédito",Tablet,0
+CLI00598,49,51,Básico,19.90,80,101,2,0.3,Débito,mobile,0
+CLI00599,19,53,Premium,39.90,83,64,3,2.5,Débito,tv,1
+CLI00600,19,31,Básico,19.90,89,85,9,1.3,Credito,Desktop,0
+CLI00601,45,10,Premium,39.90,27,98,1,2.1,Boleto,tv,1
+CLI00602,69,58,Padrão,29.90,59,133,9,0.3,Credito,Desktop,1
+CLI00603,62,43,basico,19.90,80,122,8,3.2,,TV,0
+CLI00604,25,30,PREMIUM,39.90,81,144,5,4.7,Credito,Tablet,0
+CLI00605,65,8,Padrão,29.90,74,125,2,4.1,,TV,0
+CLI00606,35,53,PREMIUM,39.90,54,78,5,3.1,,tv,0
+CLI00607,73,18,basico,19.90,66,119,9,5.0,PIX,tv,1
+CLI00608,39,43,Premium,39.90,84,125,5,0.9,Boleto,tv,0
+CLI00609,29,37,Básico,19.90,16,32,3,1.5,Boleto,Tablet,1
+CLI00610,63,55,Básico,,13,172,,4.7,Credito,Mobile,0
+CLI00611,63,31,Padrão,29.90,96,84,8,2.3,PIX,Tablet,1
+CLI00612,61,4,Básico,19.90,1,27,9,1.5,Boleto,Desktop,1
+CLI00613,30,45,Padrão,29.90,86,25,9,3.5,"Cartão de Crédito",TV,0
+CLI00614,71,11,Básico,19.90,30,146,6,1.7,Débito,TV,1
+CLI00615,68,54,Básico,19.90,42,160,6,2.7,Credito,Tablet,0
+CLI00616,45,18,Premium,39.90,96,61,7,2.9,Boleto,TV,0
+CLI00617,23,10,basico,19.90,3,130,0,3.7,"Cartão de Crédito",tv,1
+CLI00618,56,56,PREMIUM,39.90,27,188,4,2.9,PIX,tv,1
+CLI00619,49,60,basico,19.90,86,91,1,4.7,"Cartão de Crédito",Desktop,0
+CLI00620,64,13,PREMIUM,39.90,91,50,9,4.7,Boleto,Desktop,0
+CLI00621,28,57,PREMIUM,39.90,44,101,3,3.2,"Cartão de Crédito",tv,0
+CLI00622,42,40,PREMIUM,39.90,93,25,7,2.1,Débito,Mobile,0
+CLI00623,62,48,PREMIUM,39.90,27,100,0,1.1,"Cartão de Crédito",Tablet,0
+CLI00624,52,16,PREMIUM,39.90,23,100,1,4.7,Débito,mobile,0
+CLI00625,40,31,Padrão,29.90,0,138,0,2.0,Credito,mobile,1
+CLI00626,28,14,Premium,39.90,92,181,7,0.0,"Cartão de Crédito",Tablet,1
+CLI00627,46,40,PREMIUM,39.90,85,124,1,2.6,"Cartão de Crédito",TV,0
+CLI00628,42,39,Premium,39.90,63,90,0,0.4,Débito,mobile,0
+CLI00629,31,4,basico,19.90,72,144,9,3.1,Credito,tv,1
+CLI00630,21,36,Padrão,29.90,43,174,2,2.7,Boleto,mobile,1
+CLI00631,70,3,basico,19.90,37,110,9,3.3,"Cartão de Crédito",tv,1
+CLI00632,73,33,Premium,39.90,95,33,5,0.1,,tv,0
+CLI00633,73,19,basico,19.90,19,127,5,0.7,PIX,Desktop,1
+CLI00634,50,5,Premium,39.90,41,147,7,2.5,Débito,Desktop,0
+CLI00635,48,11,basico,19.90,79,115,5,2.3,Credito,Tablet,0
+CLI00636,54,55,Padrão,29.90,26,51,9,0.1,PIX,Tablet,1
+CLI00637,29,5,basico,19.90,73,148,5,3.3,Débito,Desktop,1
+CLI00638,33,24,PREMIUM,39.90,35,179,0,1.0,,TV,1
+CLI00639,33,35,Padrão,29.90,99,78,0,1.1,Débito,TV,0
+CLI00640,33,52,basico,19.90,99,95,2,1.7,PIX,Tablet,0
+CLI00641,27,3,basico,19.90,96,147,1,0.0,Boleto,tv,1
+CLI00642,36,17,PREMIUM,39.90,25,47,5,2.8,PIX,tv,0
+CLI00643,35,8,Padrão,29.90,4,43,2,2.2,,mobile,1
+CLI00644,28,48,Básico,,34,152,0,2.7,,Desktop,0
+CLI00645,27,29,Padrão,29.90,42,187,0,0.3,PIX,tv,0
+CLI00646,43,17,PREMIUM,39.90,60,32,8,4.8,Débito,Mobile,0
+CLI00647,52,40,Básico,19.90,14,33,9,1.5,Boleto,TV,1
+CLI00648,74,50,Básico,19.90,9,89,8,2.5,Credito,Desktop,1
+CLI00649,47,29,basico,19.90,68,50,1,2.0,PIX,Tablet,0
+CLI00650,54,51,PREMIUM,39.90,91,141,1,1.6,"Cartão de Crédito",Mobile,0
+CLI00651,21,27,Padrão,29.90,78,70,7,4.4,Credito,Mobile,0
+CLI00652,36,NaN,Padrão,29.90,49,165,,1.8,PIX,Tablet,1
+CLI00653,40,56,Básico,19.90,72,88,4,3.0,PIX,Tablet,0
+CLI00654,72,17,Premium,39.90,88,148,6,4.7,Credito,Mobile,1
+CLI00655,21,51,Premium,39.90,76,30,3,2.8,PIX,mobile,0
+CLI00656,49,47,Básico,19.90,73,118,4,3.4,Boleto,TV,0
+CLI00657,69,59,basico,19.90,4,173,6,0.4,Débito,mobile,1
+CLI00658,29,38,PREMIUM,39.90,17,85,8,2.1,,TV,1
+CLI00659,75,44,Básico,19.90,33,54,9,0.5,Credito,Desktop,1
+CLI00660,25,2,PREMIUM,39.90,85,53,8,4.7,"Cartão de Crédito",Mobile,1
+CLI00661,21,8,Básico,19.90,95,18,6,4.3,Credito,Tablet,0
+CLI00662,77,29,Premium,39.90,89,120,3,4.7,PIX,tv,0
+CLI00663,23,23,Básico,19.90,98,187,3,3.1,,Mobile,0
+CLI00664,51,50,Premium,39.90,55,56,1,4.1,Débito,mobile,0
+CLI00665,24,38,Padrão,29.90,53,61,5,3.8,,Mobile,0
+CLI00666,58,36,Padrão,29.90,19,29,2,3.8,,TV,1
+CLI00667,45,4,Básico,19.90,83,73,8,0.8,PIX,Desktop,0
+CLI00668,38,26,PREMIUM,39.90,17,26,4,2.6,"Cartão de Crédito",mobile,0
+CLI00669,61,11,Básico,19.90,97,117,1,4.7,Débito,Tablet,0
+CLI00670,37,46,Padrão,29.90,53,153,4,3.6,Credito,TV,1
+CLI00671,29,19,Padrão,29.90,11,88,4,2.4,,tv,1
+CLI00672,21,15,Básico,19.90,37,172,5,1.8,,Tablet,1
+CLI00673,64,60,PREMIUM,39.90,63,47,3,1.0,Débito,Mobile,0
+CLI00674,51,36,basico,19.90,39,109,1,4.9,PIX,tv,0
+CLI00675,62,43,Básico,19.90,37,45,5,1.4,PIX,Mobile,0
+CLI00676,51,30,Padrão,29.90,15,132,0,4.6,Credito,mobile,0
+CLI00677,21,19,Básico,19.90,33,116,8,2.7,Boleto,Desktop,0
+CLI00678,68,59,Padrão,29.90,51,105,4,4.4,,TV,0
+CLI00679,24,44,Básico,19.90,38,102,8,3.8,Débito,mobile,0
+CLI00680,25,29,Padrão,29.90,98,115,4,2.0,Débito,Tablet,1
+CLI00681,39,59,Padrão,29.90,66,26,2,4.5,,Tablet,0
+CLI00682,24,25,PREMIUM,39.90,88,170,2,3.5,"Cartão de Crédito",mobile,0
+CLI00683,69,41,PREMIUM,39.90,32,63,4,0.7,"Cartão de Crédito",Mobile,0
+CLI00684,26,26,Premium,39.90,0,93,3,1.1,PIX,TV,1
+CLI00685,32,7,Padrão,29.90,57,45,7,4.6,,TV,0
+CLI00686,73,17,Premium,39.90,8,44,7,0.6,Débito,Desktop,1
+CLI00687,42,38,Premium,39.90,65,69,3,3.3,Boleto,mobile,0
+CLI00688,37,29,PREMIUM,39.90,31,151,2,2.8,"Cartão de Crédito",Tablet,0
+CLI00689,23,41,Padrão,29.90,37,146,9,0.8,"Cartão de Crédito",Tablet,0
+CLI00690,27,26,Padrão,29.90,66,110,4,4.6,PIX,tv,0
+CLI00691,76,13,Básico,19.90,35,67,9,1.4,PIX,mobile,1
+CLI00692,32,26,Padrão,29.90,13,140,8,3.5,Débito,tv,1
+CLI00693,69,59,PREMIUM,39.90,61,179,8,1.5,"Cartão de Crédito",Tablet,0
+CLI00694,37,14,Básico,19.90,32,104,6,3.0,,Desktop,0
+CLI00695,32,51,PREMIUM,39.90,80,70,1,2.5,Credito,Tablet,0
+CLI00696,32,24,Premium,39.90,20,116,7,4.5,PIX,TV,1
+CLI00697,19,60,PREMIUM,39.90,14,49,5,2.9,,Desktop,0
+CLI00698,50,42,basico,19.90,58,77,6,2.8,"Cartão de Crédito",Tablet,0
+CLI00699,28,47,Básico,19.90,71,25,2,3.4,,Tablet,0
+CLI00700,23,43,Básico,19.90,44,177,6,0.6,"Cartão de Crédito",TV,0
+CLI00701,,43,Premium,39.90,14,73,1,1.9,Débito,mobile,0
+CLI00702,30,46,Premium,39.90,87,185,2,1.4,,Mobile,1
+CLI00703,39,49,basico,19.90,76,93,0,4.4,PIX,TV,0
+CLI00704,76,12,Premium,39.90,44,29,4,1.0,Débito,tv,1
+CLI00705,30,14,PREMIUM,39.90,59,101,9,4.1,Débito,Desktop,0
+CLI00706,74,40,PREMIUM,39.90,53,22,3,4.2,,tv,0
+CLI00707,47,5,PREMIUM,39.90,12,159,1,4.6,PIX,Desktop,1
+CLI00708,42,33,PREMIUM,39.90,24,105,2,0.6,Débito,TV,0
+CLI00709,30,5,Padrão,29.90,66,33,1,0.8,Débito,Desktop,1
+CLI00710,58,53,Padrão,29.90,68,65,3,2.5,Credito,Mobile,0
+CLI00711,29,6,PREMIUM,39.90,63,118,9,2.0,Débito,Desktop,0
+CLI00712,36,NaN,Padrão,29.90,93,143,4,3.3,PIX,mobile,0
+CLI00713,62,23,Premium,39.90,21,152,1,2.3,Credito,Mobile,0
+CLI00714,18,36,basico,19.90,80,155,4,1.6,Credito,TV,1
+CLI00715,28,35,basico,19.90,14,151,2,3.6,"Cartão de Crédito",tv,0
+CLI00716,19,48,Premium,39.90,23,85,3,4.8,Credito,Mobile,0
+CLI00717,26,20,Básico,19.90,8,83,7,4.4,,Mobile,1
+CLI00718,67,54,basico,19.90,0,42,9,2.1,"Cartão de Crédito",mobile,1
+CLI00719,72,34,Básico,19.90,84,110,1,2.1,Credito,mobile,0
+CLI00720,75,39,Básico,19.90,39,45,1,3.8,Boleto,Tablet,0
+CLI00721,69,7,basico,19.90,51,33,7,2.4,,Desktop,0
+CLI00722,44,52,Padrão,29.90,43,100,7,0.6,PIX,TV,0
+CLI00723,61,14,Premium,39.90,84,55,1,1.2,,Tablet,0
+CLI00724,23,22,basico,19.90,56,111,0,0.2,Boleto,Tablet,0
+CLI00725,71,30,Premium,39.90,89,156,5,2.0,Boleto,mobile,0
+CLI00726,39,16,Premium,39.90,69,50,3,3.4,Boleto,Tablet,0
+CLI00727,60,5,Básico,19.90,58,61,4,2.9,Credito,mobile,1
+CLI00728,62,16,PREMIUM,39.90,80,84,2,4.5,Boleto,tv,0
+CLI00729,37,47,basico,19.90,68,55,6,0.8,,TV,0
+CLI00730,26,59,Padrão,29.90,71,49,2,2.8,Débito,TV,0
+CLI00731,38,7,Básico,19.90,12,99,7,2.5,Credito,tv,0
+CLI00732,71,52,basico,19.90,60,185,1,4.5,Boleto,Mobile,0
+CLI00733,24,45,Premium,39.90,80,12,9,2.3,Débito,Mobile,0
+CLI00734,50,4,basico,19.90,71,72,2,4.7,"Cartão de Crédito",Tablet,0
+CLI00735,20,6,Básico,19.90,60,25,2,3.8,"Cartão de Crédito",mobile,0
+CLI00736,72,27,basico,19.90,6,183,7,4.7,,tv,0
+CLI00737,29,11,Premium,39.90,75,137,1,4.4,Boleto,tv,0
+CLI00738,55,27,Premium,39.90,39,112,6,0.9,Credito,Desktop,1
+CLI00739,43,35,Padrão,29.90,60,60,0,2.8,Débito,Mobile,1
+CLI00740,72,36,Básico,19.90,96,79,5,1.4,Boleto,Mobile,0
+CLI00741,55,60,PREMIUM,39.90,87,123,6,2.8,"Cartão de Crédito",mobile,0
+CLI00742,27,45,Premium,39.90,92,45,0,3.5,Boleto,Desktop,0
+CLI00743,76,43,Básico,19.90,90,26,8,4.8,,Mobile,0
+CLI00744,55,20,Padrão,29.90,97,151,3,0.2,Boleto,TV,1
+CLI00745,42,5,PREMIUM,39.90,97,164,8,1.8,Credito,Desktop,1
+CLI00746,53,48,basico,19.90,50,188,8,3.6,Credito,tv,1
+CLI00747,41,8,Básico,19.90,4,62,6,3.3,Boleto,tv,0
+CLI00748,38,35,basico,19.90,36,72,2,2.7,,Tablet,0
+CLI00749,67,3,Premium,39.90,0,134,1,4.7,Credito,mobile,1
+CLI00750,63,13,basico,19.90,53,64,4,0.4,PIX,TV,1
+CLI00751,50,51,Padrão,29.90,18,84,9,3.8,"Cartão de Crédito",Desktop,1
+CLI00752,50,6,Básico,19.90,85,138,2,0.1,PIX,mobile,0
+CLI00753,35,31,Premium,39.90,39,91,8,2.5,Débito,Tablet,1
+CLI00754,30,56,Básico,19.90,15,38,8,3.1,Débito,Desktop,0
+CLI00755,46,14,PREMIUM,39.90,32,184,2,4.8,"Cartão de Crédito",mobile,0
+CLI00756,28,22,Padrão,29.90,54,70,7,0.9,Credito,TV,1
+CLI00757,33,1,Premium,39.90,35,74,7,2.9,Boleto,Mobile,0
+CLI00758,67,46,Padrão,29.90,85,60,3,3.9,"Cartão de Crédito",Mobile,1
+CLI00759,53,23,Premium,39.90,52,107,8,0.1,PIX,mobile,0
+CLI00760,67,17,PREMIUM,39.90,23,129,3,1.7,"Cartão de Crédito",Tablet,0
+CLI00761,59,7,PREMIUM,39.90,63,54,8,4.8,Débito,Desktop,1
+CLI00762,40,56,Premium,39.90,90,56,9,4.0,"Cartão de Crédito",Desktop,0
+CLI00763,67,60,Premium,39.90,62,143,6,3.9,,TV,0
+CLI00764,42,25,basico,19.90,57,126,4,4.3,"Cartão de Crédito",tv,0
+CLI00765,67,9,PREMIUM,39.90,36,106,1,3.2,Boleto,Tablet,0
+CLI00766,25,22,basico,19.90,24,90,7,2.8,Credito,mobile,0
+CLI00767,27,36,basico,19.90,35,19,7,2.4,Débito,Desktop,1
+CLI00768,42,54,Premium,39.90,6,20,9,2.2,,Desktop,1
+CLI00769,47,50,PREMIUM,39.90,97,183,5,4.3,Credito,TV,1
+CLI00770,72,58,PREMIUM,39.90,72,62,6,4.1,PIX,Tablet,1
+CLI00771,54,14,Básico,19.90,65,16,9,4.6,Boleto,tv,0
+CLI00772,55,35,Básico,19.90,80,78,5,5.0,Boleto,Tablet,1
+CLI00773,31,55,Padrão,29.90,90,44,3,2.6,Credito,TV,0
+CLI00774,45,13,basico,19.90,31,52,7,2.6,"Cartão de Crédito",TV,1
+CLI00775,75,7,basico,19.90,11,84,8,3.5,Boleto,Mobile,1
+CLI00776,65,49,PREMIUM,39.90,11,61,5,0.2,PIX,Mobile,1
+CLI00777,32,NaN,basico,19.90,15,91,7,1.9,PIX,TV,1
+CLI00778,51,37,basico,19.90,80,113,9,4.0,Boleto,TV,0
+CLI00779,73,21,Básico,19.90,47,93,6,4.5,PIX,Tablet,1
+CLI00780,71,23,Premium,39.90,1,167,3,0.7,,Desktop,1
+CLI00781,50,13,Premium,39.90,60,41,9,3.6,PIX,TV,1
+CLI00782,34,30,Básico,19.90,56,60,0,1.6,Débito,Tablet,1
+CLI00783,18,15,Padrão,29.90,12,177,1,3.1,Débito,tv,0
+CLI00784,35,52,basico,19.90,12,27,7,1.5,Credito,Tablet,1
+CLI00785,24,31,basico,19.90,95,157,3,1.9,"Cartão de Crédito",tv,0
+CLI00786,75,26,basico,19.90,54,172,4,4.6,Débito,mobile,1
+CLI00787,74,20,Básico,19.90,68,111,2,1.0,,mobile,0
+CLI00788,19,57,Básico,19.90,82,15,6,1.2,Débito,Desktop,0
+CLI00789,70,56,basico,19.90,21,165,7,1.0,Débito,Tablet,1
+CLI00790,70,35,PREMIUM,39.90,22,146,6,0.2,PIX,TV,1
+CLI00791,,39,Básico,19.90,12,40,7,4.8,PIX,tv,1
+CLI00792,33,7,Premium,39.90,68,187,9,4.4,Débito,Desktop,0
+CLI00793,59,25,Padrão,29.90,43,125,9,2.2,,TV,1
+CLI00794,36,NaN,basico,,12,79,5,1.5,Boleto,mobile,1
+CLI00795,52,35,Básico,19.90,36,163,1,2.7,Débito,Mobile,0
+CLI00796,75,1,Premium,39.90,76,34,2,3.5,Credito,TV,0
+CLI00797,40,26,Padrão,29.90,77,185,4,3.0,Débito,tv,0
+CLI00798,22,37,Padrão,29.90,31,74,2,3.7,,mobile,1
+CLI00799,56,28,Básico,19.90,94,185,0,4.8,Credito,Mobile,1
+CLI00800,71,60,basico,19.90,71,162,2,0.0,,Tablet,0
+CLI00801,22,14,Padrão,29.90,87,16,8,3.6,Boleto,mobile,1
+CLI00802,72,20,PREMIUM,39.90,78,176,4,3.5,"Cartão de Crédito",mobile,1
+CLI00803,74,8,Básico,19.90,87,24,4,4.6,Credito,tv,1
+CLI00804,73,49,basico,19.90,33,170,8,3.8,Credito,Desktop,0
+CLI00805,49,53,Premium,39.90,26,127,5,1.9,Débito,Desktop,1
+CLI00806,39,9,basico,19.90,76,163,8,2.5,"Cartão de Crédito",Tablet,0
+CLI00807,34,36,Premium,39.90,11,39,3,0.3,"Cartão de Crédito",tv,0
+CLI00808,43,2,Padrão,29.90,76,36,4,4.1,PIX,Mobile,0
+CLI00809,50,27,Premium,39.90,10,67,7,1.5,,Mobile,1
+CLI00810,76,43,Básico,19.90,52,141,7,0.7,,Tablet,0
+CLI00811,67,14,Premium,39.90,20,112,3,5.0,Credito,tv,0
+CLI00812,68,41,Padrão,29.90,17,143,5,1.2,Credito,Desktop,1
+CLI00813,40,8,basico,19.90,73,185,1,2.6,Débito,Desktop,0
+CLI00814,46,57,Básico,19.90,24,48,9,3.1,Credito,Mobile,1
+CLI00815,35,44,PREMIUM,39.90,32,23,3,2.2,Débito,Tablet,1
+CLI00816,77,19,Premium,39.90,66,75,6,2.3,Débito,Mobile,0
+CLI00817,38,31,Premium,39.90,60,183,3,1.8,Débito,mobile,1
+CLI00818,65,32,Padrão,29.90,74,183,5,1.6,Credito,Tablet,0
+CLI00819,39,4,Premium,39.90,97,180,2,4.9,PIX,Desktop,0
+CLI00820,47,20,Premium,39.90,28,94,0,0.8,Débito,mobile,0
+CLI00821,67,43,Premium,39.90,43,12,6,1.7,PIX,tv,0
+CLI00822,25,17,PREMIUM,39.90,90,183,8,4.5,Credito,tv,1
+CLI00823,24,33,Padrão,29.90,56,77,7,1.7,Débito,Mobile,1
+CLI00824,48,36,Premium,39.90,63,11,5,3.6,Débito,Desktop,1
+CLI00825,65,NaN,PREMIUM,39.90,91,36,7,0.7,Débito,mobile,0
+CLI00826,57,12,Padrão,29.90,76,115,3,2.7,PIX,TV,0
+CLI00827,69,NaN,Premium,39.90,0,113,8,3.7,"Cartão de Crédito",mobile,0
+CLI00828,38,27,Padrão,29.90,79,167,3,1.9,Credito,TV,0
+CLI00829,30,40,Básico,19.90,84,132,8,2.4,PIX,Mobile,0
+CLI00830,54,15,PREMIUM,39.90,5,68,7,3.5,Débito,TV,0
+CLI00831,54,57,Básico,19.90,27,48,3,1.1,,tv,1
+CLI00832,27,32,Premium,39.90,36,30,7,0.6,PIX,TV,1
+CLI00833,62,46,basico,19.90,74,12,3,1.0,"Cartão de Crédito",mobile,1
+CLI00834,74,18,Básico,19.90,45,34,9,2.6,Credito,Mobile,0
+CLI00835,42,17,Padrão,29.90,43,169,7,0.2,Credito,tv,1
+CLI00836,44,57,Básico,19.90,75,166,2,4.7,PIX,TV,1
+CLI00837,73,57,basico,19.90,83,164,5,1.5,Credito,tv,0
+CLI00838,36,11,Padrão,29.90,73,126,5,0.7,Débito,Tablet,0
+CLI00839,37,18,Premium,39.90,65,134,4,1.2,"Cartão de Crédito",Desktop,1
+CLI00840,75,38,PREMIUM,39.90,66,130,7,3.1,,mobile,0
+CLI00841,72,17,PREMIUM,39.90,84,96,3,0.1,Débito,Desktop,0
+CLI00842,65,59,PREMIUM,39.90,35,71,8,0.5,,Desktop,1
+CLI00843,77,27,Básico,19.90,24,143,7,2.3,Boleto,mobile,0
+CLI00844,34,34,Premium,39.90,55,83,0,1.6,PIX,Mobile,1
+CLI00845,75,44,Premium,39.90,42,144,0,4.9,,tv,0
+CLI00846,30,54,PREMIUM,39.90,47,126,6,4.8,Credito,mobile,0
+CLI00847,24,23,Premium,39.90,30,69,6,4.2,Débito,tv,0
+CLI00848,29,49,Padrão,29.90,70,93,3,4.5,PIX,mobile,0
+CLI00849,26,26,Padrão,29.90,15,157,1,0.7,Credito,tv,1
+CLI00850,65,17,Premium,39.90,12,34,3,3.5,PIX,Tablet,0
+CLI00851,45,24,Básico,19.90,36,150,3,1.7,Boleto,Mobile,0
+CLI00852,73,5,Básico,19.90,47,69,4,2.7,,Desktop,1
+CLI00853,69,47,Básico,19.90,5,160,1,4.4,"Cartão de Crédito",tv,1
+CLI00854,55,26,Premium,39.90,59,75,4,2.4,,mobile,1
+CLI00855,62,7,Básico,19.90,82,107,4,1.6,,mobile,0
+CLI00856,23,47,basico,19.90,34,141,0,4.9,PIX,Mobile,1
+CLI00857,19,32,Premium,39.90,89,101,1,3.7,Débito,TV,0
+CLI00858,31,39,Padrão,29.90,35,185,5,0.8,PIX,Mobile,0
+CLI00859,24,11,Padrão,29.90,88,178,8,4.2,Credito,tv,1
+CLI00860,36,21,Padrão,29.90,93,95,8,1.9,Boleto,mobile,1
+CLI00861,18,12,Padrão,29.90,6,107,5,0.4,Credito,TV,1
+CLI00862,63,25,basico,19.90,88,123,9,1.7,PIX,mobile,0
+CLI00863,51,25,Básico,19.90,23,184,7,2.9,"Cartão de Crédito",Desktop,0
+CLI00864,52,31,basico,19.90,33,127,0,4.2,,Tablet,0
+CLI00865,26,17,PREMIUM,39.90,55,45,4,3.2,"Cartão de Crédito",Mobile,0
+CLI00866,37,27,Padrão,29.90,10,50,3,0.8,Credito,tv,1
+CLI00867,34,44,Premium,39.90,62,80,5,2.6,Credito,Desktop,0
+CLI00868,76,21,Padrão,29.90,56,53,9,1.1,PIX,Tablet,1
+CLI00869,54,47,PREMIUM,39.90,7,103,4,4.7,Credito,Tablet,1
+CLI00870,74,37,basico,19.90,63,27,5,2.0,PIX,tv,1
+CLI00871,29,3,PREMIUM,39.90,95,171,4,2.0,Débito,Tablet,1
+CLI00872,38,47,Padrão,29.90,19,22,1,3.2,Boleto,Desktop,0
+CLI00873,37,43,PREMIUM,39.90,98,154,4,1.4,Credito,TV,1
+CLI00874,47,38,Premium,39.90,88,152,2,4.4,Boleto,Desktop,0
+CLI00875,28,51,PREMIUM,39.90,52,150,9,3.2,,tv,1
+CLI00876,68,11,basico,19.90,99,122,4,3.0,Credito,Mobile,0
+CLI00877,63,53,basico,19.90,26,104,5,0.9,Credito,Mobile,1
+CLI00878,26,3,Básico,19.90,63,94,2,4.6,Credito,TV,0
+CLI00879,72,44,Premium,39.90,93,145,7,2.4,,TV,1
+CLI00880,22,1,basico,19.90,30,122,2,2.5,PIX,mobile,1
+CLI00881,65,55,Básico,19.90,47,127,7,2.7,PIX,TV,0
+CLI00882,52,12,basico,19.90,19,141,9,4.1,"Cartão de Crédito",Mobile,1
+CLI00883,43,13,Básico,19.90,96,58,4,1.2,,Mobile,0
+CLI00884,34,24,Padrão,29.90,67,151,6,2.9,"Cartão de Crédito",Mobile,0
+CLI00885,74,42,Básico,19.90,21,75,7,1.3,Débito,Mobile,1
+CLI00886,,36,basico,19.90,76,160,,4.9,,mobile,1
+CLI00887,19,4,PREMIUM,39.90,31,77,8,4.4,PIX,Desktop,0
+CLI00888,27,51,basico,19.90,37,150,5,0.7,Débito,Mobile,0
+CLI00889,48,4,Padrão,29.90,3,12,4,4.0,,Desktop,1
+CLI00890,30,36,PREMIUM,39.90,86,50,1,0.4,Débito,mobile,0
+CLI00891,59,44,basico,19.90,9,186,6,2.7,,Tablet,0
+CLI00892,29,15,Padrão,29.90,36,91,3,4.1,PIX,Desktop,1
+CLI00893,58,14,PREMIUM,39.90,66,167,3,4.2,PIX,Mobile,0
+CLI00894,72,56,basico,19.90,27,148,8,3.0,Boleto,mobile,0
+CLI00895,32,16,Básico,19.90,14,31,5,4.5,"Cartão de Crédito",tv,1
+CLI00896,76,32,PREMIUM,39.90,62,111,5,4.3,Débito,Desktop,0
+CLI00897,47,54,basico,19.90,30,173,1,3.7,Boleto,Desktop,0
+CLI00898,56,20,Básico,19.90,80,170,7,4.6,PIX,mobile,0
+CLI00899,44,58,basico,19.90,47,130,2,1.8,,Desktop,0
+CLI00900,64,7,PREMIUM,39.90,75,15,7,5.0,"Cartão de Crédito",mobile,1
+CLI00901,51,22,basico,19.90,50,48,0,0.2,"Cartão de Crédito",tv,0
+CLI00902,43,9,PREMIUM,39.90,54,90,8,2.7,,Mobile,0
+CLI00903,38,53,Padrão,29.90,33,96,6,2.3,Boleto,Desktop,1
+CLI00904,70,46,Padrão,29.90,35,93,3,1.3,PIX,Tablet,0
+CLI00905,68,40,Padrão,29.90,60,35,3,3.0,Boleto,Desktop,0
+CLI00906,45,24,basico,19.90,36,183,6,3.2,PIX,Mobile,0
+CLI00907,28,13,Básico,19.90,52,46,9,0.2,"Cartão de Crédito",TV,0
+CLI00908,38,4,basico,19.90,70,55,3,1.6,,tv,0
+CLI00909,37,39,Básico,19.90,68,129,6,3.6,PIX,Desktop,0
+CLI00910,36,56,Padrão,29.90,87,185,5,2.4,"Cartão de Crédito",Tablet,1
+CLI00911,51,18,PREMIUM,39.90,97,56,4,2.7,Débito,Tablet,0
+CLI00912,63,49,PREMIUM,39.90,60,186,,1.1,,Desktop,1
+CLI00913,69,30,Padrão,29.90,52,160,5,0.3,Credito,tv,1
+CLI00914,38,52,Básico,19.90,75,35,8,3.5,Credito,tv,0
+CLI00915,31,52,Básico,19.90,62,10,1,0.1,Credito,Mobile,0
+CLI00916,22,27,Padrão,29.90,17,110,1,3.3,,Desktop,0
+CLI00917,26,17,basico,19.90,86,76,0,2.5,Débito,Desktop,0
+CLI00918,61,53,Premium,39.90,78,82,0,4.5,Débito,TV,0
+CLI00919,57,26,Padrão,29.90,16,78,5,1.6,Credito,TV,0
+CLI00920,41,38,Básico,19.90,70,118,1,0.2,Credito,Desktop,0
+CLI00921,33,4,Premium,39.90,96,165,0,3.7,,mobile,0
+CLI00922,34,19,Padrão,29.90,52,62,5,4.6,"Cartão de Crédito",tv,1
+CLI00923,75,40,Padrão,29.90,39,30,6,0.6,,mobile,1
+CLI00924,38,37,Premium,39.90,58,25,1,1.5,Credito,Mobile,0
+CLI00925,54,20,Padrão,29.90,34,14,6,4.1,Débito,Desktop,0
+CLI00926,43,34,basico,19.90,61,47,6,3.2,Débito,Mobile,0
+CLI00927,43,10,Premium,,89,44,,2.3,Débito,Mobile,0
+CLI00928,58,NaN,basico,19.90,29,34,,5.0,Credito,TV,0
+CLI00929,45,1,Premium,39.90,87,31,8,3.0,,Desktop,0
+CLI00930,20,3,PREMIUM,39.90,34,127,5,2.3,PIX,tv,0
+CLI00931,75,11,basico,19.90,98,36,2,2.8,Boleto,Mobile,0
+CLI00932,48,10,basico,19.90,91,146,4,1.6,Débito,tv,0
+CLI00933,65,42,Básico,19.90,84,15,2,2.9,Boleto,Mobile,1
+CLI00934,27,18,Padrão,29.90,91,131,4,1.5,Boleto,mobile,1
+CLI00935,42,44,basico,19.90,55,143,9,4.1,PIX,Tablet,0
+CLI00936,56,4,PREMIUM,39.90,39,105,8,1.5,PIX,tv,0
+CLI00937,61,54,Básico,19.90,63,120,9,1.3,PIX,TV,1
+CLI00938,47,24,Premium,39.90,20,124,5,1.4,"Cartão de Crédito",mobile,0
+CLI00939,32,57,Básico,19.90,39,132,8,3.8,Débito,Tablet,0
+CLI00940,51,16,Padrão,29.90,16,88,5,3.4,PIX,mobile,0
+CLI00941,23,26,basico,19.90,24,61,6,3.1,,TV,0
+CLI00942,46,31,Básico,19.90,40,142,5,0.5,Credito,Mobile,1
+CLI00943,59,22,Básico,19.90,6,187,0,0.1,Credito,Desktop,0
+CLI00944,65,39,basico,19.90,78,169,8,4.3,Débito,tv,1
+CLI00945,40,36,Premium,39.90,26,91,5,0.2,"Cartão de Crédito",Tablet,0
+CLI00946,58,12,Básico,19.90,30,73,4,1.3,Credito,Tablet,0
+CLI00947,66,28,Básico,19.90,57,19,2,3.0,,mobile,1
+CLI00948,41,16,Padrão,29.90,87,19,5,0.5,Boleto,Mobile,1
+CLI00949,32,13,PREMIUM,39.90,3,31,0,5.0,PIX,Tablet,0
+CLI00950,47,57,PREMIUM,39.90,7,17,9,3.1,PIX,Mobile,0
+CLI00951,29,17,Premium,39.90,81,159,3,4.5,Credito,Desktop,0
+CLI00952,67,1,PREMIUM,39.90,23,117,3,3.1,Débito,Mobile,1
+CLI00953,50,14,Premium,39.90,51,185,0,3.5,Credito,Mobile,0
+CLI00954,71,3,Básico,19.90,31,147,8,0.7,Boleto,Desktop,1
+CLI00955,67,41,basico,19.90,45,53,5,3.7,Débito,Tablet,1
+CLI00956,77,25,Padrão,29.90,71,93,4,1.4,,TV,0
+CLI00957,61,35,basico,19.90,43,11,2,0.4,,mobile,1
+CLI00958,41,49,PREMIUM,39.90,38,16,4,4.0,PIX,tv,0
+CLI00959,33,21,PREMIUM,,95,21,9,3.5,PIX,tv,1
+CLI00960,18,56,PREMIUM,39.90,27,156,9,1.4,PIX,Mobile,0
+CLI00961,70,13,PREMIUM,39.90,65,174,5,0.2,Débito,Mobile,1
+CLI00962,23,24,Básico,19.90,75,49,4,0.0,Boleto,Mobile,1
+CLI00963,24,35,Básico,19.90,10,155,9,1.0,Credito,Desktop,0
+CLI00964,63,29,Básico,19.90,97,142,4,1.9,Débito,tv,1
+CLI00965,59,53,Padrão,29.90,48,80,5,1.2,,TV,0
+CLI00966,22,50,Padrão,29.90,4,28,3,0.7,,TV,1
+CLI00967,46,34,Padrão,29.90,33,121,8,0.9,,tv,0
+CLI00968,62,10,PREMIUM,39.90,79,58,8,5.0,Credito,tv,0
+CLI00969,53,4,Padrão,29.90,92,127,9,0.3,,Desktop,1
+CLI00970,23,49,Padrão,29.90,11,188,9,2.3,Boleto,TV,0
+CLI00971,20,34,Premium,39.90,65,80,4,1.7,Credito,mobile,0
+CLI00972,76,50,Básico,19.90,29,96,2,3.2,PIX,tv,0
+CLI00973,33,39,Básico,19.90,35,50,7,2.6,Boleto,Tablet,1
+CLI00974,70,36,basico,19.90,53,130,6,3.7,"Cartão de Crédito",Mobile,1
+CLI00975,52,18,Básico,19.90,76,141,0,4.4,"Cartão de Crédito",Mobile,1
+CLI00976,56,23,Premium,39.90,52,123,2,3.7,PIX,Desktop,0
+CLI00977,59,37,Padrão,29.90,22,45,4,2.4,Débito,Tablet,1
+CLI00978,62,26,Básico,19.90,94,153,2,0.4,Credito,TV,1
+CLI00979,70,53,Premium,39.90,11,111,8,1.1,"Cartão de Crédito",Desktop,0
+CLI00980,21,10,PREMIUM,39.90,85,118,9,4.8,Débito,mobile,0
+CLI00981,65,32,Básico,19.90,51,76,4,3.6,Boleto,Mobile,1
+CLI00982,72,21,Básico,19.90,63,79,0,4.2,Credito,mobile,0
+CLI00983,42,8,Premium,39.90,6,177,9,4.0,"Cartão de Crédito",Tablet,1
+CLI00984,49,27,Básico,19.90,43,79,2,2.8,Credito,Desktop,1
+CLI00985,47,2,Básico,19.90,41,38,0,0.1,Credito,Tablet,1
+CLI00986,,NaN,basico,19.90,89,86,3,1.8,Credito,Desktop,0
+CLI00987,67,9,Padrão,29.90,4,156,8,1.9,Débito,Mobile,1
+CLI00988,51,12,Básico,19.90,50,47,3,3.5,Boleto,mobile,1
+CLI00989,74,19,PREMIUM,39.90,38,131,9,1.5,,Tablet,0
+CLI00990,51,44,Padrão,29.90,4,76,6,0.4,Boleto,tv,0
+CLI00991,24,22,Padrão,29.90,91,20,0,4.4,Credito,Desktop,0
+CLI00992,29,35,basico,19.90,54,139,3,1.6,Débito,Mobile,1
+CLI00993,56,19,Premium,39.90,75,35,3,1.1,Boleto,Desktop,0
+CLI00994,27,12,Básico,19.90,88,142,3,1.1,Boleto,Desktop,0
+CLI00995,70,NaN,Premium,39.90,47,92,2,1.4,"Cartão de Crédito",TV,0
+CLI00996,53,16,Premium,39.90,61,35,8,0.6,Credito,tv,1
+CLI00997,64,33,Padrão,29.90,71,138,9,0.0,Débito,Desktop,1
+CLI00998,23,2,Premium,39.90,69,148,6,4.3,Débito,Tablet,1
+CLI00999,55,5,Básico,19.90,56,161,4,0.1,PIX,Tablet,1
+CLI01000,57,60,Padrão,29.90,70,106,0,3.3,PIX,Mobile,0
+CLI01001,20,43,Premium,39.90,54,97,6,1.3,Débito,Desktop,0
+CLI01002,21,41,Básico,19.90,36,78,8,2.3,Credito,Tablet,1
+CLI01003,69,51,Padrão,29.90,38,139,5,2.0,Credito,TV,1
+CLI01004,73,56,PREMIUM,39.90,99,177,6,2.2,Débito,Mobile,0
+CLI01005,60,44,Básico,19.90,74,160,4,1.2,PIX,TV,1
+CLI01006,61,20,Padrão,29.90,78,113,7,4.3,,Desktop,1
+CLI01007,,NaN,Padrão,29.90,69,58,0,2.8,PIX,Desktop,0
+CLI01008,58,12,PREMIUM,39.90,61,49,0,3.0,Credito,Tablet,0
+CLI01009,37,47,Premium,39.90,13,88,5,1.6,Boleto,Desktop,1
+CLI01010,58,16,basico,19.90,90,75,5,4.7,"Cartão de Crédito",tv,0
+CLI01011,31,46,Premium,39.90,57,120,1,4.5,PIX,mobile,0
+CLI01012,70,59,Premium,39.90,65,134,8,0.9,Credito,Mobile,1
+CLI01013,76,24,PREMIUM,39.90,34,165,8,1.1,Débito,mobile,0
+CLI01014,64,37,basico,19.90,9,55,5,1.9,,Desktop,0
+CLI01015,65,6,PREMIUM,39.90,26,54,2,4.3,Débito,Mobile,0
+CLI01016,55,5,PREMIUM,39.90,20,103,5,0.0,Boleto,Mobile,1
+CLI01017,77,45,Premium,39.90,83,27,9,2.0,Credito,tv,1
+CLI01018,41,19,PREMIUM,39.90,88,29,4,3.9,PIX,Desktop,0
+CLI01019,21,19,PREMIUM,39.90,78,169,4,1.8,,Mobile,1
+CLI01020,25,22,PREMIUM,39.90,50,175,2,1.6,PIX,Desktop,0
+CLI01021,47,30,Básico,19.90,10,130,5,4.8,Débito,Mobile,1
+CLI01022,73,53,Básico,19.90,80,115,5,0.2,Credito,tv,0
+CLI01023,27,40,PREMIUM,39.90,9,100,6,3.8,,mobile,0
+CLI01024,19,59,Básico,19.90,20,52,2,3.5,"Cartão de Crédito",mobile,0
+CLI01025,65,28,Padrão,29.90,93,166,5,0.1,"Cartão de Crédito",Mobile,1
+CLI01026,20,10,basico,19.90,65,66,9,5.0,PIX,Mobile,1
+CLI01027,29,1,PREMIUM,39.90,9,53,8,0.7,,Desktop,1
+CLI01028,48,58,basico,19.90,90,131,8,3.1,PIX,Mobile,1
+CLI01029,64,22,Básico,19.90,50,28,4,4.6,Boleto,Mobile,1
+CLI01030,49,21,Básico,19.90,21,49,7,1.1,Credito,Tablet,0
+CLI01031,30,14,Premium,39.90,23,21,7,4.9,Boleto,mobile,0
+CLI01032,29,45,basico,19.90,37,180,2,1.4,Débito,TV,0
+CLI01033,71,24,Básico,19.90,57,123,0,0.8,Boleto,Mobile,1
+CLI01034,20,11,Premium,39.90,99,156,5,1.0,Credito,TV,0
+CLI01035,25,36,Básico,19.90,19,121,7,2.2,Boleto,Mobile,1
+CLI01036,42,42,PREMIUM,39.90,2,38,6,4.6,Boleto,tv,0
+CLI01037,28,11,Padrão,29.90,71,167,4,0.8,"Cartão de Crédito",Desktop,0
+CLI01038,,21,PREMIUM,39.90,62,115,,3.4,Credito,Mobile,1
+CLI01039,28,48,PREMIUM,39.90,1,70,5,4.8,PIX,Desktop,1
+CLI01040,20,8,Premium,39.90,37,162,1,2.0,PIX,tv,0
+CLI01041,27,11,basico,19.90,41,93,5,2.0,PIX,Desktop,1
+CLI01042,55,27,PREMIUM,39.90,23,122,6,1.3,Boleto,TV,0
+CLI01043,38,2,PREMIUM,39.90,98,29,3,4.0,Boleto,Mobile,0
+CLI01044,68,4,PREMIUM,39.90,99,89,6,2.1,Débito,Mobile,1
+CLI01045,60,18,Premium,39.90,71,129,0,1.7,Credito,Mobile,0
+CLI01046,33,34,Premium,39.90,90,28,6,2.5,Boleto,Tablet,1
+CLI01047,33,31,Premium,39.90,78,144,6,2.0,PIX,tv,0
+CLI01048,54,4,Básico,19.90,34,151,8,2.1,Credito,Mobile,0
+CLI01049,38,24,Premium,39.90,81,36,4,0.6,"Cartão de Crédito",TV,0
+CLI01050,61,18,PREMIUM,39.90,49,115,5,2.3,,Desktop,1
+CLI01051,52,16,Básico,19.90,41,24,3,4.6,PIX,tv,0
+CLI01052,41,42,Padrão,29.90,77,107,3,4.3,"Cartão de Crédito",Mobile,0
+CLI01053,76,9,basico,19.90,36,169,8,2.0,"Cartão de Crédito",tv,1
+CLI01054,38,53,Padrão,29.90,84,172,1,3.0,"Cartão de Crédito",Mobile,0
+CLI01055,52,37,basico,19.90,63,100,5,1.4,Débito,Desktop,1
+CLI01056,60,52,Básico,19.90,21,103,7,1.7,Boleto,mobile,0
+CLI01057,77,49,Básico,19.90,12,11,5,3.2,Credito,tv,0
+CLI01058,25,32,Básico,19.90,69,104,6,0.7,Boleto,TV,0
+CLI01059,35,56,Premium,39.90,92,178,3,1.1,PIX,mobile,1
+CLI01060,45,10,basico,19.90,31,93,5,2.8,,Mobile,1
+CLI01061,45,54,PREMIUM,39.90,94,100,5,2.3,,Desktop,0
+CLI01062,60,15,basico,19.90,5,130,0,4.3,PIX,tv,0
+CLI01063,23,28,PREMIUM,39.90,79,73,3,2.1,,Desktop,0
+CLI01064,41,1,Premium,39.90,73,133,4,2.0,Débito,tv,1
+CLI01065,61,60,Básico,19.90,87,74,7,2.7,Credito,mobile,1
+CLI01066,26,22,Padrão,29.90,50,160,9,2.8,,tv,1
+CLI01067,28,16,PREMIUM,39.90,5,17,0,2.3,Boleto,Desktop,1
+CLI01068,59,21,basico,19.90,47,39,5,1.0,,Desktop,0
+CLI01069,76,NaN,basico,19.90,63,188,,0.7,"Cartão de Crédito",Desktop,0
+CLI01070,70,9,Premium,39.90,80,15,3,4.1,"Cartão de Crédito",tv,0
+CLI01071,44,1,Premium,39.90,32,15,8,4.1,,mobile,1
+CLI01072,52,16,Premium,39.90,7,184,4,0.3,PIX,Tablet,0
+CLI01073,35,3,Premium,39.90,5,159,9,3.5,Boleto,tv,1
+CLI01074,76,2,Básico,19.90,65,149,6,4.0,Boleto,mobile,0
+CLI01075,63,3,Padrão,29.90,4,120,3,1.5,"Cartão de Crédito",tv,1
+CLI01076,39,12,basico,19.90,51,144,7,1.0,Boleto,Mobile,0
+CLI01077,44,36,Básico,19.90,50,128,7,1.0,,tv,0
+CLI01078,39,NaN,basico,19.90,76,44,3,4.4,Débito,TV,0
+CLI01079,35,2,Premium,39.90,54,67,8,0.4,Credito,Tablet,0
+CLI01080,29,42,Básico,,97,110,6,1.6,"Cartão de Crédito",tv,0
+CLI01081,63,45,PREMIUM,39.90,7,146,9,3.9,Credito,TV,1
+CLI01082,43,18,Premium,39.90,75,186,1,1.4,,tv,0
+CLI01083,69,31,Básico,19.90,38,122,7,2.4,Boleto,Desktop,0
+CLI01084,58,24,basico,19.90,98,160,6,0.8,Débito,Tablet,0
+CLI01085,,56,PREMIUM,39.90,21,189,5,0.8,Credito,Tablet,1
+CLI01086,41,22,basico,19.90,59,143,5,1.5,Boleto,Mobile,0
+CLI01087,63,34,Premium,39.90,13,56,1,1.8,"Cartão de Crédito",tv,1
+CLI01088,26,45,Básico,19.90,4,172,6,3.1,"Cartão de Crédito",Desktop,1
+CLI01089,30,25,PREMIUM,39.90,11,30,2,3.6,Credito,Mobile,0
+CLI01090,21,36,Básico,19.90,34,160,9,1.5,Boleto,mobile,1
+CLI01091,33,17,PREMIUM,39.90,99,171,5,2.7,,mobile,1
+CLI01092,63,41,Padrão,29.90,22,113,4,4.9,PIX,mobile,0
+CLI01093,34,8,basico,19.90,62,165,3,3.6,,TV,1
+CLI01094,46,44,Básico,19.90,62,57,8,0.7,"Cartão de Crédito",Mobile,1
+CLI01095,20,43,basico,19.90,71,60,5,4.2,Boleto,tv,0
+CLI01096,63,4,basico,19.90,50,36,0,4.9,"Cartão de Crédito",TV,0
+CLI01097,60,58,Básico,19.90,57,179,4,3.1,Credito,Desktop,0
+CLI01098,55,58,Básico,19.90,19,103,8,4.4,Credito,Tablet,1
+CLI01099,43,21,Padrão,29.90,71,77,2,0.3,Boleto,mobile,0
+CLI01100,41,32,Premium,39.90,32,27,6,4.4,Boleto,Mobile,0
+CLI01101,48,11,basico,19.90,50,35,8,3.4,Boleto,tv,1
+CLI01102,50,51,Básico,19.90,42,184,5,4.4,Credito,Desktop,0
+CLI01103,21,18,basico,19.90,35,46,9,2.0,Credito,Tablet,1
+CLI01104,24,4,basico,19.90,40,35,5,3.2,Débito,Desktop,0
+CLI01105,57,34,Básico,19.90,4,71,9,1.3,,mobile,1
+CLI01106,27,57,PREMIUM,39.90,87,63,4,4.7,,Mobile,0
+CLI01107,22,46,Padrão,29.90,39,99,4,1.7,Débito,tv,0
+CLI01108,39,42,Premium,39.90,96,41,9,2.0,Boleto,Desktop,0
+CLI01109,43,14,Básico,19.90,12,103,8,2.7,,Mobile,0
+CLI01110,20,25,Padrão,29.90,88,153,0,2.3,"Cartão de Crédito",TV,0
+CLI01111,31,24,basico,19.90,77,39,3,0.2,PIX,Tablet,0
+CLI01112,25,52,Padrão,29.90,23,16,6,1.6,"Cartão de Crédito",Tablet,1
+CLI01113,37,9,Premium,39.90,54,179,5,3.0,,Desktop,1
+CLI01114,31,56,basico,19.90,50,155,5,0.3,"Cartão de Crédito",tv,0
+CLI01115,34,NaN,Premium,39.90,54,35,8,2.8,,TV,1
+CLI01116,27,13,Premium,39.90,27,161,9,2.6,Débito,TV,0
+CLI01117,39,50,Premium,39.90,32,85,0,3.3,PIX,Tablet,0
+CLI01118,47,15,PREMIUM,39.90,80,31,3,2.7,Débito,Tablet,1
+CLI01119,20,31,Básico,19.90,88,123,2,4.3,PIX,tv,1
+CLI01120,26,5,basico,,12,145,3,4.5,PIX,Tablet,1
+CLI01121,18,33,PREMIUM,39.90,46,166,8,3.2,Boleto,TV,1
+CLI01122,41,59,Padrão,29.90,51,27,9,3.3,Débito,mobile,1
+CLI01123,19,9,PREMIUM,39.90,75,41,6,4.8,Credito,Desktop,0
+CLI01124,73,26,Premium,39.90,85,75,5,2.0,Boleto,tv,0
+CLI01125,38,22,basico,19.90,73,93,6,0.6,PIX,tv,1
+CLI01126,26,29,basico,,45,116,9,4.4,Débito,tv,0
+CLI01127,63,7,PREMIUM,39.90,33,72,5,1.9,Credito,TV,0
+CLI01128,31,34,Padrão,29.90,45,163,8,1.9,PIX,Tablet,1
+CLI01129,46,5,Premium,39.90,53,156,1,1.2,Boleto,mobile,0
+CLI01130,28,18,basico,19.90,33,111,8,1.8,Credito,Tablet,0
+CLI01131,42,2,Básico,19.90,3,152,4,2.9,Débito,tv,1
+CLI01132,74,52,Padrão,29.90,78,21,8,1.0,Boleto,tv,0
+CLI01133,70,26,PREMIUM,39.90,66,125,5,2.5,Débito,mobile,0
+CLI01134,31,13,Premium,39.90,23,77,8,0.1,,mobile,0
+CLI01135,39,55,PREMIUM,39.90,91,185,3,5.0,Credito,tv,0
+CLI01136,59,47,Premium,39.90,37,50,3,1.9,,Tablet,0
+CLI01137,21,44,PREMIUM,39.90,10,135,7,2.6,Débito,Desktop,1
+CLI01138,43,26,basico,19.90,52,175,2,0.9,Débito,TV,0
+CLI01139,27,46,Padrão,29.90,84,72,3,2.4,PIX,TV,0
+CLI01140,58,NaN,Básico,,12,114,9,0.8,Boleto,Mobile,1
+CLI01141,76,48,Premium,39.90,62,158,7,1.7,"Cartão de Crédito",mobile,1
+CLI01142,19,27,PREMIUM,39.90,17,28,1,4.6,Boleto,TV,0
+CLI01143,29,27,PREMIUM,39.90,15,106,7,0.1,,Tablet,1
+CLI01144,64,59,Padrão,29.90,70,187,9,0.4,Boleto,tv,0
+CLI01145,44,17,PREMIUM,39.90,1,136,0,3.4,Boleto,mobile,1
+CLI01146,76,7,Básico,19.90,83,42,3,2.8,,Mobile,0
+CLI01147,71,24,PREMIUM,39.90,89,70,6,1.7,"Cartão de Crédito",TV,0
+CLI01148,61,58,Padrão,29.90,88,46,1,2.3,Credito,tv,0
+CLI01149,,NaN,Premium,39.90,39,123,5,2.2,,Mobile,1
+CLI01150,53,48,PREMIUM,39.90,11,121,4,3.8,Débito,Mobile,1
+CLI01151,41,53,PREMIUM,39.90,29,73,7,2.5,PIX,TV,0
+CLI01152,47,53,Básico,19.90,87,118,3,4.0,Débito,mobile,0
+CLI01153,33,33,Premium,39.90,86,134,3,3.7,Boleto,Desktop,0
+CLI01154,60,19,Premium,39.90,30,169,4,3.4,Credito,TV,0
+CLI01155,23,31,PREMIUM,39.90,24,19,6,0.2,"Cartão de Crédito",Desktop,1
+CLI01156,53,32,Premium,39.90,11,146,0,2.8,"Cartão de Crédito",Desktop,0
+CLI01157,48,12,Premium,39.90,38,125,3,1.3,Credito,mobile,0
+CLI01158,42,2,PREMIUM,39.90,89,174,8,0.0,Débito,mobile,1
+CLI01159,41,59,Básico,19.90,68,81,9,3.1,Débito,tv,0
+CLI01160,19,35,Premium,39.90,50,137,3,1.5,Credito,Desktop,0
+CLI01161,70,9,Básico,19.90,12,52,9,4.8,"Cartão de Crédito",mobile,0
+CLI01162,75,13,PREMIUM,39.90,58,153,7,4.4,Débito,tv,0
+CLI01163,65,45,Premium,39.90,11,55,1,1.6,"Cartão de Crédito",mobile,1
+CLI01164,63,7,Premium,39.90,91,16,2,1.3,Credito,Desktop,0
+CLI01165,63,11,basico,19.90,58,19,9,0.9,Boleto,tv,1
+CLI01166,61,54,Padrão,29.90,53,120,7,0.9,Credito,mobile,0
+CLI01167,43,50,Premium,39.90,71,36,0,3.5,"Cartão de Crédito",Desktop,0
+CLI01168,35,6,Premium,39.90,4,90,6,0.1,"Cartão de Crédito",TV,0
+CLI01169,53,36,Básico,19.90,72,18,3,1.8,Boleto,tv,1
+CLI01170,54,7,PREMIUM,39.90,49,155,0,0.6,,mobile,1
+CLI01171,49,NaN,PREMIUM,39.90,51,41,,4.7,PIX,mobile,1
+CLI01172,44,41,basico,19.90,60,29,1,1.1,Boleto,mobile,1
+CLI01173,45,19,Básico,19.90,40,182,0,4.3,Credito,TV,0
+CLI01174,19,2,Padrão,29.90,17,95,7,0.9,Boleto,Tablet,1
+CLI01175,63,57,Básico,19.90,43,171,7,1.3,,Desktop,1
+CLI01176,60,42,PREMIUM,39.90,46,136,1,1.6,,tv,0
+CLI01177,56,9,Básico,19.90,85,140,7,1.3,PIX,Mobile,0
+CLI01178,69,60,Premium,39.90,88,42,0,1.7,Boleto,mobile,0
+CLI01179,45,10,Premium,39.90,83,103,1,3.7,Boleto,tv,0
+CLI01180,51,60,Premium,39.90,73,171,3,3.4,,Tablet,0
+CLI01181,59,58,Premium,39.90,93,126,2,2.1,PIX,Tablet,0
+CLI01182,27,NaN,PREMIUM,,72,138,8,2.6,Débito,Mobile,0
+CLI01183,24,3,PREMIUM,39.90,61,188,5,4.2,Credito,Mobile,1
+CLI01184,64,45,Premium,39.90,2,96,0,1.3,,Desktop,0
+CLI01185,,12,Básico,,36,22,9,1.7,Credito,tv,1
+CLI01186,73,5,PREMIUM,39.90,35,79,7,4.0,Boleto,tv,1
+CLI01187,36,51,Padrão,29.90,8,19,2,0.9,Débito,Mobile,0
+CLI01188,35,3,Básico,19.90,42,111,4,4.9,PIX,mobile,1
+CLI01189,40,NaN,Básico,,81,106,5,1.1,Débito,Desktop,0
+CLI01190,34,12,Premium,39.90,93,109,4,2.6,PIX,tv,1
+CLI01191,49,26,basico,19.90,77,144,9,2.3,Débito,Tablet,0
+CLI01192,26,NaN,Premium,39.90,70,80,3,1.0,"Cartão de Crédito",mobile,0
+CLI01193,38,50,PREMIUM,39.90,7,66,8,0.9,Boleto,mobile,0
+CLI01194,53,10,Básico,19.90,82,95,6,0.4,,tv,1
+CLI01195,19,1,basico,19.90,9,101,5,2.7,"Cartão de Crédito",Tablet,1
+CLI01196,66,6,Premium,39.90,65,83,5,4.6,Credito,Tablet,1
+CLI01197,52,57,Premium,39.90,88,24,6,3.1,Débito,mobile,0
+CLI01198,25,13,Básico,19.90,0,90,5,4.3,,Desktop,1
+CLI01199,71,60,Premium,39.90,9,47,0,3.7,Boleto,Mobile,1
+CLI01200,35,49,basico,19.90,56,34,9,3.4,"Cartão de Crédito",Mobile,0
+CLI01201,71,55,basico,19.90,76,51,7,2.8,PIX,TV,0
+CLI01202,28,52,Premium,39.90,82,103,6,4.0,PIX,Tablet,0
+CLI01203,19,15,Padrão,29.90,12,46,4,0.1,Credito,mobile,1
+CLI01204,40,16,PREMIUM,39.90,7,15,5,4.2,,TV,1
+CLI01205,22,33,Padrão,29.90,37,30,0,0.0,Débito,mobile,0
+CLI01206,34,48,basico,19.90,82,66,4,4.8,Boleto,TV,0
+CLI01207,65,49,Padrão,29.90,12,69,7,2.7,Credito,Mobile,1
+CLI01208,77,57,PREMIUM,39.90,88,81,1,1.5,Credito,tv,1
+CLI01209,27,35,PREMIUM,39.90,18,155,0,2.9,Débito,Desktop,1
+CLI01210,68,37,Padrão,29.90,69,25,0,4.6,"Cartão de Crédito",Desktop,0
+CLI01211,47,30,PREMIUM,39.90,63,138,3,1.5,Credito,Mobile,1
+CLI01212,31,10,Básico,19.90,58,166,4,2.8,Credito,mobile,0
+CLI01213,41,30,basico,19.90,17,114,2,4.6,"Cartão de Crédito",Mobile,1
+CLI01214,63,20,PREMIUM,39.90,2,55,8,2.1,,Desktop,1
+CLI01215,46,22,basico,19.90,62,15,0,1.8,Credito,Tablet,1
+CLI01216,30,58,Básico,19.90,52,113,9,3.3,Credito,Tablet,0
+CLI01217,28,59,Básico,19.90,76,73,5,3.6,,Desktop,0
+CLI01218,43,52,Básico,19.90,2,31,3,0.3,,TV,1
+CLI01219,65,23,Básico,19.90,29,145,2,0.5,,mobile,0
+CLI01220,19,21,PREMIUM,39.90,34,161,9,1.1,Credito,Desktop,1
+CLI01221,61,57,Básico,19.90,46,85,2,0.9,Credito,tv,0
+CLI01222,74,44,PREMIUM,39.90,32,33,1,2.8,,Desktop,0
+CLI01223,34,38,Padrão,29.90,23,36,5,0.1,,tv,1
+CLI01224,43,16,Premium,39.90,67,116,7,1.4,,tv,0
+CLI01225,21,6,Padrão,29.90,5,43,4,4.3,Boleto,tv,0
+CLI01226,29,51,PREMIUM,39.90,10,38,9,0.4,,tv,1
+CLI01227,34,42,basico,19.90,96,169,8,4.6,Débito,TV,0
+CLI01228,65,25,Premium,39.90,47,146,2,2.1,PIX,Desktop,0
+CLI01229,55,45,PREMIUM,39.90,57,38,7,0.5,Credito,mobile,0
+CLI01230,33,5,PREMIUM,39.90,55,78,4,3.3,Boleto,Desktop,1
+CLI01231,46,27,Premium,39.90,91,90,3,1.8,Boleto,Desktop,1
+CLI01232,47,7,Premium,39.90,35,173,5,2.5,Débito,Desktop,1
+CLI01233,54,28,Padrão,29.90,16,148,3,2.8,Credito,tv,1
+CLI01234,39,8,Premium,39.90,63,170,1,3.1,PIX,Mobile,0
+CLI01235,55,58,Premium,39.90,99,179,0,1.0,Boleto,Desktop,0
+CLI01236,73,34,Padrão,29.90,83,86,7,4.4,"Cartão de Crédito",mobile,1
+CLI01237,61,41,PREMIUM,39.90,48,152,8,1.9,Credito,Mobile,0
+CLI01238,18,3,basico,19.90,43,153,4,2.3,"Cartão de Crédito",tv,1
+CLI01239,61,36,basico,19.90,29,33,4,3.5,Boleto,TV,0
+CLI01240,52,60,basico,19.90,63,60,8,1.7,Boleto,tv,0
+CLI01241,32,16,Padrão,29.90,2,89,0,1.8,Débito,tv,0
+CLI01242,58,42,Premium,39.90,41,188,5,3.4,Débito,Desktop,1
+CLI01243,49,15,Básico,19.90,70,46,6,1.8,Débito,Desktop,0
+CLI01244,71,49,Premium,39.90,4,42,7,4.7,Credito,tv,0
+CLI01245,77,37,Padrão,29.90,32,84,9,4.3,,Tablet,0
+CLI01246,54,40,Básico,19.90,36,115,4,3.3,Débito,TV,0
+CLI01247,69,25,Básico,19.90,35,130,7,3.9,Débito,Mobile,0
+CLI01248,24,47,Premium,39.90,76,12,4,2.5,Débito,Mobile,1
+CLI01249,76,46,basico,19.90,18,75,,4.1,Débito,mobile,1
+CLI01250,29,22,basico,19.90,20,36,9,2.2,PIX,TV,0
+CLI01251,35,42,Padrão,29.90,85,87,0,4.3,,Desktop,0
+CLI01252,45,9,Padrão,29.90,79,42,0,1.5,Boleto,Tablet,0
+CLI01253,27,8,Premium,39.90,6,28,8,4.0,Boleto,Desktop,1
+CLI01254,52,50,Básico,19.90,96,188,9,3.7,,Tablet,1
+CLI01255,26,15,Básico,19.90,12,53,1,4.6,PIX,Desktop,0
+CLI01256,,22,Premium,39.90,41,129,9,4.9,"Cartão de Crédito",mobile,1
+CLI01257,28,35,basico,19.90,89,13,2,5.0,Boleto,TV,1
+CLI01258,39,33,Básico,19.90,31,143,5,3.3,Boleto,Tablet,0
+CLI01259,61,41,basico,19.90,29,144,9,4.9,,Tablet,1
+CLI01260,27,11,Premium,39.90,18,72,5,4.9,,TV,1
+CLI01261,22,56,Premium,39.90,81,153,0,3.2,Credito,Tablet,1
+CLI01262,32,33,Básico,19.90,54,102,4,2.0,Credito,mobile,0
+CLI01263,73,9,Premium,39.90,51,13,2,1.1,"Cartão de Crédito",Tablet,0
+CLI01264,30,22,PREMIUM,39.90,87,121,4,0.2,Débito,tv,0
+CLI01265,77,1,PREMIUM,39.90,51,36,6,0.9,,Tablet,1
+CLI01266,67,29,PREMIUM,39.90,91,122,2,3.6,PIX,Mobile,0
+CLI01267,28,36,Básico,19.90,51,120,3,3.1,Boleto,tv,0
+CLI01268,46,27,basico,19.90,76,73,9,0.2,,Mobile,1
+CLI01269,55,47,Básico,19.90,85,44,0,2.1,Débito,mobile,0
+CLI01270,67,29,Básico,19.90,22,167,8,0.5,,Tablet,0
+CLI01271,24,41,Padrão,29.90,88,23,3,2.2,"Cartão de Crédito",Mobile,0
+CLI01272,55,8,Premium,39.90,84,93,4,2.4,,TV,0
+CLI01273,62,7,Premium,39.90,10,157,3,1.1,Boleto,mobile,0
+CLI01274,70,19,basico,19.90,12,15,7,1.2,"Cartão de Crédito",Tablet,1
+CLI01275,31,53,Premium,39.90,32,14,9,4.8,Débito,mobile,0
+CLI01276,36,10,basico,19.90,41,117,7,1.7,Boleto,Tablet,0
+CLI01277,54,43,PREMIUM,39.90,66,10,7,1.8,,mobile,1
+CLI01278,62,6,basico,19.90,65,136,3,3.8,Credito,mobile,0
+CLI01279,53,30,basico,19.90,21,60,8,3.5,Credito,Tablet,0
+CLI01280,28,5,Padrão,29.90,63,16,2,1.0,Débito,Mobile,1
+CLI01281,29,55,Premium,39.90,5,20,5,2.9,Boleto,mobile,1
+CLI01282,45,10,Premium,39.90,30,170,0,1.7,Débito,Desktop,0
+CLI01283,62,58,Padrão,,19,43,7,4.8,Credito,mobile,1
+CLI01284,37,4,Padrão,29.90,17,158,4,3.4,PIX,Desktop,1
+CLI01285,46,53,basico,19.90,27,151,6,4.6,Débito,Desktop,0
+CLI01286,32,16,Básico,19.90,67,94,4,4.3,Boleto,TV,0
+CLI01287,66,53,Padrão,29.90,34,66,0,0.5,Credito,Desktop,0
+CLI01288,32,30,basico,19.90,83,170,5,0.7,Credito,Tablet,1
+CLI01289,73,21,basico,19.90,38,43,7,4.6,Boleto,Desktop,0
+CLI01290,28,41,Premium,39.90,34,187,4,1.0,,Tablet,1
+CLI01291,20,30,Premium,39.90,79,150,5,3.0,Débito,TV,0
+CLI01292,26,4,basico,19.90,35,65,0,0.5,Boleto,Desktop,1
+CLI01293,25,12,basico,19.90,40,89,4,1.9,"Cartão de Crédito",Mobile,0
+CLI01294,69,51,Premium,39.90,91,96,1,3.1,Débito,TV,0
+CLI01295,71,30,basico,19.90,87,145,1,4.0,PIX,mobile,0
+CLI01296,27,27,Premium,39.90,78,144,6,4.7,Débito,Mobile,1
+CLI01297,62,60,Padrão,29.90,73,39,6,2.9,,TV,1
+CLI01298,44,21,Padrão,29.90,34,74,3,2.2,"Cartão de Crédito",tv,1
+CLI01299,62,18,Padrão,29.90,2,14,4,3.1,"Cartão de Crédito",Tablet,0
+CLI01300,42,13,PREMIUM,39.90,49,77,8,1.0,PIX,mobile,1
+CLI01301,24,56,Padrão,29.90,4,137,5,2.0,PIX,Tablet,1
+CLI01302,24,5,basico,19.90,56,112,4,2.7,Boleto,TV,1
+CLI01303,31,58,Padrão,29.90,27,120,0,2.5,PIX,TV,0
+CLI01304,52,16,Padrão,29.90,44,112,2,3.3,"Cartão de Crédito",mobile,0
+CLI01305,61,38,Padrão,29.90,88,62,8,3.3,"Cartão de Crédito",tv,0
+CLI01306,77,57,Premium,39.90,20,123,8,4.6,Credito,TV,1
+CLI01307,33,1,Premium,39.90,52,116,5,4.5,Débito,TV,1
+CLI01308,61,41,basico,19.90,43,64,8,3.8,,Tablet,0
+CLI01309,42,12,basico,19.90,0,81,3,0.2,PIX,tv,1
+CLI01310,26,9,Básico,19.90,24,12,5,4.6,"Cartão de Crédito",TV,0
+CLI01311,43,52,basico,19.90,42,189,2,1.3,Credito,TV,0
+CLI01312,51,2,Padrão,29.90,48,95,5,1.5,Credito,TV,1
+CLI01313,64,16,PREMIUM,39.90,76,122,1,1.1,Credito,mobile,0
+CLI01314,52,26,Padrão,29.90,4,122,1,3.3,Credito,tv,0
+CLI01315,72,32,Padrão,29.90,96,160,0,0.9,"Cartão de Crédito",Desktop,0
+CLI01316,41,8,Básico,19.90,45,105,3,4.8,Credito,Desktop,0
+CLI01317,35,39,Premium,39.90,64,125,7,1.5,Débito,TV,0
+CLI01318,76,22,basico,19.90,10,37,5,4.9,Débito,tv,1
+CLI01319,65,11,basico,19.90,38,12,1,0.4,"Cartão de Crédito",TV,0
+CLI01320,18,20,Premium,39.90,20,78,3,1.9,PIX,Desktop,1
+CLI01321,23,55,Básico,19.90,80,114,2,3.7,,TV,0
+CLI01322,40,7,Básico,19.90,80,48,2,2.6,Boleto,TV,0
+CLI01323,18,40,Padrão,29.90,96,11,5,4.2,PIX,Desktop,1
+CLI01324,34,NaN,Básico,19.90,90,74,5,4.1,Débito,Mobile,1
+CLI01325,68,15,basico,19.90,12,59,9,4.9,"Cartão de Crédito",Mobile,1
+CLI01326,29,37,Padrão,29.90,63,93,1,4.7,"Cartão de Crédito",Tablet,0
+CLI01327,27,23,Premium,39.90,28,175,3,4.1,"Cartão de Crédito",tv,0
+CLI01328,59,11,Básico,19.90,62,44,2,2.1,,Desktop,0
+CLI01329,68,28,Básico,19.90,31,46,1,3.6,Débito,TV,0
+CLI01330,55,7,Premium,39.90,40,149,6,0.1,Boleto,mobile,0
+CLI01331,39,59,PREMIUM,39.90,65,111,5,3.0,Débito,Tablet,0
+CLI01332,56,10,Premium,39.90,79,81,6,4.5,Débito,Desktop,1
+CLI01333,35,59,Padrão,29.90,23,17,7,1.9,Boleto,tv,1
+CLI01334,74,35,basico,19.90,53,95,4,2.3,Credito,tv,1
+CLI01335,45,35,PREMIUM,39.90,75,122,4,4.7,Boleto,mobile,1
+CLI01336,,26,Básico,19.90,83,136,8,0.5,,Desktop,0
+CLI01337,25,29,basico,19.90,86,45,5,3.7,"Cartão de Crédito",Mobile,1
+CLI01338,47,3,Premium,39.90,11,96,3,4.4,"Cartão de Crédito",Mobile,1
+CLI01339,55,5,PREMIUM,39.90,10,189,3,2.2,"Cartão de Crédito",Tablet,0
+CLI01340,59,26,basico,19.90,72,52,1,0.8,Boleto,mobile,0
+CLI01341,31,51,Premium,39.90,38,133,1,4.8,Credito,tv,0
+CLI01342,33,36,Básico,19.90,49,79,3,2.6,PIX,Tablet,1
+CLI01343,49,60,Premium,39.90,69,172,7,2.2,PIX,Mobile,1
+CLI01344,32,29,Básico,19.90,2,68,6,0.6,Débito,TV,1
+CLI01345,33,21,Premium,39.90,35,57,0,5.0,PIX,mobile,0
+CLI01346,19,48,Premium,39.90,3,66,,0.5,Débito,tv,0
+CLI01347,39,2,Premium,39.90,35,70,1,2.8,,Desktop,0
+CLI01348,59,27,basico,19.90,99,112,4,4.9,"Cartão de Crédito",mobile,0
+CLI01349,65,56,Premium,39.90,64,165,9,1.1,,TV,0
+CLI01350,73,52,Básico,19.90,81,146,9,2.1,"Cartão de Crédito",Desktop,1
+CLI01351,20,10,Padrão,29.90,69,50,0,4.8,Boleto,mobile,1
+CLI01352,65,3,Premium,39.90,44,29,7,3.3,Credito,Mobile,1
+CLI01353,76,49,Padrão,29.90,93,44,4,1.6,"Cartão de Crédito",mobile,0
+CLI01354,57,54,Padrão,29.90,61,164,4,2.7,Débito,Mobile,0
+CLI01355,44,56,Premium,39.90,42,160,1,0.5,,Mobile,0
+CLI01356,66,12,PREMIUM,39.90,28,107,7,0.9,Boleto,tv,0
+CLI01357,31,40,Premium,39.90,85,139,7,3.7,"Cartão de Crédito",TV,1
+CLI01358,65,15,basico,19.90,77,43,8,2.2,PIX,Tablet,0
+CLI01359,60,27,Padrão,29.90,94,37,8,1.2,Débito,Desktop,0
+CLI01360,42,17,basico,19.90,26,155,8,0.8,Credito,Tablet,0
+CLI01361,31,48,Padrão,29.90,20,22,2,1.8,,mobile,0
+CLI01362,72,44,Premium,39.90,24,125,3,2.2,,Mobile,0
+CLI01363,54,45,PREMIUM,39.90,92,129,9,4.4,PIX,TV,0
+CLI01364,19,45,PREMIUM,39.90,47,81,0,0.2,PIX,Desktop,0
+CLI01365,35,15,Premium,39.90,14,47,8,4.9,"Cartão de Crédito",Mobile,1
+CLI01366,31,18,Básico,19.90,87,164,6,4.2,"Cartão de Crédito",Tablet,0
+CLI01367,58,43,Padrão,29.90,82,120,9,1.8,PIX,Tablet,0
+CLI01368,70,28,Premium,39.90,76,78,6,3.5,"Cartão de Crédito",Mobile,1
+CLI01369,42,2,Básico,19.90,63,126,3,3.2,"Cartão de Crédito",Desktop,1
+CLI01370,30,52,basico,19.90,63,167,5,0.9,Credito,TV,0
+CLI01371,56,35,Básico,19.90,7,61,5,2.3,Débito,Tablet,1
+CLI01372,30,12,Premium,39.90,20,33,0,4.8,PIX,Mobile,0
+CLI01373,49,6,Padrão,29.90,46,49,3,1.3,Boleto,Desktop,0
+CLI01374,19,40,Básico,19.90,81,173,0,2.6,"Cartão de Crédito",Mobile,1
+CLI01375,60,14,Premium,39.90,50,152,7,2.6,Credito,Tablet,0
+CLI01376,32,14,Padrão,29.90,10,167,7,3.0,Boleto,TV,0
+CLI01377,45,18,PREMIUM,39.90,2,85,9,1.9,"Cartão de Crédito",Desktop,1
+CLI01378,31,23,basico,19.90,8,77,8,3.9,PIX,tv,1
+CLI01379,45,28,PREMIUM,39.90,91,184,0,2.3,Débito,Desktop,1
+CLI01380,40,1,Básico,19.90,60,18,5,2.8,"Cartão de Crédito",TV,1
+CLI01381,38,54,PREMIUM,39.90,55,160,5,0.1,,Tablet,0
+CLI01382,22,3,Premium,39.90,30,144,3,0.7,Boleto,Mobile,0
+CLI01383,31,56,Padrão,29.90,50,129,0,0.6,Débito,Tablet,1
+CLI01384,29,33,Padrão,29.90,23,176,6,4.0,Boleto,mobile,1
+CLI01385,67,60,Padrão,29.90,43,19,1,2.8,,mobile,1
+CLI01386,59,35,Padrão,29.90,92,166,0,3.5,Credito,TV,0
+CLI01387,21,36,Premium,39.90,72,157,4,0.7,,mobile,1
+CLI01388,25,57,Premium,39.90,28,77,7,4.5,Credito,Tablet,0
+CLI01389,35,26,Padrão,29.90,29,157,9,2.5,Credito,TV,1
+CLI01390,23,30,PREMIUM,39.90,2,96,5,4.6,,mobile,0
+CLI01391,49,35,basico,19.90,15,156,0,3.4,"Cartão de Crédito",tv,0
+CLI01392,35,11,Padrão,29.90,59,77,0,1.6,Boleto,mobile,0
+CLI01393,31,44,basico,19.90,20,119,0,2.4,PIX,tv,0
+CLI01394,45,48,Premium,39.90,98,120,9,4.0,"Cartão de Crédito",TV,0
+CLI01395,24,36,basico,19.90,71,87,6,0.6,Débito,Desktop,1
+CLI01396,25,12,Premium,39.90,59,61,5,3.3,PIX,Desktop,0
+CLI01397,74,28,Padrão,29.90,32,189,2,2.0,Credito,TV,0
+CLI01398,20,13,Premium,39.90,27,72,3,2.5,Boleto,Desktop,1
+CLI01399,23,48,Padrão,29.90,32,79,7,0.7,PIX,tv,0
+CLI01400,51,27,Padrão,29.90,69,56,4,4.7,,TV,1
+CLI01401,56,10,Padrão,29.90,10,116,0,2.3,"Cartão de Crédito",mobile,1
+CLI01402,19,40,basico,19.90,50,32,5,4.5,"Cartão de Crédito",mobile,0
+CLI01403,66,20,Premium,39.90,25,182,8,2.7,,tv,0
+CLI01404,73,6,Básico,19.90,40,149,5,3.0,Débito,Tablet,0
+CLI01405,43,4,Padrão,29.90,79,86,1,2.3,,TV,0
+CLI01406,69,41,basico,19.90,44,43,2,2.6,,Mobile,0
+CLI01407,48,22,Padrão,29.90,25,148,9,2.2,Credito,mobile,1
+CLI01408,40,46,basico,19.90,62,124,0,0.8,Credito,mobile,0
+CLI01409,25,8,basico,19.90,12,125,8,1.5,Credito,Desktop,0
+CLI01410,18,4,Padrão,29.90,77,175,7,4.0,"Cartão de Crédito",mobile,0
+CLI01411,19,58,Padrão,29.90,83,93,7,0.3,,Tablet,0
+CLI01412,55,34,Básico,19.90,45,15,8,3.6,Boleto,Desktop,0
+CLI01413,35,43,Básico,19.90,14,166,6,3.0,,Tablet,0
+CLI01414,63,15,PREMIUM,39.90,39,152,0,0.8,Boleto,tv,0
+CLI01415,77,8,Básico,19.90,71,14,2,0.5,Credito,Desktop,1
+CLI01416,67,46,basico,19.90,13,104,8,1.5,Credito,Desktop,1
+CLI01417,20,16,Premium,39.90,48,186,4,3.8,Débito,Mobile,0
+CLI01418,64,18,Padrão,29.90,33,18,4,0.2,Boleto,TV,1
+CLI01419,40,33,Premium,39.90,4,94,1,2.9,PIX,TV,0
+CLI01420,70,49,PREMIUM,39.90,29,102,3,1.9,Boleto,Mobile,0
+CLI01421,61,36,PREMIUM,39.90,12,81,6,4.8,Débito,mobile,0
+CLI01422,35,32,PREMIUM,39.90,57,41,2,0.7,Credito,mobile,0
+CLI01423,23,50,Básico,,93,98,,1.6,PIX,Mobile,0
+CLI01424,34,48,Premium,39.90,27,171,0,3.6,PIX,tv,1
+CLI01425,74,43,Padrão,29.90,27,148,5,2.7,Débito,Tablet,1
+CLI01426,46,35,basico,19.90,6,104,5,4.4,Boleto,Desktop,1
+CLI01427,32,39,Padrão,29.90,2,82,3,4.1,PIX,Tablet,0
+CLI01428,49,42,basico,19.90,44,184,1,4.6,PIX,mobile,0
+CLI01429,71,50,Básico,19.90,60,163,1,4.3,Débito,Mobile,0
+CLI01430,71,22,Premium,39.90,53,112,9,3.9,PIX,tv,0
+CLI01431,56,28,Básico,19.90,22,79,5,2.1,Boleto,mobile,1
+CLI01432,77,27,PREMIUM,39.90,57,132,7,1.9,PIX,tv,1
+CLI01433,47,9,basico,19.90,78,107,9,3.6,Boleto,tv,1
+CLI01434,39,12,basico,19.90,45,14,4,3.7,Credito,Tablet,1
+CLI01435,52,48,PREMIUM,39.90,32,170,3,3.2,,Mobile,1
+CLI01436,77,24,basico,19.90,91,127,4,2.9,Débito,tv,0
+CLI01437,44,3,PREMIUM,39.90,39,123,8,3.8,PIX,tv,0
+CLI01438,56,49,Padrão,29.90,98,110,8,0.2,Credito,mobile,1
+CLI01439,44,26,Básico,19.90,46,160,1,0.7,Débito,TV,0
+CLI01440,28,30,PREMIUM,39.90,82,151,7,4.4,PIX,TV,1
+CLI01441,27,23,Básico,19.90,73,169,3,0.5,"Cartão de Crédito",Desktop,0
+CLI01442,69,51,basico,19.90,53,169,2,1.8,Credito,mobile,0
+CLI01443,76,30,basico,19.90,23,149,8,4.9,"Cartão de Crédito",Desktop,0
+CLI01444,64,13,Padrão,29.90,42,169,0,3.9,Débito,Tablet,0
+CLI01445,52,31,Básico,19.90,76,174,6,1.7,,TV,0
+CLI01446,43,35,Padrão,,62,67,4,4.3,Credito,tv,1
+CLI01447,58,56,PREMIUM,39.90,96,145,0,1.3,PIX,Tablet,1
+CLI01448,38,41,Premium,39.90,35,42,3,1.6,Credito,TV,1
+CLI01449,50,23,Premium,39.90,69,79,2,2.8,PIX,Tablet,0
+CLI01450,27,21,Padrão,29.90,14,150,7,4.9,Débito,Mobile,0
+CLI01451,46,36,PREMIUM,39.90,82,148,0,2.9,Débito,Tablet,0
+CLI01452,71,55,Básico,19.90,67,76,5,3.4,Boleto,TV,1
+CLI01453,59,36,basico,19.90,40,80,5,3.3,"Cartão de Crédito",Desktop,1
+CLI01454,20,49,Premium,39.90,91,180,9,1.2,Débito,Desktop,1
+CLI01455,36,8,Padrão,29.90,40,181,6,3.4,Boleto,mobile,0
+CLI01456,45,18,PREMIUM,39.90,32,161,6,0.3,Credito,mobile,0
+CLI01457,32,14,PREMIUM,39.90,74,181,4,4.9,Boleto,mobile,0
+CLI01458,54,27,Premium,39.90,99,15,5,1.1,PIX,tv,1
+CLI01459,65,20,Básico,19.90,10,71,4,3.7,Credito,Tablet,1
+CLI01460,47,8,PREMIUM,39.90,78,94,4,3.2,,Tablet,0
+CLI01461,18,15,Básico,19.90,89,86,0,1.2,Débito,Tablet,0
+CLI01462,38,11,PREMIUM,39.90,9,72,8,2.3,PIX,Desktop,1
+CLI01463,70,15,Premium,39.90,12,189,4,3.4,Credito,mobile,1
+CLI01464,25,34,Básico,19.90,9,52,0,0.7,,mobile,1
+CLI01465,52,15,Premium,39.90,59,76,6,0.5,Boleto,TV,0
+CLI01466,45,37,PREMIUM,39.90,88,39,0,3.4,Credito,tv,0
+CLI01467,,47,Padrão,,36,29,7,3.2,Débito,TV,1
+CLI01468,65,10,Premium,39.90,86,163,5,1.2,"Cartão de Crédito",Mobile,1
+CLI01469,73,18,Padrão,29.90,39,94,3,2.1,Débito,mobile,0
+CLI01470,52,35,basico,19.90,14,99,0,3.7,Boleto,tv,0
+CLI01471,32,19,Premium,39.90,23,129,3,0.3,Débito,Desktop,0
+CLI01472,44,19,Premium,39.90,29,181,5,4.3,Boleto,Tablet,0
+CLI01473,54,11,Básico,19.90,99,28,8,1.4,Credito,tv,1
+CLI01474,45,56,PREMIUM,39.90,33,187,7,4.6,Credito,Tablet,0
+CLI01475,64,42,basico,19.90,9,94,7,2.4,Débito,tv,1
+CLI01476,33,45,PREMIUM,39.90,9,72,1,1.0,Credito,tv,0
+CLI01477,46,36,basico,19.90,79,39,0,4.3,Boleto,tv,0
+CLI01478,59,46,Padrão,29.90,84,33,6,3.1,,Desktop,1
+CLI01479,27,59,Básico,19.90,85,59,7,1.9,Credito,Tablet,1
+CLI01480,68,26,basico,19.90,60,147,6,1.7,Boleto,tv,0
+CLI01481,56,57,Premium,39.90,70,106,7,3.0,,mobile,0
+CLI01482,19,2,Padrão,29.90,10,136,0,0.1,Débito,mobile,1
+CLI01483,53,32,PREMIUM,39.90,91,11,9,1.4,"Cartão de Crédito",Tablet,0
+CLI01484,34,9,Básico,19.90,69,68,9,2.9,PIX,TV,1
+CLI01485,47,31,PREMIUM,39.90,16,123,4,2.0,,tv,1
+CLI01486,34,17,basico,19.90,85,148,7,3.5,"Cartão de Crédito",tv,0
+CLI01487,23,18,Básico,19.90,10,115,5,0.3,Débito,TV,0
+CLI01488,40,54,Premium,39.90,54,24,0,2.3,Boleto,TV,0
+CLI01489,51,26,PREMIUM,39.90,47,73,3,5.0,Boleto,mobile,0
+CLI01490,18,11,basico,19.90,52,107,0,2.6,PIX,mobile,0
+CLI01491,29,43,Premium,39.90,50,133,0,1.6,Débito,Tablet,0
+CLI01492,57,28,Básico,19.90,91,185,4,4.1,PIX,Tablet,1
+CLI01493,27,25,basico,19.90,76,155,2,4.4,Débito,Desktop,0
+CLI01494,62,52,PREMIUM,39.90,96,18,1,3.8,Débito,Desktop,0
+CLI01495,76,25,Básico,19.90,97,118,6,1.2,Credito,tv,0
+CLI01496,44,42,Básico,19.90,47,21,8,2.5,"Cartão de Crédito",tv,1
+CLI01497,39,50,Padrão,29.90,86,132,5,2.6,"Cartão de Crédito",Mobile,1
+CLI01498,18,44,Padrão,29.90,45,22,1,0.2,PIX,tv,1
+CLI01499,56,28,basico,19.90,40,66,7,4.7,Boleto,Tablet,1
+CLI01500,34,44,PREMIUM,39.90,25,18,5,4.9,,Desktop,1
+CLI01501,35,14,Básico,19.90,61,33,5,2.5,"Cartão de Crédito",Mobile,1
+CLI01502,54,49,Premium,39.90,7,172,3,0.5,,mobile,1
+CLI01503,36,NaN,PREMIUM,39.90,82,81,,4.6,Credito,Mobile,0
+CLI01504,20,4,Padrão,29.90,13,98,1,3.8,Credito,Tablet,1
+CLI01505,48,59,basico,19.90,67,112,4,3.6,PIX,Tablet,0
+CLI01506,31,4,PREMIUM,39.90,70,116,1,4.0,Débito,Mobile,1
+CLI01507,57,1,Padrão,29.90,73,132,9,2.3,Credito,Desktop,1
+CLI01508,62,33,Premium,39.90,60,63,3,3.2,,tv,0
+CLI01509,,15,Premium,39.90,76,176,1,0.7,"Cartão de Crédito",TV,1
+CLI01510,66,4,Básico,19.90,63,22,3,0.8,"Cartão de Crédito",Desktop,0
+CLI01511,21,2,basico,19.90,0,174,7,2.7,Débito,TV,1
+CLI01512,69,54,Básico,19.90,15,136,4,3.8,Boleto,Desktop,0
+CLI01513,29,57,Padrão,29.90,31,94,9,2.7,Boleto,Mobile,1
+CLI01514,40,8,Básico,19.90,10,149,6,0.5,,Desktop,1
+CLI01515,18,32,Padrão,29.90,42,138,9,2.1,"Cartão de Crédito",Tablet,1
+CLI01516,51,13,PREMIUM,39.90,72,132,6,3.0,Débito,mobile,0
+CLI01517,46,50,basico,19.90,12,180,4,0.5,,tv,0
+CLI01518,74,17,basico,19.90,95,53,8,3.8,Débito,Tablet,0
+CLI01519,75,53,Padrão,29.90,77,64,9,4.5,Débito,Tablet,0
+CLI01520,51,34,Premium,39.90,85,56,6,1.5,Credito,Desktop,0
+CLI01521,59,13,Básico,19.90,47,154,7,1.8,"Cartão de Crédito",Desktop,0
+CLI01522,45,49,PREMIUM,39.90,26,122,1,0.3,PIX,mobile,0
+CLI01523,68,18,PREMIUM,39.90,54,108,3,4.3,Credito,Tablet,1
+CLI01524,40,57,Premium,39.90,89,184,7,4.6,"Cartão de Crédito",Desktop,0
+CLI01525,36,45,Premium,39.90,47,140,8,1.0,"Cartão de Crédito",TV,1
+CLI01526,51,25,Premium,39.90,29,20,2,0.6,PIX,mobile,1
+CLI01527,35,21,PREMIUM,39.90,25,104,3,0.7,PIX,TV,1
+CLI01528,36,1,Padrão,29.90,7,159,2,4.7,,Desktop,1
+CLI01529,41,42,PREMIUM,39.90,39,107,2,4.9,"Cartão de Crédito",Desktop,0
+CLI01530,44,42,PREMIUM,39.90,12,96,4,3.9,PIX,tv,1
+CLI01531,,30,Premium,39.90,17,67,9,1.0,PIX,TV,1
+CLI01532,43,36,Padrão,29.90,79,37,9,1.1,Credito,Tablet,0
+CLI01533,68,7,Premium,39.90,68,21,8,1.9,,mobile,1
+CLI01534,62,60,PREMIUM,39.90,77,141,8,0.6,PIX,TV,1
+CLI01535,41,54,basico,19.90,76,44,6,0.6,,mobile,0
+CLI01536,53,16,Premium,39.90,81,168,2,2.0,Débito,TV,0
+CLI01537,47,26,Premium,39.90,75,180,7,4.9,,tv,0
+CLI01538,27,58,Premium,39.90,41,104,4,1.4,PIX,Tablet,1
+CLI01539,75,48,PREMIUM,39.90,31,33,0,0.3,Credito,tv,0
+CLI01540,75,19,Básico,19.90,87,149,0,0.6,Boleto,mobile,0
+CLI01541,62,25,Padrão,29.90,41,120,0,2.3,"Cartão de Crédito",mobile,0
+CLI01542,43,46,Básico,19.90,12,162,8,2.9,PIX,Mobile,1
+CLI01543,24,44,basico,19.90,63,12,4,3.9,,Desktop,0
+CLI01544,29,53,Premium,39.90,70,137,5,2.7,,Mobile,0
+CLI01545,29,10,Premium,39.90,22,70,0,1.6,PIX,mobile,0
+CLI01546,35,15,basico,,65,33,,4.7,"Cartão de Crédito",Desktop,0
+CLI01547,64,34,Premium,39.90,58,92,2,4.3,Boleto,Mobile,1
+CLI01548,74,45,Padrão,29.90,75,141,4,3.0,PIX,Tablet,1
+CLI01549,32,32,Básico,19.90,65,118,8,3.9,Credito,Tablet,0
+CLI01550,25,48,Padrão,29.90,40,67,5,2.6,Débito,tv,0
+CLI01551,18,21,Premium,39.90,37,171,3,1.2,Credito,TV,0
+CLI01552,65,35,PREMIUM,39.90,99,157,1,2.4,Credito,tv,0
+CLI01553,38,33,Padrão,29.90,7,129,9,2.3,Débito,Mobile,1
+CLI01554,32,29,Básico,19.90,76,90,8,0.1,"Cartão de Crédito",mobile,0
+CLI01555,60,32,Premium,39.90,74,124,9,3.0,Boleto,TV,0
+CLI01556,32,5,Padrão,29.90,32,71,2,1.3,Débito,tv,1
+CLI01557,58,2,Básico,19.90,67,91,8,2.9,PIX,tv,1
+CLI01558,22,19,PREMIUM,39.90,39,153,2,2.9,,TV,0
+CLI01559,71,38,Premium,39.90,20,25,9,4.9,Débito,Desktop,0
+CLI01560,61,59,Básico,19.90,28,18,6,0.2,Boleto,tv,1
+CLI01561,67,54,Básico,19.90,6,84,9,1.9,"Cartão de Crédito",TV,1
+CLI01562,46,44,basico,19.90,77,178,6,4.1,,TV,1
+CLI01563,49,3,Básico,19.90,86,63,1,3.1,PIX,Mobile,0
+CLI01564,26,58,Padrão,29.90,31,170,1,0.6,,Tablet,0
+CLI01565,20,44,basico,19.90,2,117,9,1.1,,Tablet,1
+CLI01566,,NaN,basico,19.90,63,117,6,4.6,PIX,TV,0
+CLI01567,70,2,PREMIUM,39.90,3,112,4,2.7,Boleto,Mobile,1
+CLI01568,65,15,Básico,19.90,36,27,7,4.8,Credito,Mobile,1
+CLI01569,44,17,Básico,19.90,30,126,8,0.2,Credito,Desktop,0
+CLI01570,61,42,Padrão,29.90,61,69,8,4.7,Débito,mobile,0
+CLI01571,29,18,Premium,39.90,78,138,2,2.0,PIX,Mobile,0
+CLI01572,44,41,Básico,19.90,16,130,1,4.4,Boleto,Desktop,1
+CLI01573,48,53,Básico,19.90,77,84,7,4.7,Débito,Desktop,1
+CLI01574,49,44,Premium,39.90,83,69,8,3.5,Boleto,Desktop,1
+CLI01575,40,45,Premium,39.90,60,180,5,5.0,"Cartão de Crédito",mobile,1
+CLI01576,62,39,Básico,19.90,16,26,6,0.3,"Cartão de Crédito",TV,1
+CLI01577,44,59,Básico,19.90,80,69,3,0.2,,tv,1
+CLI01578,21,38,Premium,39.90,98,90,4,3.3,,Tablet,0
+CLI01579,28,7,Padrão,29.90,72,119,2,1.0,Boleto,Mobile,0
+CLI01580,21,9,Padrão,29.90,90,165,6,0.5,,tv,0
+CLI01581,32,55,Padrão,29.90,25,100,0,2.7,PIX,mobile,1
+CLI01582,40,4,Premium,39.90,28,168,4,3.6,Credito,mobile,1
+CLI01583,18,33,Básico,19.90,90,187,7,2.4,Boleto,TV,1
+CLI01584,68,34,basico,19.90,26,19,4,2.3,,mobile,1
+CLI01585,38,36,Premium,39.90,89,34,8,3.7,PIX,TV,0
+CLI01586,29,30,Básico,19.90,41,13,9,0.6,,TV,1
+CLI01587,32,58,basico,19.90,92,130,2,3.5,,tv,0
+CLI01588,45,58,Padrão,29.90,94,80,1,4.3,PIX,Tablet,0
+CLI01589,61,5,Premium,39.90,21,110,2,3.9,PIX,Desktop,1
+CLI01590,57,14,Premium,39.90,29,12,6,0.3,"Cartão de Crédito",Desktop,0
+CLI01591,54,13,Padrão,29.90,89,173,4,3.8,PIX,mobile,0
+CLI01592,38,15,Básico,19.90,37,147,1,4.6,,Mobile,0
+CLI01593,41,47,PREMIUM,39.90,93,26,1,4.8,Débito,Tablet,0
+CLI01594,66,33,Premium,39.90,4,137,8,2.9,Boleto,mobile,0
+CLI01595,37,28,Padrão,29.90,10,170,8,4.6,Boleto,tv,1
+CLI01596,,27,basico,19.90,54,71,2,3.9,"Cartão de Crédito",tv,0
+CLI01597,54,39,Padrão,29.90,42,155,6,0.9,Credito,Tablet,0
+CLI01598,29,59,Básico,19.90,27,139,0,3.5,Credito,Mobile,0
+CLI01599,69,1,Básico,19.90,67,141,3,2.5,Débito,tv,1
+CLI01600,21,33,PREMIUM,39.90,26,33,8,4.0,Débito,mobile,1
+CLI01601,43,8,basico,19.90,87,69,6,2.9,PIX,TV,1
+CLI01602,72,46,Premium,39.90,70,89,8,3.8,,Tablet,0
+CLI01603,33,8,Padrão,29.90,82,84,1,3.9,PIX,tv,0
+CLI01604,52,20,Básico,19.90,34,66,0,3.6,Débito,Mobile,0
+CLI01605,54,11,PREMIUM,39.90,73,75,3,3.3,Boleto,Desktop,0
+CLI01606,62,55,PREMIUM,39.90,36,72,3,4.0,Débito,Tablet,0
+CLI01607,67,20,Premium,39.90,90,134,,4.4,PIX,tv,0
+CLI01608,47,3,Premium,39.90,8,141,1,1.1,Débito,tv,1
+CLI01609,48,36,basico,19.90,59,80,7,3.8,"Cartão de Crédito",mobile,1
+CLI01610,31,29,basico,19.90,20,63,0,3.9,Débito,tv,0
+CLI01611,51,60,PREMIUM,39.90,51,101,4,4.0,Credito,Desktop,0
+CLI01612,21,20,basico,19.90,6,22,6,0.3,Débito,Desktop,1
+CLI01613,43,11,Básico,19.90,68,71,0,1.3,,Mobile,0
+CLI01614,71,20,Básico,19.90,71,27,7,2.4,Boleto,mobile,1
+CLI01615,37,10,PREMIUM,39.90,13,78,6,4.3,Débito,Desktop,1
+CLI01616,57,23,basico,19.90,5,26,,4.4,Credito,tv,0
+CLI01617,55,16,Padrão,29.90,80,138,6,0.6,Boleto,TV,1
+CLI01618,66,17,Padrão,29.90,98,189,8,4.2,Credito,Mobile,1
+CLI01619,25,12,basico,19.90,81,60,1,3.7,Boleto,TV,0
+CLI01620,75,37,Padrão,29.90,33,47,7,1.4,Credito,tv,0
+CLI01621,65,55,Premium,39.90,50,131,0,3.6,Boleto,Mobile,0
+CLI01622,30,34,Básico,19.90,74,156,4,2.5,Débito,Mobile,1
+CLI01623,62,28,Básico,19.90,13,73,3,2.7,PIX,TV,0
+CLI01624,63,35,Básico,19.90,41,184,7,0.9,,Desktop,1
+CLI01625,24,57,Básico,19.90,5,134,0,1.4,Credito,Desktop,0
+CLI01626,27,15,basico,19.90,23,70,7,1.2,"Cartão de Crédito",Tablet,0
+CLI01627,55,42,PREMIUM,39.90,22,72,9,3.8,Débito,TV,0
+CLI01628,19,23,Padrão,29.90,96,133,5,4.7,PIX,tv,1
+CLI01629,31,24,Premium,39.90,3,81,7,1.2,Débito,mobile,1
+CLI01630,52,38,PREMIUM,39.90,7,76,4,2.7,"Cartão de Crédito",mobile,1
+CLI01631,23,13,Premium,39.90,3,164,7,4.4,"Cartão de Crédito",Desktop,0
+CLI01632,38,38,Premium,39.90,39,134,8,1.9,"Cartão de Crédito",tv,0
+CLI01633,49,10,Básico,19.90,98,153,6,2.3,Boleto,mobile,0
+CLI01634,40,20,Premium,39.90,65,34,9,4.9,Boleto,Tablet,0
+CLI01635,41,60,Premium,39.90,26,14,8,4.6,Boleto,tv,1
+CLI01636,33,45,Premium,39.90,56,176,9,0.8,PIX,TV,1
+CLI01637,76,28,Padrão,29.90,25,136,1,4.1,Débito,mobile,0
+CLI01638,36,12,Premium,39.90,43,76,7,0.7,PIX,mobile,1
+CLI01639,65,41,Premium,39.90,98,57,2,2.2,Boleto,mobile,0
+CLI01640,42,8,Básico,19.90,65,99,8,2.4,Credito,Mobile,0
+CLI01641,28,1,basico,19.90,82,164,9,2.7,Débito,mobile,1
+CLI01642,65,39,Premium,39.90,91,130,7,1.0,Boleto,Mobile,1
+CLI01643,21,51,Básico,19.90,98,39,3,2.8,,mobile,1
+CLI01644,65,9,Básico,19.90,74,82,5,3.2,Débito,mobile,0
+CLI01645,51,43,PREMIUM,39.90,74,109,2,4.6,Débito,Tablet,0
+CLI01646,50,36,Premium,39.90,7,105,2,4.6,Boleto,Mobile,0
+CLI01647,33,3,Básico,19.90,76,23,8,2.3,,Mobile,1
+CLI01648,40,27,Premium,39.90,21,69,4,0.7,Boleto,Mobile,1
+CLI01649,64,28,basico,19.90,61,78,8,1.0,Débito,mobile,0
+CLI01650,20,4,PREMIUM,39.90,8,99,9,4.9,Débito,tv,1
+CLI01651,68,5,Básico,19.90,66,19,3,1.8,Boleto,Desktop,0
+CLI01652,72,42,Padrão,29.90,68,182,3,2.7,Credito,Tablet,0
+CLI01653,39,27,Premium,39.90,48,154,7,2.8,"Cartão de Crédito",Tablet,0
+CLI01654,53,58,basico,19.90,68,180,4,0.9,Boleto,Mobile,1
+CLI01655,76,35,Padrão,29.90,10,22,1,2.8,Débito,tv,0
+CLI01656,71,38,basico,19.90,63,148,7,3.7,Débito,TV,0
+CLI01657,68,30,basico,19.90,98,165,8,1.5,PIX,mobile,0
+CLI01658,30,55,basico,19.90,82,119,5,1.2,"Cartão de Crédito",TV,0
+CLI01659,25,54,basico,19.90,56,43,1,2.4,Credito,tv,0
+CLI01660,72,27,PREMIUM,39.90,27,69,9,4.8,Débito,Tablet,1
+CLI01661,41,43,Premium,39.90,99,88,6,4.4,PIX,TV,0
+CLI01662,49,55,Padrão,29.90,74,178,1,4.9,Credito,TV,0
+CLI01663,60,39,basico,19.90,48,166,1,1.3,,Mobile,0
+CLI01664,49,54,Padrão,29.90,21,176,8,1.8,Débito,tv,1
+CLI01665,77,3,Básico,19.90,42,56,6,1.2,"Cartão de Crédito",tv,0
+CLI01666,41,41,Básico,19.90,26,78,7,4.4,,tv,0
+CLI01667,44,48,Básico,19.90,79,111,4,0.5,Boleto,Tablet,0
+CLI01668,58,56,basico,,47,22,0,3.8,,Tablet,0
+CLI01669,64,52,Padrão,29.90,4,10,5,0.7,PIX,Tablet,1
+CLI01670,52,8,Premium,39.90,63,116,6,1.2,Boleto,Desktop,1
+CLI01671,56,7,Padrão,29.90,12,144,1,3.9,Débito,Desktop,0
+CLI01672,71,43,Básico,19.90,47,113,8,4.9,Credito,Mobile,1
+CLI01673,41,30,Básico,19.90,51,155,7,2.6,Boleto,Mobile,1
+CLI01674,58,12,Padrão,29.90,56,184,2,3.8,PIX,Mobile,0
+CLI01675,48,32,Padrão,29.90,36,188,3,0.5,"Cartão de Crédito",Desktop,0
+CLI01676,34,32,Básico,19.90,66,61,5,0.1,,Desktop,0
+CLI01677,52,30,basico,19.90,33,109,3,1.5,Credito,Desktop,0
+CLI01678,40,29,PREMIUM,39.90,99,170,7,0.8,,tv,1
+CLI01679,50,37,Básico,19.90,21,151,6,0.6,Credito,tv,0
+CLI01680,26,46,Padrão,29.90,83,60,3,3.4,PIX,TV,0
+CLI01681,22,2,Padrão,29.90,30,101,8,0.1,,tv,0
+CLI01682,43,7,Básico,19.90,15,143,4,0.2,Débito,tv,1
+CLI01683,65,35,basico,19.90,25,107,7,2.3,Credito,TV,0
+CLI01684,67,4,Básico,19.90,52,174,3,0.2,PIX,Tablet,1
+CLI01685,23,59,basico,19.90,60,133,8,3.6,Boleto,Tablet,1
+CLI01686,37,23,Premium,39.90,68,41,8,0.4,Boleto,Desktop,0
+CLI01687,65,57,basico,19.90,32,169,2,3.5,,TV,0
+CLI01688,62,4,Básico,19.90,5,175,2,1.4,Boleto,Desktop,1
+CLI01689,70,55,Padrão,29.90,58,71,1,0.5,Credito,tv,1
+CLI01690,30,39,Básico,19.90,95,52,0,0.3,Credito,Mobile,1
+CLI01691,67,23,Básico,19.90,42,161,5,1.2,,mobile,1
+CLI01692,71,15,Premium,39.90,9,13,2,2.9,PIX,Desktop,1
+CLI01693,77,22,Padrão,29.90,31,79,8,4.0,Boleto,tv,0
+CLI01694,70,39,Padrão,29.90,80,37,,4.2,,tv,0
+CLI01695,55,29,basico,19.90,91,34,3,3.3,"Cartão de Crédito",mobile,0
+CLI01696,,48,Premium,39.90,83,32,5,3.1,"Cartão de Crédito",tv,0
+CLI01697,76,40,Premium,39.90,97,82,6,0.7,Boleto,mobile,0
+CLI01698,56,26,PREMIUM,39.90,23,155,1,2.9,PIX,mobile,0
+CLI01699,43,18,Padrão,29.90,84,44,0,1.0,Boleto,Tablet,0
+CLI01700,24,13,Padrão,29.90,89,27,5,2.9,,TV,0
+CLI01701,60,9,Premium,39.90,97,160,5,1.3,Credito,Desktop,0
+CLI01702,72,12,Básico,19.90,60,110,3,4.0,Credito,Desktop,1
+CLI01703,76,19,PREMIUM,39.90,33,66,8,4.7,"Cartão de Crédito",TV,0
+CLI01704,76,13,Padrão,29.90,32,162,3,3.3,,tv,0
+CLI01705,49,14,Básico,19.90,97,171,1,4.6,Credito,Desktop,0
+CLI01706,65,13,Básico,19.90,31,119,7,3.3,Boleto,tv,1
+CLI01707,41,46,Premium,39.90,87,69,2,2.9,PIX,Desktop,0
+CLI01708,38,23,Padrão,29.90,47,78,6,2.8,,TV,0
+CLI01709,28,59,Básico,19.90,74,50,3,3.8,Boleto,tv,0
+CLI01710,40,23,Padrão,29.90,70,18,2,1.3,"Cartão de Crédito",Mobile,0
+CLI01711,45,3,Premium,39.90,66,56,5,3.8,Credito,tv,1
+CLI01712,74,23,Padrão,29.90,49,187,2,2.3,"Cartão de Crédito",tv,0
+CLI01713,25,60,Básico,19.90,54,34,4,3.4,,tv,0
+CLI01714,25,16,Básico,19.90,18,159,4,0.2,"Cartão de Crédito",Desktop,0
+CLI01715,31,52,Premium,39.90,90,132,5,3.5,PIX,Mobile,1
+CLI01716,61,39,Padrão,29.90,83,184,6,4.0,,Mobile,0
+CLI01717,73,20,Premium,39.90,77,125,7,0.8,Credito,Desktop,1
+CLI01718,37,23,basico,19.90,44,161,6,2.3,Credito,Tablet,1
+CLI01719,73,33,PREMIUM,39.90,67,158,4,0.4,Boleto,tv,0
+CLI01720,26,12,Básico,19.90,4,156,4,4.0,,mobile,1
+CLI01721,50,46,Padrão,29.90,91,90,9,1.1,,mobile,0
+CLI01722,68,23,Padrão,29.90,17,161,5,4.6,Credito,tv,1
+CLI01723,68,1,Premium,39.90,80,75,1,0.7,Credito,tv,1
+CLI01724,21,47,Premium,39.90,98,76,2,2.6,Credito,mobile,0
+CLI01725,69,58,Básico,19.90,24,97,0,3.2,Credito,tv,0
+CLI01726,75,12,Padrão,29.90,24,66,3,4.1,Débito,Tablet,0
+CLI01727,20,33,Padrão,29.90,38,93,9,1.8,Boleto,TV,1
+CLI01728,67,58,basico,19.90,74,109,3,0.7,Boleto,Desktop,0
+CLI01729,48,39,Premium,39.90,24,28,6,2.3,Boleto,mobile,1
+CLI01730,39,55,Premium,39.90,35,113,6,3.8,"Cartão de Crédito",tv,0
+CLI01731,47,19,PREMIUM,39.90,82,171,7,1.9,Credito,Mobile,1
+CLI01732,24,44,Premium,39.90,66,66,9,3.4,Credito,Mobile,1
+CLI01733,41,5,Padrão,29.90,11,170,1,0.6,Credito,Mobile,1
+CLI01734,45,5,Padrão,29.90,65,90,5,4.7,Boleto,mobile,1
+CLI01735,75,44,basico,19.90,53,138,5,2.4,Credito,Desktop,0
+CLI01736,60,28,Básico,19.90,84,172,0,2.4,,Desktop,0
+CLI01737,76,46,Padrão,29.90,3,11,5,1.9,Credito,TV,1
+CLI01738,74,20,PREMIUM,39.90,47,103,7,0.6,PIX,TV,0
+CLI01739,22,10,Básico,19.90,13,175,9,0.3,PIX,mobile,0
+CLI01740,47,20,PREMIUM,39.90,91,82,0,1.9,PIX,mobile,1
+CLI01741,69,27,Premium,39.90,92,81,7,3.9,"Cartão de Crédito",tv,0
+CLI01742,64,56,basico,19.90,91,103,2,0.2,"Cartão de Crédito",Desktop,0
+CLI01743,46,56,basico,19.90,39,158,6,3.5,Débito,mobile,0
+CLI01744,31,36,basico,19.90,97,115,8,0.2,Boleto,TV,0
+CLI01745,44,24,Básico,19.90,39,110,8,4.0,"Cartão de Crédito",tv,1
+CLI01746,22,3,Padrão,29.90,71,86,6,1.8,,Tablet,0
+CLI01747,32,33,Básico,19.90,27,185,7,2.5,Débito,mobile,0
+CLI01748,57,23,PREMIUM,39.90,33,113,0,0.1,,TV,0
+CLI01749,53,42,Padrão,29.90,96,151,5,4.5,Credito,Mobile,1
+CLI01750,73,41,Premium,39.90,27,160,2,4.0,Credito,mobile,0
+CLI01751,30,43,PREMIUM,39.90,20,62,7,4.8,,Desktop,0
+CLI01752,52,6,Premium,39.90,70,162,2,1.4,"Cartão de Crédito",TV,0
+CLI01753,26,23,Padrão,29.90,94,102,3,3.4,Credito,TV,1
+CLI01754,61,26,Básico,19.90,69,100,0,4.9,Débito,Desktop,0
+CLI01755,56,3,Premium,39.90,42,139,7,4.4,,mobile,1
+CLI01756,30,12,Premium,39.90,15,86,2,0.7,,Desktop,0
+CLI01757,45,60,Básico,19.90,50,89,5,2.0,Boleto,TV,0
+CLI01758,21,60,Básico,19.90,73,30,2,3.7,Boleto,Mobile,0
+CLI01759,34,15,Premium,39.90,91,105,9,4.4,,TV,1
+CLI01760,34,12,PREMIUM,39.90,33,157,0,4.1,Boleto,Desktop,0
+CLI01761,38,48,Padrão,29.90,97,137,8,2.7,Boleto,Tablet,0
+CLI01762,19,9,Básico,19.90,44,77,0,0.0,Débito,mobile,0
+CLI01763,30,41,basico,19.90,68,36,6,0.1,Credito,mobile,1
+CLI01764,48,46,Premium,39.90,86,50,4,3.6,PIX,tv,0
+CLI01765,,39,basico,19.90,26,140,1,3.0,,mobile,0
+CLI01766,36,33,basico,19.90,78,63,1,3.0,PIX,TV,0
+CLI01767,25,29,Padrão,29.90,66,70,2,4.0,Débito,Tablet,0
+CLI01768,38,14,Básico,19.90,14,62,2,2.9,Credito,Tablet,0
+CLI01769,68,20,Premium,39.90,4,92,9,3.6,Débito,mobile,1
+CLI01770,47,10,Padrão,29.90,86,97,2,2.1,Débito,mobile,0
+CLI01771,24,46,basico,19.90,18,70,6,4.9,PIX,Tablet,1
+CLI01772,40,47,Básico,19.90,80,13,7,3.1,Boleto,mobile,0
+CLI01773,26,53,Básico,19.90,53,98,1,2.0,,Mobile,0
+CLI01774,21,60,basico,19.90,71,158,0,3.9,Credito,Mobile,1
+CLI01775,67,21,Básico,19.90,13,10,8,3.0,Boleto,Desktop,1
+CLI01776,45,4,PREMIUM,39.90,32,11,4,1.5,"Cartão de Crédito",tv,1
+CLI01777,62,1,Premium,39.90,59,135,5,1.6,"Cartão de Crédito",mobile,1
+CLI01778,62,45,basico,19.90,16,152,9,2.7,PIX,Tablet,1
+CLI01779,39,27,basico,19.90,69,86,6,4.4,Débito,Mobile,0
+CLI01780,39,46,Básico,19.90,38,125,7,4.9,Boleto,Desktop,0
+CLI01781,55,35,PREMIUM,39.90,96,151,4,3.7,,TV,0
+CLI01782,24,50,basico,19.90,32,42,7,1.4,Credito,Mobile,1
+CLI01783,39,19,Padrão,29.90,30,36,3,2.9,Boleto,Mobile,0
+CLI01784,50,45,PREMIUM,39.90,90,132,8,3.1,PIX,Mobile,0
+CLI01785,51,5,Padrão,29.90,55,65,0,4.3,Boleto,tv,1
+CLI01786,75,57,Premium,39.90,56,25,7,2.4,"Cartão de Crédito",Desktop,0
+CLI01787,76,18,Padrão,29.90,41,123,1,2.5,"Cartão de Crédito",Tablet,0
+CLI01788,62,38,Básico,19.90,48,118,7,0.5,Credito,Tablet,0
+CLI01789,50,37,Padrão,29.90,0,77,6,0.4,,mobile,0
+CLI01790,58,30,PREMIUM,39.90,72,27,3,1.1,Débito,TV,0
+CLI01791,77,8,Padrão,29.90,59,11,5,1.6,"Cartão de Crédito",Mobile,0
+CLI01792,28,51,Premium,39.90,29,27,6,3.6,,Tablet,1
+CLI01793,70,25,Básico,19.90,89,86,3,0.2,"Cartão de Crédito",TV,0
+CLI01794,21,30,Básico,19.90,0,78,2,0.1,,mobile,0
+CLI01795,51,56,PREMIUM,39.90,93,133,0,0.8,,tv,1
+CLI01796,75,46,Premium,39.90,71,113,5,0.8,Débito,Mobile,0
+CLI01797,47,8,Básico,19.90,26,50,6,2.2,PIX,tv,1
+CLI01798,27,12,Padrão,29.90,79,57,5,4.3,,TV,1
+CLI01799,44,3,Padrão,29.90,87,117,0,2.7,,tv,0
+CLI01800,66,51,basico,19.90,96,74,3,1.7,Credito,mobile,0
+CLI01801,38,45,Básico,19.90,94,122,7,3.7,Débito,Tablet,1
+CLI01802,36,17,Padrão,29.90,21,43,4,2.9,"Cartão de Crédito",Tablet,0
+CLI01803,40,35,basico,19.90,48,168,6,0.1,PIX,Mobile,0
+CLI01804,35,40,Básico,19.90,11,26,0,3.5,Credito,TV,1
+CLI01805,60,30,basico,19.90,75,41,8,4.2,PIX,Desktop,1
+CLI01806,48,33,basico,19.90,71,13,7,0.4,,TV,1
+CLI01807,42,48,Padrão,29.90,48,130,9,0.0,PIX,TV,0
+CLI01808,77,18,basico,19.90,2,97,6,2.4,"Cartão de Crédito",TV,1
+CLI01809,48,59,Padrão,29.90,11,112,6,4.2,,Tablet,1
+CLI01810,42,49,PREMIUM,39.90,93,67,5,2.3,Credito,Desktop,0
+CLI01811,43,60,Premium,39.90,57,177,4,2.5,"Cartão de Crédito",TV,1
+CLI01812,21,52,basico,19.90,18,90,9,0.2,PIX,Tablet,1
+CLI01813,57,34,Padrão,29.90,89,102,3,4.3,Débito,Mobile,0
+CLI01814,73,33,Padrão,29.90,33,28,9,0.6,Credito,Tablet,0
+CLI01815,32,46,Premium,39.90,64,71,2,2.7,Débito,Desktop,0
+CLI01816,46,15,Padrão,29.90,68,141,4,2.0,Credito,mobile,1
+CLI01817,39,28,Básico,19.90,7,131,4,3.1,PIX,Desktop,0
+CLI01818,70,54,basico,19.90,65,110,7,2.4,,Desktop,0
+CLI01819,24,52,PREMIUM,39.90,72,45,1,0.1,Boleto,mobile,0
+CLI01820,55,47,basico,19.90,71,142,1,2.3,,mobile,0
+CLI01821,31,51,PREMIUM,39.90,25,173,6,4.6,Boleto,tv,1
+CLI01822,58,45,Premium,39.90,47,186,7,2.9,Débito,tv,1
+CLI01823,60,41,Padrão,29.90,52,117,2,2.4,Boleto,Mobile,1
+CLI01824,75,16,PREMIUM,39.90,16,147,5,1.2,PIX,Desktop,1
+CLI01825,69,20,Básico,19.90,39,147,7,1.7,Credito,tv,0
+CLI01826,69,11,Padrão,29.90,57,140,6,4.1,Débito,TV,0
+CLI01827,35,47,basico,19.90,84,174,9,4.0,Débito,mobile,1
+CLI01828,27,45,Premium,39.90,30,101,8,2.1,Boleto,Desktop,1
+CLI01829,41,42,Padrão,29.90,30,59,2,0.1,Débito,Mobile,1
+CLI01830,23,46,basico,19.90,75,135,7,2.4,Credito,TV,1
+CLI01831,41,53,PREMIUM,39.90,73,131,9,1.0,,tv,0
+CLI01832,51,56,Básico,19.90,92,123,4,0.2,Credito,tv,1
+CLI01833,67,32,Básico,19.90,43,105,5,1.3,,Mobile,0
+CLI01834,44,11,Padrão,29.90,6,80,2,2.6,Boleto,TV,0
+CLI01835,59,14,Padrão,29.90,67,61,2,0.7,"Cartão de Crédito",Mobile,1
+CLI01836,60,38,Padrão,29.90,92,169,7,0.8,Credito,tv,1
+CLI01837,23,48,basico,19.90,27,60,8,3.7,Boleto,mobile,0
+CLI01838,22,38,PREMIUM,39.90,69,151,5,0.5,Boleto,mobile,0
+CLI01839,51,43,Básico,19.90,18,141,1,3.7,Boleto,tv,0
+CLI01840,51,17,Básico,19.90,99,27,3,0.8,Credito,Desktop,1
+CLI01841,46,19,Premium,39.90,15,20,7,1.5,Boleto,Desktop,1
+CLI01842,77,10,Premium,39.90,87,168,2,2.0,PIX,Desktop,0
+CLI01843,65,56,Padrão,29.90,7,21,9,4.4,"Cartão de Crédito",tv,1
+CLI01844,75,36,basico,19.90,48,132,3,4.6,PIX,tv,0
+CLI01845,52,21,Premium,39.90,61,91,4,3.2,Débito,Desktop,1
+CLI01846,68,18,Básico,19.90,74,18,2,4.1,"Cartão de Crédito",TV,0
+CLI01847,73,21,PREMIUM,39.90,62,153,6,3.8,Débito,tv,0
+CLI01848,54,36,Premium,39.90,33,154,9,2.9,Boleto,mobile,1
+CLI01849,27,7,Básico,19.90,80,114,5,1.8,,TV,0
+CLI01850,26,21,Básico,19.90,44,60,6,0.9,Credito,Desktop,0
+CLI01851,20,9,Premium,39.90,96,15,3,0.8,PIX,TV,1
+CLI01852,68,17,basico,,6,106,7,3.3,PIX,mobile,0
+CLI01853,64,32,PREMIUM,39.90,60,95,5,2.3,Credito,Desktop,0
+CLI01854,30,16,Premium,39.90,14,51,2,2.1,Credito,Desktop,0
+CLI01855,50,34,Básico,19.90,65,171,8,0.6,Boleto,Mobile,0
+CLI01856,38,37,PREMIUM,39.90,93,39,4,3.1,PIX,Desktop,0
+CLI01857,27,1,Padrão,29.90,32,27,6,4.5,"Cartão de Crédito",Desktop,1
+CLI01858,20,38,Padrão,29.90,56,99,9,3.1,Boleto,Mobile,1
+CLI01859,51,33,Padrão,29.90,42,166,1,1.2,Boleto,Tablet,0
+CLI01860,27,1,PREMIUM,39.90,4,111,9,4.2,Débito,Tablet,1
+CLI01861,40,10,basico,19.90,80,77,9,2.6,Débito,TV,1
+CLI01862,60,57,Básico,19.90,73,141,6,1.4,Credito,Tablet,1
+CLI01863,20,58,basico,19.90,61,158,3,4.5,Boleto,TV,0
+CLI01864,55,8,Premium,39.90,75,51,5,1.9,Débito,mobile,1
+CLI01865,55,5,Premium,39.90,90,176,2,2.1,PIX,Mobile,1
+CLI01866,67,23,PREMIUM,39.90,4,93,7,0.9,PIX,TV,1
+CLI01867,53,32,PREMIUM,39.90,55,118,6,1.3,PIX,tv,1
+CLI01868,39,18,Padrão,29.90,31,160,9,4.5,Débito,TV,0
+CLI01869,26,28,PREMIUM,39.90,2,182,1,0.8,"Cartão de Crédito",TV,1
+CLI01870,27,59,Básico,19.90,99,73,8,3.3,Boleto,mobile,1
+CLI01871,41,40,basico,19.90,21,58,5,4.9,Boleto,Desktop,0
+CLI01872,68,37,Padrão,29.90,37,149,8,3.4,PIX,Mobile,0
+CLI01873,18,21,Padrão,29.90,54,49,5,1.7,Boleto,Tablet,1
+CLI01874,27,12,Padrão,29.90,33,160,1,0.3,Credito,Desktop,0
+CLI01875,62,56,basico,19.90,47,87,0,2.0,Credito,mobile,0
+CLI01876,74,39,basico,19.90,93,140,3,4.3,"Cartão de Crédito",Tablet,0
+CLI01877,55,10,basico,19.90,87,29,5,4.8,PIX,Tablet,1
+CLI01878,68,44,Básico,19.90,16,149,4,2.1,"Cartão de Crédito",TV,0
+CLI01879,20,8,Padrão,29.90,33,110,1,3.2,,Mobile,0
+CLI01880,68,60,PREMIUM,39.90,47,14,2,3.8,"Cartão de Crédito",TV,0
+CLI01881,75,59,Padrão,29.90,81,13,4,0.8,"Cartão de Crédito",Tablet,0
+CLI01882,18,27,basico,19.90,40,40,2,4.4,Credito,mobile,0
+CLI01883,66,13,Básico,19.90,53,105,7,0.8,,tv,1
+CLI01884,66,56,basico,19.90,11,149,0,2.9,Débito,Mobile,0
+CLI01885,53,31,basico,19.90,47,157,6,2.4,Débito,Mobile,1
+CLI01886,69,10,Premium,39.90,33,19,7,4.1,Boleto,Mobile,1
+CLI01887,53,52,Básico,19.90,46,176,5,0.7,PIX,TV,0
+CLI01888,48,39,Premium,39.90,59,140,3,3.0,Boleto,mobile,0
+CLI01889,75,14,Padrão,29.90,36,135,4,4.5,PIX,Desktop,0
+CLI01890,25,60,basico,19.90,1,127,9,1.0,Débito,Desktop,1
+CLI01891,,11,Básico,19.90,19,166,1,1.7,"Cartão de Crédito",Tablet,0
+CLI01892,74,37,Padrão,29.90,4,160,6,2.7,Débito,mobile,0
+CLI01893,54,55,basico,19.90,74,140,5,3.5,Débito,TV,1
+CLI01894,46,59,Básico,19.90,13,150,5,3.6,,Mobile,0
+CLI01895,75,NaN,Básico,,31,186,5,2.6,"Cartão de Crédito",mobile,1
+CLI01896,55,20,PREMIUM,39.90,56,26,0,1.3,Débito,tv,0
+CLI01897,40,38,Padrão,29.90,36,189,5,0.3,Boleto,Desktop,0
+CLI01898,73,24,Padrão,29.90,38,174,1,4.7,,TV,0
+CLI01899,21,40,Básico,19.90,17,119,7,0.8,PIX,Mobile,1
+CLI01900,72,36,Premium,39.90,25,170,9,4.6,Boleto,TV,0
+CLI01901,57,31,Padrão,29.90,39,174,3,1.8,Credito,mobile,0
+CLI01902,74,50,Básico,19.90,93,146,6,2.2,Boleto,tv,1
+CLI01903,53,21,PREMIUM,39.90,4,15,4,3.4,,Tablet,0
+CLI01904,74,25,Padrão,,59,76,3,2.8,PIX,TV,0
+CLI01905,23,12,Padrão,29.90,95,108,3,2.5,Débito,tv,0
+CLI01906,18,26,Básico,19.90,49,155,4,3.2,"Cartão de Crédito",tv,0
+CLI01907,65,29,Básico,19.90,83,57,7,3.6,,Mobile,0
+CLI01908,55,51,Básico,19.90,5,69,1,2.6,Débito,Desktop,1
+CLI01909,64,24,basico,19.90,76,121,7,1.8,Credito,mobile,1
+CLI01910,73,48,PREMIUM,39.90,98,28,2,4.5,,Tablet,0
+CLI01911,43,9,Padrão,29.90,19,168,4,3.9,PIX,TV,1
+CLI01912,18,56,Básico,19.90,61,36,9,2.6,,Tablet,0
+CLI01913,52,30,basico,19.90,19,138,6,1.5,Credito,Mobile,1
+CLI01914,47,4,Premium,39.90,72,14,4,1.9,,Mobile,1
+CLI01915,25,37,Padrão,29.90,37,103,5,3.3,Boleto,mobile,0
+CLI01916,68,32,basico,19.90,40,105,0,0.7,Boleto,mobile,0
+CLI01917,53,33,Padrão,29.90,87,110,8,2.1,Débito,tv,1
+CLI01918,27,43,Premium,39.90,66,142,7,0.0,Boleto,Desktop,0
+CLI01919,35,52,Básico,19.90,94,61,0,2.4,"Cartão de Crédito",Mobile,0
+CLI01920,58,48,Premium,39.90,32,88,5,2.1,Boleto,Desktop,0
+CLI01921,54,42,PREMIUM,39.90,22,33,4,1.0,,mobile,1
+CLI01922,58,7,Básico,19.90,37,123,9,2.2,,TV,0
+CLI01923,33,48,PREMIUM,39.90,28,110,5,2.2,Boleto,tv,0
+CLI01924,37,25,Básico,19.90,73,133,6,3.8,"Cartão de Crédito",TV,1
+CLI01925,34,38,Padrão,29.90,7,168,5,4.7,Boleto,Mobile,0
+CLI01926,70,52,Básico,19.90,88,180,6,0.1,"Cartão de Crédito",Tablet,1
+CLI01927,21,12,PREMIUM,39.90,99,135,3,2.7,Credito,Mobile,0
+CLI01928,26,4,PREMIUM,39.90,91,105,1,2.6,Débito,mobile,1
+CLI01929,70,56,Básico,19.90,58,152,0,3.1,"Cartão de Crédito",mobile,1
+CLI01930,72,53,PREMIUM,39.90,77,47,5,1.5,Boleto,mobile,1
+CLI01931,39,54,PREMIUM,39.90,33,62,8,0.0,Credito,mobile,1
+CLI01932,45,60,basico,19.90,49,74,2,3.5,,tv,0
+CLI01933,19,27,PREMIUM,39.90,43,80,6,4.7,"Cartão de Crédito",Desktop,1
+CLI01934,34,59,Básico,19.90,58,93,6,2.8,"Cartão de Crédito",Desktop,0
+CLI01935,68,22,Básico,19.90,16,68,3,3.0,Credito,Mobile,1
+CLI01936,60,9,Padrão,29.90,23,68,1,4.5,Boleto,tv,0
+CLI01937,46,43,Básico,19.90,95,129,5,0.4,"Cartão de Crédito",Mobile,1
+CLI01938,33,28,Premium,39.90,79,83,9,1.8,Boleto,tv,1
+CLI01939,57,1,basico,19.90,36,39,3,4.4,"Cartão de Crédito",Tablet,1
+CLI01940,72,24,Premium,39.90,32,126,5,0.1,Boleto,Desktop,0
+CLI01941,27,45,Básico,19.90,26,117,1,0.1,"Cartão de Crédito",Mobile,0
+CLI01942,24,21,Básico,19.90,88,149,2,3.7,Credito,Desktop,0
+CLI01943,43,4,basico,19.90,91,72,4,2.8,"Cartão de Crédito",Mobile,1
+CLI01944,66,25,basico,19.90,31,188,6,3.9,PIX,tv,0
+CLI01945,31,23,Padrão,29.90,49,167,0,2.4,"Cartão de Crédito",Mobile,0
+CLI01946,58,20,PREMIUM,39.90,3,27,0,2.4,Credito,mobile,1
+CLI01947,47,22,PREMIUM,39.90,53,64,1,0.5,Débito,Tablet,0
+CLI01948,29,52,PREMIUM,39.90,54,17,6,4.2,,tv,1
+CLI01949,55,36,Padrão,29.90,83,52,9,0.1,Credito,tv,1
+CLI01950,20,1,Básico,19.90,89,79,7,4.7,PIX,Mobile,1
+CLI01951,29,7,PREMIUM,39.90,56,149,5,3.9,,tv,1
+CLI01952,37,48,Básico,19.90,47,19,5,3.3,Débito,TV,1
+CLI01953,52,49,basico,19.90,34,49,5,4.3,"Cartão de Crédito",Tablet,0
+CLI01954,77,46,PREMIUM,39.90,98,51,9,4.9,,Desktop,1
+CLI01955,28,53,Padrão,29.90,49,117,6,2.3,PIX,Tablet,1
+CLI01956,61,2,Básico,19.90,27,20,8,1.5,PIX,tv,1
+CLI01957,35,14,Básico,19.90,32,46,9,2.0,PIX,TV,1
+CLI01958,29,46,basico,19.90,43,149,6,1.8,,TV,1
+CLI01959,39,36,Premium,39.90,2,122,7,3.0,Débito,Tablet,1
+CLI01960,53,41,Básico,19.90,71,168,7,4.1,Débito,Mobile,0
+CLI01961,76,32,Premium,39.90,75,44,5,3.4,"Cartão de Crédito",Tablet,0
+CLI01962,35,7,PREMIUM,39.90,50,139,0,3.2,Boleto,tv,0
+CLI01963,42,25,Padrão,29.90,99,128,5,3.7,PIX,Mobile,0
+CLI01964,66,50,Premium,39.90,90,177,5,4.2,,tv,0
+CLI01965,65,19,Padrão,29.90,27,117,5,0.9,Credito,Mobile,0
+CLI01966,23,1,Premium,39.90,66,24,2,0.3,PIX,mobile,1
+CLI01967,21,49,basico,19.90,40,125,4,2.9,Boleto,Mobile,0
+CLI01968,27,19,PREMIUM,39.90,89,158,9,1.9,Débito,Desktop,1
+CLI01969,41,36,basico,19.90,27,47,4,1.1,,mobile,1
+CLI01970,51,27,Padrão,29.90,80,118,2,3.4,PIX,tv,0
+CLI01971,59,15,PREMIUM,39.90,71,184,6,1.5,Credito,tv,0
+CLI01972,51,4,PREMIUM,39.90,70,147,3,1.6,Boleto,Desktop,1
+CLI01973,22,18,PREMIUM,39.90,18,86,5,3.2,,Desktop,1
+CLI01974,36,28,Premium,39.90,45,50,9,2.6,Débito,tv,0
+CLI01975,45,29,basico,19.90,41,161,8,0.5,Débito,mobile,0
+CLI01976,77,28,PREMIUM,39.90,50,156,8,3.1,PIX,mobile,0
+CLI01977,52,25,PREMIUM,39.90,76,154,0,3.0,Boleto,tv,0
+CLI01978,70,42,PREMIUM,39.90,28,187,2,2.9,Débito,mobile,1
+CLI01979,22,12,Básico,19.90,23,142,,1.3,Boleto,Tablet,0
+CLI01980,77,41,basico,19.90,33,157,7,0.7,PIX,Desktop,1
+CLI01981,49,26,PREMIUM,39.90,32,36,2,1.0,Credito,mobile,0
+CLI01982,,23,PREMIUM,39.90,81,114,8,4.7,Boleto,Tablet,0
+CLI01983,21,54,basico,19.90,61,80,5,2.3,PIX,Desktop,1
+CLI01984,27,22,Premium,39.90,6,90,5,0.5,Débito,Tablet,1
+CLI01985,36,46,basico,19.90,77,70,7,2.2,,mobile,0
+CLI01986,64,24,Básico,19.90,92,125,7,3.5,Credito,TV,0
+CLI01987,73,53,PREMIUM,39.90,29,88,3,1.6,Débito,Desktop,0
+CLI01988,70,10,Premium,39.90,86,173,3,3.5,Credito,tv,0
+CLI01989,20,8,Básico,19.90,68,107,8,0.0,Boleto,TV,1
+CLI01990,33,42,basico,19.90,86,164,0,2.6,,Tablet,0
+CLI01991,36,22,Básico,19.90,0,20,6,1.5,PIX,Tablet,1
+CLI01992,22,34,Básico,19.90,20,158,8,3.8,,Mobile,1
+CLI01993,52,50,Premium,39.90,0,177,1,4.2,Débito,Mobile,0
+CLI01994,45,44,basico,19.90,28,50,9,1.5,Boleto,Mobile,1
+CLI01995,32,33,Básico,19.90,70,114,3,3.4,PIX,Tablet,0
+CLI01996,72,54,Premium,39.90,36,19,8,4.7,Credito,Desktop,1
+CLI01997,48,29,Padrão,29.90,44,158,0,3.5,,mobile,0
+CLI01998,37,8,Padrão,29.90,71,142,6,3.4,Débito,tv,1
+CLI01999,21,7,PREMIUM,39.90,99,161,0,4.8,Boleto,Desktop,0
+CLI02000,33,21,Padrão,29.90,26,120,2,4.7,Débito,TV,1
+CLI02001,64,31,basico,19.90,76,51,6,4.0,Boleto,tv,1
+CLI02002,77,14,Básico,19.90,29,12,9,1.0,Boleto,Mobile,1
+CLI02003,73,19,PREMIUM,39.90,29,18,0,3.7,Boleto,tv,0
+CLI02004,26,9,Padrão,29.90,58,39,9,4.9,,Tablet,0
+CLI02005,62,33,Premium,39.90,73,104,8,0.9,Débito,TV,0
+CLI02006,70,21,PREMIUM,39.90,78,149,3,2.7,Boleto,Mobile,0
+CLI02007,19,26,basico,19.90,12,47,6,4.5,,Tablet,0
+CLI02008,18,26,Básico,19.90,31,38,4,2.4,,tv,1
+CLI02009,75,24,Básico,19.90,35,98,3,3.8,,Tablet,1
+CLI02010,63,11,basico,19.90,3,168,7,0.0,Débito,Desktop,0
+CLI02011,52,31,basico,19.90,93,119,1,2.0,Débito,Tablet,0
+CLI02012,43,51,basico,19.90,78,172,4,0.1,Débito,TV,0
+CLI02013,58,44,Padrão,29.90,81,48,2,2.5,Credito,Desktop,0
+CLI02014,74,6,Básico,19.90,70,146,9,1.3,Boleto,Mobile,1
+CLI02015,54,44,Padrão,29.90,97,48,7,3.7,,tv,1
+CLI02016,20,24,Básico,19.90,91,12,2,3.2,Débito,Tablet,1
+CLI02017,41,36,Premium,39.90,0,170,3,2.0,PIX,Tablet,0
+CLI02018,60,6,Básico,19.90,15,143,1,1.2,Débito,mobile,1
+CLI02019,44,30,PREMIUM,39.90,90,96,7,3.4,Débito,Tablet,0
+CLI02020,57,32,PREMIUM,39.90,35,81,1,2.6,Débito,TV,1
+CLI02021,27,25,Básico,19.90,53,24,5,0.1,Credito,Mobile,1
+CLI02022,20,35,Padrão,29.90,73,101,6,0.2,"Cartão de Crédito",TV,1
+CLI02023,74,57,Premium,39.90,24,130,6,2.6,Débito,Mobile,1
+CLI02024,67,41,Padrão,29.90,37,113,5,5.0,,mobile,0
+CLI02025,44,11,Padrão,29.90,8,137,6,4.1,Débito,Mobile,1
+CLI02026,70,37,Básico,19.90,22,158,5,3.1,"Cartão de Crédito",tv,0
+CLI02027,51,29,PREMIUM,39.90,86,72,1,2.6,"Cartão de Crédito",Tablet,0
+CLI02028,62,32,basico,19.90,55,130,1,0.8,PIX,Tablet,0
+CLI02029,65,14,Básico,19.90,1,116,8,2.9,Credito,Mobile,0
+CLI02030,23,35,Básico,19.90,60,55,3,2.9,Boleto,mobile,0
+CLI02031,66,29,basico,19.90,90,77,1,4.2,Débito,Mobile,0
+CLI02032,36,7,Padrão,29.90,7,122,0,1.8,PIX,Mobile,0
+CLI02033,69,16,PREMIUM,39.90,40,117,5,0.5,,Mobile,1
+CLI02034,76,32,Premium,39.90,99,69,3,3.9,"Cartão de Crédito",Desktop,0
+CLI02035,51,59,Premium,39.90,27,112,6,1.1,,Mobile,1
+CLI02036,59,NaN,basico,19.90,0,86,,1.2,,Tablet,0
+CLI02037,43,54,Padrão,29.90,38,177,6,4.5,Boleto,TV,1
+CLI02038,72,7,basico,19.90,82,40,2,2.5,PIX,mobile,0
+CLI02039,63,7,Premium,39.90,61,162,9,0.5,"Cartão de Crédito",Tablet,1
+CLI02040,62,8,Padrão,29.90,15,45,7,1.1,,tv,0
+CLI02041,75,16,Básico,19.90,78,167,0,2.8,Credito,Mobile,1
+CLI02042,20,55,PREMIUM,39.90,65,178,6,4.7,PIX,Tablet,0
+CLI02043,23,41,Premium,39.90,18,15,7,2.7,,Mobile,1
+CLI02044,30,44,Padrão,29.90,44,101,0,4.7,,Mobile,0
+CLI02045,51,50,basico,19.90,94,168,1,2.0,Débito,Tablet,0
+CLI02046,67,13,PREMIUM,39.90,90,170,7,4.1,Boleto,Desktop,0
+CLI02047,21,51,Padrão,29.90,27,156,9,3.1,Credito,Tablet,1
+CLI02048,70,43,Básico,19.90,66,136,8,0.3,PIX,Mobile,0
+CLI02049,27,55,Premium,39.90,93,117,2,1.6,Credito,mobile,0
+CLI02050,23,52,basico,19.90,18,148,3,2.1,Boleto,tv,0
+CLI02051,30,37,basico,19.90,45,101,9,1.6,Boleto,tv,1
+CLI02052,29,55,PREMIUM,39.90,34,51,8,2.9,"Cartão de Crédito",TV,0
+CLI02053,62,56,basico,19.90,98,91,6,3.5,,Desktop,1
+CLI02054,38,27,Padrão,29.90,79,74,2,1.9,"Cartão de Crédito",tv,0
+CLI02055,48,32,PREMIUM,39.90,20,88,3,2.0,Credito,mobile,0
+CLI02056,58,52,basico,19.90,47,43,0,0.2,PIX,tv,0
+CLI02057,38,56,Básico,19.90,50,86,3,4.3,Boleto,Tablet,0
+CLI02058,63,35,Premium,39.90,41,45,8,1.3,Débito,mobile,1
+CLI02059,44,24,Padrão,29.90,66,77,3,1.3,,TV,0
+CLI02060,69,60,Básico,19.90,66,172,3,1.3,,Tablet,1
+CLI02061,57,11,basico,19.90,40,133,8,3.4,"Cartão de Crédito",Tablet,0
+CLI02062,47,31,Premium,39.90,26,88,,3.1,PIX,tv,0
+CLI02063,34,47,Premium,39.90,14,125,1,3.0,Credito,tv,0
+CLI02064,26,59,Padrão,29.90,85,71,4,0.2,Boleto,Tablet,0
+CLI02065,39,43,Premium,39.90,7,173,4,0.5,PIX,tv,1
+CLI02066,18,38,Padrão,29.90,24,92,1,4.9,Credito,Mobile,1
+CLI02067,62,33,basico,19.90,34,113,4,0.6,Credito,mobile,0
+CLI02068,75,57,basico,19.90,87,100,7,4.4,Débito,Tablet,0
+CLI02069,39,57,basico,19.90,20,110,4,1.1,"Cartão de Crédito",mobile,0
+CLI02070,52,55,Premium,39.90,4,185,3,0.1,,Mobile,1
+CLI02071,40,59,Padrão,29.90,21,128,2,4.1,PIX,Mobile,0
+CLI02072,35,15,Padrão,29.90,8,53,2,0.1,Boleto,TV,1
+CLI02073,59,42,Padrão,29.90,8,160,7,2.9,"Cartão de Crédito",Tablet,0
+CLI02074,31,35,Básico,19.90,29,73,7,3.4,"Cartão de Crédito",tv,0
+CLI02075,64,34,Premium,39.90,6,171,0,2.3,Credito,mobile,0
+CLI02076,31,8,Premium,39.90,68,42,7,3.4,Boleto,tv,0
+CLI02077,47,55,Padrão,29.90,18,109,7,1.7,Credito,TV,1
+CLI02078,58,42,Padrão,29.90,56,144,8,3.0,Boleto,TV,0
+CLI02079,74,38,Padrão,29.90,72,141,4,4.1,PIX,Mobile,1
+CLI02080,76,17,basico,19.90,62,108,2,0.6,"Cartão de Crédito",TV,0
+CLI02081,62,10,Básico,19.90,31,83,2,1.1,"Cartão de Crédito",Tablet,0
+CLI02082,27,23,Padrão,29.90,51,44,7,0.6,Boleto,Mobile,0
+CLI02083,64,53,Padrão,29.90,39,26,4,2.8,Credito,TV,0
+CLI02084,18,17,Básico,19.90,96,116,2,4.0,Boleto,Mobile,0
+CLI02085,67,46,Padrão,29.90,87,97,8,2.9,Débito,Desktop,0
+CLI02086,30,29,Premium,39.90,28,188,7,0.7,,Desktop,0
+CLI02087,23,18,Básico,,78,35,7,3.1,,Mobile,0
+CLI02088,50,31,basico,19.90,89,52,6,3.2,PIX,TV,0
+CLI02089,54,16,Premium,39.90,59,25,,0.3,"Cartão de Crédito",Desktop,0
+CLI02090,58,17,basico,19.90,30,183,6,2.6,Débito,mobile,0
+CLI02091,70,35,PREMIUM,39.90,33,11,6,0.3,Credito,tv,1
+CLI02092,51,35,basico,19.90,50,179,6,2.3,Débito,Tablet,1
+CLI02093,74,42,Premium,39.90,18,73,6,3.5,PIX,Mobile,0
+CLI02094,65,NaN,basico,19.90,47,135,,2.8,"Cartão de Crédito",TV,0
+CLI02095,76,55,PREMIUM,39.90,52,145,5,3.2,,TV,0
+CLI02096,35,57,PREMIUM,39.90,68,70,8,1.1,Credito,tv,0
+CLI02097,24,53,Premium,39.90,58,12,1,0.5,Boleto,Mobile,1
+CLI02098,39,41,PREMIUM,39.90,40,104,1,1.4,,mobile,0
+CLI02099,23,51,Básico,19.90,55,122,4,2.6,"Cartão de Crédito",tv,0
+CLI02100,64,47,Básico,19.90,94,180,1,0.6,,Desktop,1
+CLI02101,66,19,Premium,39.90,8,41,7,2.6,,TV,1
+CLI02102,49,57,PREMIUM,39.90,29,188,5,2.0,PIX,Mobile,1
+CLI02103,49,1,basico,19.90,74,119,9,2.8,,Mobile,1
+CLI02104,45,57,Padrão,29.90,16,88,9,0.0,"Cartão de Crédito",Tablet,0
+CLI02105,18,42,basico,19.90,93,66,9,0.3,"Cartão de Crédito",Mobile,1
+CLI02106,24,42,Premium,39.90,35,121,7,3.5,,Desktop,0
+CLI02107,31,14,basico,19.90,63,68,5,2.0,Débito,mobile,0
+CLI02108,56,28,Básico,19.90,98,78,0,0.8,Boleto,tv,0
+CLI02109,53,57,Premium,39.90,90,155,3,4.8,Débito,tv,0
+CLI02110,59,26,Básico,19.90,21,182,8,2.1,Credito,Tablet,1
+CLI02111,46,16,Padrão,29.90,60,129,0,0.2,Boleto,tv,0
+CLI02112,42,1,Premium,39.90,89,40,7,3.6,Credito,mobile,1
+CLI02113,44,32,basico,19.90,51,32,1,2.1,Credito,Desktop,0
+CLI02114,60,NaN,basico,,64,119,8,1.4,"Cartão de Crédito",TV,1
+CLI02115,71,56,Padrão,29.90,28,119,6,2.8,"Cartão de Crédito",TV,1
+CLI02116,52,10,Padrão,29.90,76,188,3,0.5,PIX,TV,0
+CLI02117,56,10,Padrão,29.90,55,39,2,4.1,,Mobile,0
+CLI02118,21,11,Padrão,29.90,50,104,4,1.0,,Mobile,1
+CLI02119,47,28,Padrão,29.90,83,161,0,3.0,,Desktop,0
+CLI02120,75,6,basico,19.90,27,155,5,3.3,"Cartão de Crédito",Mobile,0
+CLI02121,20,42,Padrão,29.90,55,52,8,5.0,PIX,Mobile,0
+CLI02122,67,27,basico,19.90,90,138,1,4.0,"Cartão de Crédito",TV,0
+CLI02123,70,36,PREMIUM,39.90,34,157,7,0.3,PIX,Desktop,0
+CLI02124,70,34,Premium,39.90,73,150,6,0.6,"Cartão de Crédito",tv,0
+CLI02125,27,5,Básico,19.90,60,148,4,3.5,,Desktop,1
+CLI02126,36,13,basico,19.90,81,48,2,4.4,Credito,Mobile,0
+CLI02127,36,38,basico,19.90,97,154,3,3.8,Credito,mobile,0
+CLI02128,20,17,Padrão,29.90,76,39,4,2.4,Boleto,Desktop,1
+CLI02129,21,32,Básico,19.90,2,65,1,1.6,"Cartão de Crédito",TV,0
+CLI02130,67,20,Premium,39.90,73,103,7,1.1,Boleto,mobile,0
+CLI02131,59,26,Padrão,29.90,89,105,1,3.9,Débito,Mobile,0
+CLI02132,,39,Premium,39.90,40,12,,4.6,PIX,TV,0
+CLI02133,62,45,Premium,39.90,79,27,1,0.0,Débito,Desktop,0
+CLI02134,28,33,basico,19.90,34,186,1,3.6,PIX,Mobile,0
+CLI02135,22,33,PREMIUM,39.90,80,27,9,3.5,Credito,mobile,1
+CLI02136,33,40,PREMIUM,39.90,83,110,2,2.3,Débito,Tablet,0
+CLI02137,74,52,basico,19.90,51,120,2,2.5,PIX,Tablet,0
+CLI02138,29,59,PREMIUM,39.90,76,105,2,0.9,Débito,Tablet,0
+CLI02139,42,60,Premium,39.90,65,79,7,4.1,PIX,Desktop,0
+CLI02140,68,11,Básico,19.90,62,77,1,0.8,"Cartão de Crédito",Tablet,1
+CLI02141,38,43,PREMIUM,39.90,71,111,7,0.2,Débito,mobile,0
+CLI02142,29,5,basico,19.90,26,186,9,3.5,PIX,Tablet,0
+CLI02143,19,28,Básico,19.90,44,157,5,2.8,PIX,tv,0
+CLI02144,36,8,Básico,19.90,47,63,1,5.0,Credito,tv,0
+CLI02145,27,49,Premium,39.90,81,47,9,0.8,Boleto,Tablet,1
+CLI02146,57,4,basico,19.90,11,138,2,2.3,Boleto,TV,1
+CLI02147,36,33,PREMIUM,39.90,12,136,7,0.6,Credito,Mobile,0
+CLI02148,,27,PREMIUM,39.90,85,123,4,2.6,Credito,Desktop,1
+CLI02149,26,9,basico,19.90,21,50,1,1.8,PIX,mobile,0
+CLI02150,63,5,PREMIUM,39.90,42,96,7,3.2,Boleto,mobile,1
+CLI02151,49,52,basico,19.90,34,25,4,4.4,PIX,TV,0
+CLI02152,70,39,Básico,19.90,13,184,6,1.7,,Desktop,1
+CLI02153,22,48,PREMIUM,39.90,14,137,5,4.9,Credito,Tablet,0
+CLI02154,64,40,Padrão,29.90,54,102,0,0.3,,Desktop,0
+CLI02155,51,25,basico,19.90,30,90,3,3.0,"Cartão de Crédito",TV,0
+CLI02156,45,14,basico,19.90,49,43,7,1.9,"Cartão de Crédito",Tablet,1
+CLI02157,28,53,Básico,19.90,99,46,7,1.3,Credito,mobile,1
+CLI02158,26,23,PREMIUM,39.90,21,165,2,3.8,Credito,Desktop,0
+CLI02159,33,30,Básico,19.90,82,48,8,2.3,"Cartão de Crédito",tv,1
+CLI02160,41,59,basico,19.90,81,111,3,1.2,PIX,TV,0
+CLI02161,19,12,Padrão,29.90,19,96,3,0.1,,Mobile,1
+CLI02162,45,16,Padrão,29.90,63,45,3,0.1,,tv,0
+CLI02163,35,57,Básico,19.90,7,33,8,3.5,PIX,tv,1
+CLI02164,55,39,PREMIUM,,7,95,1,2.0,PIX,Mobile,1
+CLI02165,37,3,Premium,39.90,98,63,3,1.1,Débito,mobile,1
+CLI02166,36,55,Básico,19.90,95,78,3,1.5,,Tablet,0
+CLI02167,52,38,Padrão,29.90,30,141,9,3.0,Débito,Tablet,0
+CLI02168,64,57,Padrão,29.90,41,39,5,4.4,,TV,0
+CLI02169,35,56,PREMIUM,39.90,47,133,2,0.1,Credito,tv,0
+CLI02170,19,43,Básico,19.90,36,153,5,2.5,,TV,0
+CLI02171,51,26,PREMIUM,39.90,76,36,5,1.6,PIX,mobile,1
+CLI02172,60,38,Padrão,29.90,59,166,2,1.1,Credito,Mobile,1
+CLI02173,35,5,Básico,19.90,29,170,8,4.6,"Cartão de Crédito",Tablet,0
+CLI02174,27,7,Padrão,29.90,84,179,7,0.8,"Cartão de Crédito",Tablet,0
+CLI02175,34,51,Padrão,29.90,51,66,3,0.5,PIX,Tablet,1
+CLI02176,19,30,PREMIUM,39.90,82,58,5,1.9,Credito,Mobile,0
+CLI02177,56,25,PREMIUM,39.90,12,153,2,2.3,Boleto,Tablet,1
+CLI02178,40,54,Padrão,29.90,57,61,4,0.1,Credito,mobile,0
+CLI02179,74,40,Premium,39.90,31,79,4,1.6,"Cartão de Crédito",mobile,0
+CLI02180,59,50,basico,19.90,53,56,6,0.2,Boleto,mobile,1
+CLI02181,74,17,Padrão,29.90,65,154,3,2.0,"Cartão de Crédito",Mobile,0
+CLI02182,75,39,basico,19.90,53,36,9,3.6,Débito,mobile,0
+CLI02183,65,48,Premium,39.90,81,53,1,3.7,,Mobile,0
+CLI02184,28,43,Premium,39.90,63,53,3,0.9,Débito,Desktop,1
+CLI02185,55,42,Premium,39.90,5,63,5,0.8,Débito,TV,1
+CLI02186,54,37,basico,19.90,32,69,9,4.3,Débito,Tablet,0
+CLI02187,54,27,PREMIUM,39.90,5,87,1,0.2,"Cartão de Crédito",Tablet,0
+CLI02188,27,9,Padrão,29.90,80,155,7,0.6,PIX,Mobile,1
+CLI02189,18,26,PREMIUM,39.90,85,19,0,4.4,PIX,Desktop,0
+CLI02190,59,21,Básico,19.90,45,69,0,0.3,"Cartão de Crédito",Desktop,1
+CLI02191,22,13,Padrão,29.90,75,91,0,2.6,"Cartão de Crédito",Tablet,1
+CLI02192,23,27,Básico,19.90,33,15,1,0.1,,TV,0
+CLI02193,56,34,basico,19.90,58,86,6,4.7,Credito,Desktop,0
+CLI02194,43,54,Premium,39.90,34,30,7,3.4,Débito,tv,0
+CLI02195,58,13,basico,,41,60,0,1.0,Credito,Tablet,0
+CLI02196,36,23,Premium,39.90,27,171,6,0.9,Débito,Tablet,1
+CLI02197,55,10,basico,19.90,14,106,1,2.7,"Cartão de Crédito",tv,1
+CLI02198,71,33,Padrão,29.90,36,43,8,0.2,Credito,mobile,0
+CLI02199,67,10,Básico,19.90,75,142,0,3.1,Credito,mobile,0
+CLI02200,76,49,Padrão,29.90,81,49,4,2.3,Débito,tv,1
+CLI02201,45,19,Padrão,29.90,98,97,4,1.9,PIX,Tablet,0
+CLI02202,56,59,Padrão,29.90,28,25,,2.6,,tv,1
+CLI02203,69,17,Básico,19.90,85,186,9,1.6,Boleto,Tablet,1
+CLI02204,31,49,Premium,39.90,82,118,7,1.9,Débito,TV,0
+CLI02205,55,18,basico,19.90,4,180,0,3.4,Credito,Mobile,1
+CLI02206,28,52,Básico,19.90,51,184,6,4.7,Débito,Tablet,1
+CLI02207,75,30,Básico,19.90,4,57,2,3.5,Débito,TV,0
+CLI02208,20,17,Padrão,29.90,16,102,0,1.3,Boleto,Mobile,0
+CLI02209,44,53,basico,19.90,94,138,8,3.2,Boleto,TV,1
+CLI02210,59,6,PREMIUM,39.90,34,65,6,4.2,"Cartão de Crédito",Mobile,0
+CLI02211,59,13,Premium,39.90,52,164,2,0.6,Débito,TV,0
+CLI02212,72,49,Básico,19.90,69,176,1,3.4,Credito,Mobile,0
+CLI02213,24,34,Premium,39.90,80,13,1,1.1,,Mobile,1
+CLI02214,72,43,Premium,39.90,11,10,8,0.6,"Cartão de Crédito",Tablet,1
+CLI02215,64,6,Premium,39.90,39,141,5,4.9,Credito,Desktop,0
+CLI02216,76,57,basico,19.90,56,76,7,2.2,Débito,Mobile,1
+CLI02217,37,41,PREMIUM,39.90,57,160,7,3.5,Débito,mobile,0
+CLI02218,67,43,PREMIUM,39.90,49,20,4,1.9,Boleto,TV,0
+CLI02219,23,NaN,Premium,,12,89,4,4.1,Boleto,Tablet,1
+CLI02220,34,36,basico,19.90,46,131,5,3.7,Débito,TV,0
+CLI02221,48,8,basico,19.90,59,22,6,2.9,Credito,Desktop,1
+CLI02222,64,8,Premium,39.90,70,166,0,2.1,,Desktop,0
+CLI02223,70,39,basico,19.90,38,141,9,0.6,"Cartão de Crédito",mobile,1
+CLI02224,18,45,Padrão,29.90,75,103,0,4.1,,Desktop,0
+CLI02225,53,33,Padrão,29.90,31,130,0,0.7,Credito,mobile,1
+CLI02226,57,43,PREMIUM,39.90,18,56,7,4.6,"Cartão de Crédito",TV,1
+CLI02227,41,60,PREMIUM,39.90,82,109,5,5.0,Boleto,Desktop,1
+CLI02228,76,30,Básico,19.90,47,135,1,1.5,PIX,mobile,1
+CLI02229,68,4,PREMIUM,39.90,45,128,8,0.3,"Cartão de Crédito",mobile,0
+CLI02230,62,45,Básico,19.90,13,97,7,2.3,,Tablet,1
+CLI02231,25,41,basico,19.90,81,96,4,4.6,PIX,TV,0
+CLI02232,47,26,PREMIUM,39.90,76,171,8,0.6,,mobile,0
+CLI02233,35,60,Premium,39.90,1,88,6,4.9,"Cartão de Crédito",Mobile,0
+CLI02234,20,50,Básico,19.90,22,144,9,2.5,,TV,1
+CLI02235,21,22,Padrão,29.90,72,45,6,1.2,,mobile,0
+CLI02236,59,43,Padrão,,35,126,2,0.6,Credito,Tablet,1
+CLI02237,53,31,basico,19.90,69,37,1,4.1,,mobile,0
+CLI02238,50,60,basico,19.90,62,37,0,1.5,Débito,tv,0
+CLI02239,59,34,Básico,19.90,12,153,9,3.6,"Cartão de Crédito",tv,1
+CLI02240,56,26,Premium,39.90,16,111,1,4.9,Débito,mobile,0
+CLI02241,55,18,Básico,19.90,36,59,0,4.8,,Mobile,0
+CLI02242,46,36,Premium,39.90,98,134,6,4.0,Credito,TV,0
+CLI02243,43,12,Premium,39.90,88,52,7,4.7,"Cartão de Crédito",tv,0
+CLI02244,21,40,basico,19.90,83,43,4,4.4,"Cartão de Crédito",mobile,0
+CLI02245,19,34,Premium,39.90,83,177,7,0.7,PIX,tv,1
+CLI02246,20,19,PREMIUM,39.90,5,173,6,3.8,PIX,Tablet,1
+CLI02247,63,35,basico,,66,22,4,4.0,,Tablet,0
+CLI02248,29,27,PREMIUM,39.90,18,147,7,4.9,Débito,mobile,1
+CLI02249,24,13,PREMIUM,39.90,9,102,0,3.9,"Cartão de Crédito",Tablet,0
+CLI02250,28,43,PREMIUM,39.90,20,39,5,0.7,Credito,Desktop,0
+CLI02251,30,25,PREMIUM,39.90,59,57,4,4.1,Boleto,Desktop,0
+CLI02252,46,18,basico,19.90,11,89,0,3.2,,TV,0
+CLI02253,56,17,Premium,39.90,4,78,6,4.7,Débito,mobile,0
+CLI02254,58,15,Básico,19.90,16,64,8,4.4,"Cartão de Crédito",Mobile,0
+CLI02255,62,3,Básico,19.90,35,120,7,0.3,"Cartão de Crédito",tv,1
+CLI02256,31,4,Padrão,29.90,67,50,4,3.2,,tv,1
+CLI02257,35,18,basico,19.90,65,49,8,0.7,Boleto,tv,0
+CLI02258,,7,PREMIUM,39.90,65,16,,2.1,Débito,Tablet,1
+CLI02259,57,37,basico,19.90,74,176,7,4.9,Boleto,Mobile,0
+CLI02260,18,24,Padrão,29.90,40,109,3,2.7,Débito,Tablet,0
+CLI02261,52,10,PREMIUM,39.90,76,75,0,0.0,,Tablet,1
+CLI02262,54,24,Básico,19.90,32,147,8,1.3,,Tablet,0
+CLI02263,27,48,PREMIUM,39.90,15,187,7,0.0,Boleto,tv,1
+CLI02264,22,11,Básico,19.90,5,43,4,2.1,"Cartão de Crédito",Desktop,1
+CLI02265,34,25,basico,19.90,93,57,2,3.0,,Mobile,0
+CLI02266,54,37,PREMIUM,39.90,73,56,6,4.0,Débito,Mobile,0
+CLI02267,62,38,Premium,39.90,58,71,5,2.5,PIX,Mobile,1
+CLI02268,38,40,Padrão,29.90,85,60,5,2.1,,TV,1
+CLI02269,58,28,PREMIUM,39.90,64,22,5,4.9,PIX,tv,0
+CLI02270,77,12,PREMIUM,39.90,94,75,4,3.8,PIX,TV,1
+CLI02271,54,48,Premium,39.90,33,182,2,2.0,Credito,Tablet,0
+CLI02272,22,1,Premium,39.90,66,150,6,4.6,"Cartão de Crédito",tv,1
+CLI02273,40,58,PREMIUM,39.90,77,79,7,1.5,Débito,mobile,1
+CLI02274,69,22,Premium,39.90,44,143,9,0.4,Débito,Tablet,0
+CLI02275,43,55,basico,19.90,77,115,7,3.5,Débito,tv,1
+CLI02276,25,53,PREMIUM,39.90,54,69,4,3.1,,TV,0
+CLI02277,64,42,PREMIUM,39.90,70,87,8,2.8,PIX,Mobile,0
+CLI02278,20,51,PREMIUM,39.90,22,134,1,0.3,Boleto,mobile,0
+CLI02279,70,32,PREMIUM,39.90,49,51,2,0.1,PIX,Tablet,0
+CLI02280,32,30,Premium,39.90,73,25,5,3.5,Débito,mobile,0
+CLI02281,55,37,Premium,39.90,16,175,7,0.6,Credito,Mobile,1
+CLI02282,53,9,Padrão,29.90,59,94,8,4.4,PIX,mobile,0
+CLI02283,58,18,PREMIUM,39.90,54,182,8,1.8,Credito,Desktop,0
+CLI02284,29,18,Premium,39.90,28,167,9,3.6,,Desktop,0
+CLI02285,22,30,Básico,19.90,11,116,4,1.1,"Cartão de Crédito",mobile,1
+CLI02286,36,2,Básico,19.90,34,162,2,3.9,Boleto,Desktop,0
+CLI02287,54,57,Premium,39.90,59,184,0,4.6,Credito,Mobile,1
+CLI02288,50,23,Básico,19.90,1,26,1,4.1,Credito,Mobile,1
+CLI02289,58,32,PREMIUM,39.90,39,144,8,1.0,Débito,Desktop,1
+CLI02290,53,23,Básico,19.90,68,14,3,2.4,Credito,Tablet,0
+CLI02291,35,20,basico,19.90,77,30,9,2.2,Débito,Desktop,1
+CLI02292,25,31,basico,19.90,96,80,7,1.1,Credito,Tablet,1
+CLI02293,26,NaN,Básico,,49,10,6,4.1,"Cartão de Crédito",Mobile,0
+CLI02294,37,42,Padrão,29.90,97,155,8,4.1,"Cartão de Crédito",TV,0
+CLI02295,21,23,Padrão,29.90,79,179,1,1.4,Boleto,tv,0
+CLI02296,69,24,Premium,39.90,20,145,2,1.5,,tv,0
+CLI02297,27,54,Básico,19.90,9,34,6,1.2,,Mobile,1
+CLI02298,60,45,basico,19.90,80,158,,0.1,PIX,TV,1
+CLI02299,46,38,Padrão,29.90,35,157,7,3.0,,Tablet,0
+CLI02300,71,15,Básico,19.90,68,45,4,2.3,,Tablet,0
+CLI02301,40,13,Premium,39.90,46,93,2,3.5,,mobile,0
+CLI02302,18,31,PREMIUM,39.90,68,166,1,0.8,"Cartão de Crédito",Desktop,1
+CLI02303,26,37,Premium,,15,135,0,1.7,Boleto,Tablet,0
+CLI02304,29,44,Básico,19.90,10,84,3,0.5,,TV,1
+CLI02305,56,38,Premium,39.90,78,71,0,4.7,Boleto,Tablet,0
+CLI02306,61,13,basico,19.90,6,99,0,0.8,PIX,Mobile,1
+CLI02307,44,8,Básico,19.90,4,157,1,2.4,Credito,Desktop,1
+CLI02308,65,17,basico,19.90,51,36,9,1.8,,Desktop,1
+CLI02309,61,46,Padrão,29.90,33,125,7,4.3,PIX,Desktop,0
+CLI02310,74,31,Padrão,29.90,74,148,0,0.4,Credito,tv,1
+CLI02311,21,59,Padrão,29.90,94,131,5,0.5,"Cartão de Crédito",Tablet,1
+CLI02312,44,19,basico,19.90,79,83,7,3.0,"Cartão de Crédito",TV,1
+CLI02313,33,53,PREMIUM,39.90,44,81,4,0.0,Credito,Tablet,0
+CLI02314,32,60,basico,19.90,90,179,3,0.9,"Cartão de Crédito",TV,0
+CLI02315,73,31,basico,19.90,60,55,7,3.4,,Tablet,0
+CLI02316,69,55,Básico,19.90,67,133,0,2.9,Boleto,Tablet,0
+CLI02317,76,11,Padrão,29.90,50,17,1,3.4,Boleto,mobile,0
+CLI02318,57,55,Padrão,29.90,16,81,7,0.8,"Cartão de Crédito",Mobile,1
+CLI02319,19,60,Padrão,29.90,32,65,3,2.9,Credito,tv,0
+CLI02320,64,5,PREMIUM,39.90,47,178,2,3.3,PIX,Tablet,1
+CLI02321,74,5,basico,19.90,88,139,4,0.8,PIX,Desktop,0
+CLI02322,20,8,Básico,19.90,60,162,9,1.9,,Desktop,1
+CLI02323,31,18,Premium,39.90,26,152,9,2.0,PIX,tv,1
+CLI02324,51,28,Padrão,29.90,15,103,4,4.5,,Tablet,1
+CLI02325,40,18,Básico,19.90,74,69,1,4.4,Débito,Tablet,1
+CLI02326,44,50,Padrão,29.90,6,23,4,4.8,Credito,Desktop,1
+CLI02327,48,40,Premium,39.90,42,117,1,2.7,PIX,Tablet,0
+CLI02328,34,11,Padrão,29.90,34,34,5,4.6,Débito,TV,0
+CLI02329,51,23,Básico,19.90,91,83,3,3.6,Boleto,Desktop,0
+CLI02330,76,42,basico,19.90,55,146,7,0.6,Credito,mobile,0
+CLI02331,27,17,Padrão,29.90,36,25,5,3.9,"Cartão de Crédito",mobile,0
+CLI02332,48,47,Padrão,29.90,11,118,1,0.7,PIX,Desktop,1
+CLI02333,60,25,PREMIUM,39.90,47,162,7,4.4,,TV,0
+CLI02334,48,26,basico,19.90,11,98,4,0.5,"Cartão de Crédito",tv,1
+CLI02335,65,41,PREMIUM,39.90,86,88,0,0.4,Boleto,mobile,0
+CLI02336,33,31,PREMIUM,39.90,79,116,4,0.9,Boleto,Mobile,0
+CLI02337,71,39,Básico,19.90,1,185,6,4.6,Débito,Mobile,0
+CLI02338,19,43,basico,19.90,27,174,6,3.3,"Cartão de Crédito",Tablet,0
+CLI02339,66,18,basico,19.90,40,182,9,3.3,Credito,Desktop,0
+CLI02340,30,23,Premium,39.90,10,186,1,4.4,,Desktop,0
+CLI02341,77,11,Básico,19.90,72,153,5,2.9,Boleto,mobile,1
+CLI02342,64,10,basico,19.90,40,175,2,3.7,Boleto,Desktop,0
+CLI02343,68,27,Padrão,29.90,43,112,9,2.8,,tv,1
+CLI02344,51,19,basico,19.90,96,155,6,3.4,Débito,Desktop,0
+CLI02345,26,3,PREMIUM,39.90,11,136,8,3.0,Boleto,Tablet,1
+CLI02346,39,22,PREMIUM,39.90,75,84,6,1.2,Débito,tv,0
+CLI02347,65,37,Premium,39.90,82,56,5,4.2,"Cartão de Crédito",Desktop,0
+CLI02348,46,42,PREMIUM,39.90,49,118,8,1.4,"Cartão de Crédito",Mobile,0
+CLI02349,75,52,Básico,19.90,61,121,4,0.4,Boleto,TV,0
+CLI02350,70,18,Premium,39.90,55,144,9,1.1,,Desktop,1
+CLI02351,63,49,basico,19.90,19,71,2,4.3,PIX,tv,0
+CLI02352,37,NaN,basico,19.90,40,183,,4.3,Boleto,tv,0
+CLI02353,33,49,Padrão,29.90,91,164,2,1.7,Credito,Mobile,0
+CLI02354,28,39,Básico,19.90,46,156,5,0.4,Débito,TV,1
+CLI02355,52,44,Básico,19.90,55,169,1,4.1,,Tablet,0
+CLI02356,77,39,Premium,39.90,58,184,1,4.6,PIX,tv,0
+CLI02357,19,7,basico,19.90,6,14,2,0.9,Credito,Mobile,1
+CLI02358,53,9,Padrão,29.90,88,135,3,3.6,Boleto,tv,0
+CLI02359,56,27,basico,19.90,39,53,7,1.7,Débito,Desktop,0
+CLI02360,55,39,basico,19.90,20,170,9,0.5,Débito,TV,0
+CLI02361,61,18,PREMIUM,39.90,36,130,9,2.2,"Cartão de Crédito",mobile,0
+CLI02362,54,53,basico,19.90,13,143,6,0.6,Credito,mobile,0
+CLI02363,18,30,PREMIUM,39.90,66,133,2,1.1,Débito,TV,0
+CLI02364,20,13,Premium,39.90,58,65,5,0.4,,Mobile,1
+CLI02365,67,26,Padrão,29.90,58,133,4,4.1,Credito,Desktop,1
+CLI02366,27,21,Padrão,29.90,96,158,9,0.8,Boleto,Desktop,1
+CLI02367,38,59,Padrão,29.90,11,86,0,4.7,"Cartão de Crédito",Mobile,1
+CLI02368,62,48,Premium,39.90,66,114,4,0.6,Débito,tv,1
+CLI02369,58,34,Padrão,29.90,21,146,6,1.1,Débito,mobile,0
+CLI02370,57,1,Premium,39.90,75,185,0,0.8,,mobile,1
+CLI02371,71,35,Padrão,29.90,33,23,2,4.5,Credito,Desktop,0
+CLI02372,48,28,Básico,19.90,22,97,2,1.5,"Cartão de Crédito",tv,0
+CLI02373,69,32,basico,19.90,50,62,2,4.1,"Cartão de Crédito",mobile,0
+CLI02374,55,53,Premium,39.90,77,148,8,2.9,"Cartão de Crédito",Desktop,0
+CLI02375,21,11,Básico,19.90,98,148,9,3.0,,Tablet,0
+CLI02376,77,50,Básico,19.90,36,43,5,2.1,Credito,tv,1
+CLI02377,44,45,Padrão,29.90,86,124,0,0.4,PIX,tv,0
+CLI02378,68,56,Básico,19.90,95,74,7,4.2,Débito,Desktop,1
+CLI02379,46,23,PREMIUM,39.90,30,118,5,4.4,Débito,Mobile,0
+CLI02380,21,10,Básico,19.90,78,17,8,0.2,Credito,Desktop,0
+CLI02381,72,60,basico,19.90,56,115,5,4.7,Credito,Desktop,0
+CLI02382,57,36,basico,19.90,5,27,0,2.2,Boleto,tv,1
+CLI02383,75,6,PREMIUM,39.90,58,92,0,0.6,Débito,Desktop,1
+CLI02384,41,7,Padrão,29.90,43,104,9,3.4,Débito,Tablet,0
+CLI02385,43,18,PREMIUM,39.90,97,108,0,1.7,Credito,tv,0
+CLI02386,50,3,basico,19.90,97,182,0,1.0,PIX,Mobile,1
+CLI02387,32,9,Básico,19.90,68,141,8,1.3,Débito,TV,1
+CLI02388,29,16,Padrão,29.90,41,95,7,3.1,"Cartão de Crédito",TV,0
+CLI02389,60,34,basico,19.90,5,129,5,0.7,Credito,Desktop,1
+CLI02390,38,47,Premium,39.90,6,174,7,1.7,Débito,mobile,1
+CLI02391,18,35,Padrão,29.90,35,188,3,3.0,Débito,Mobile,0
+CLI02392,69,2,Padrão,29.90,34,145,7,4.3,"Cartão de Crédito",tv,1
+CLI02393,34,20,Básico,19.90,44,134,8,3.2,,Desktop,0
+CLI02394,49,38,Padrão,29.90,61,25,7,2.6,Credito,Tablet,0
+CLI02395,37,13,Padrão,29.90,25,96,1,4.8,Boleto,tv,0
+CLI02396,70,39,Básico,19.90,78,134,9,0.8,Débito,mobile,1
+CLI02397,48,14,Premium,39.90,77,65,5,4.2,PIX,mobile,0
+CLI02398,30,49,basico,19.90,7,102,5,0.5,"Cartão de Crédito",mobile,1
+CLI02399,41,4,Premium,39.90,8,82,4,3.4,,mobile,1
+CLI02400,77,59,Premium,39.90,92,156,4,1.4,Credito,TV,0
+CLI02401,47,33,Premium,39.90,46,164,9,0.8,Débito,mobile,1
+CLI02402,62,22,PREMIUM,39.90,46,139,6,3.2,Credito,Mobile,0
+CLI02403,54,9,basico,19.90,62,114,2,4.6,"Cartão de Crédito",Desktop,0
+CLI02404,,36,Premium,39.90,7,106,9,2.4,Boleto,Desktop,1
+CLI02405,57,54,basico,19.90,38,72,0,4.4,,Tablet,0
+CLI02406,67,24,basico,19.90,52,44,7,3.6,"Cartão de Crédito",mobile,1
+CLI02407,23,35,PREMIUM,39.90,39,59,7,1.0,"Cartão de Crédito",Desktop,1
+CLI02408,76,22,basico,19.90,43,119,3,2.6,Débito,Tablet,0
+CLI02409,26,31,Premium,39.90,58,151,5,0.3,Débito,Tablet,1
+CLI02410,68,32,basico,19.90,86,119,3,0.8,"Cartão de Crédito",Tablet,0
+CLI02411,48,6,Básico,19.90,70,50,9,0.8,Boleto,TV,0
+CLI02412,58,NaN,Padrão,29.90,45,152,9,3.6,Credito,mobile,0
+CLI02413,52,34,PREMIUM,39.90,6,116,8,4.6,Débito,Mobile,1
+CLI02414,20,31,PREMIUM,39.90,18,186,3,0.4,Boleto,tv,1
+CLI02415,21,55,PREMIUM,39.90,13,40,1,3.1,Boleto,Tablet,0
+CLI02416,49,37,Básico,19.90,58,31,1,1.8,"Cartão de Crédito",Mobile,0
+CLI02417,72,23,PREMIUM,39.90,85,115,8,2.1,Boleto,Mobile,1
+CLI02418,63,55,Premium,39.90,60,144,8,5.0,PIX,Tablet,0
+CLI02419,22,34,Padrão,29.90,67,102,5,2.0,Débito,Tablet,1
+CLI02420,70,6,Básico,19.90,12,161,4,0.8,PIX,Mobile,1
+CLI02421,38,13,PREMIUM,39.90,94,59,3,0.8,"Cartão de Crédito",Tablet,1
+CLI02422,63,42,basico,19.90,78,136,9,0.4,Débito,Desktop,0
+CLI02423,43,54,PREMIUM,39.90,25,119,8,4.2,,Desktop,0
+CLI02424,77,49,basico,19.90,42,106,6,3.3,"Cartão de Crédito",Tablet,0
+CLI02425,72,58,basico,19.90,44,66,5,3.0,"Cartão de Crédito",Mobile,1
+CLI02426,26,38,Premium,39.90,80,152,1,1.2,Credito,mobile,0
+CLI02427,69,19,PREMIUM,39.90,74,144,7,1.2,,Mobile,0
+CLI02428,62,10,basico,19.90,38,11,5,2.9,Boleto,Mobile,0
+CLI02429,28,15,Básico,19.90,42,29,9,2.2,PIX,Desktop,0
+CLI02430,22,12,Padrão,29.90,97,68,7,2.1,,tv,1
+CLI02431,52,28,Padrão,29.90,24,66,7,1.8,Débito,TV,1
+CLI02432,69,5,Básico,19.90,14,59,5,4.9,,tv,1
+CLI02433,59,40,PREMIUM,39.90,95,118,7,2.4,Débito,Desktop,0
+CLI02434,45,40,basico,19.90,97,114,5,1.5,,tv,0
+CLI02435,,NaN,PREMIUM,39.90,50,171,4,4.1,Boleto,mobile,0
+CLI02436,64,32,Padrão,29.90,68,65,4,1.6,Débito,Desktop,1
+CLI02437,62,34,Premium,39.90,65,105,2,2.8,"Cartão de Crédito",Tablet,0
+CLI02438,38,53,PREMIUM,39.90,43,91,4,4.6,Débito,Desktop,0
+CLI02439,42,5,Básico,19.90,1,161,2,1.4,Boleto,Tablet,1
+CLI02440,45,50,Básico,19.90,6,117,8,4.5,Credito,Desktop,1
+CLI02441,60,54,Padrão,29.90,37,16,5,3.3,"Cartão de Crédito",Mobile,0
+CLI02442,48,59,PREMIUM,39.90,72,20,4,3.7,,Mobile,0
+CLI02443,39,56,Básico,19.90,20,21,3,4.5,Boleto,Desktop,0
+CLI02444,53,46,Básico,19.90,27,68,4,1.0,"Cartão de Crédito",Mobile,0
+CLI02445,44,47,Premium,39.90,88,18,1,4.1,Débito,Tablet,1
+CLI02446,67,17,Básico,19.90,68,30,1,0.9,Credito,tv,1
+CLI02447,65,47,Padrão,29.90,53,59,0,0.7,PIX,TV,1
+CLI02448,,NaN,PREMIUM,39.90,84,73,,3.6,Credito,Tablet,0
+CLI02449,64,29,basico,19.90,28,20,0,4.1,Débito,Mobile,0
+CLI02450,46,49,Básico,19.90,67,123,4,0.1,Credito,Desktop,0
+CLI02451,69,12,basico,19.90,76,104,6,4.5,"Cartão de Crédito",Tablet,0
+CLI02452,39,60,Básico,19.90,77,155,1,0.7,PIX,Mobile,0
+CLI02453,62,26,Padrão,29.90,36,99,3,2.0,Boleto,tv,0
+CLI02454,66,33,basico,19.90,74,111,4,3.6,,Desktop,1
+CLI02455,58,3,PREMIUM,39.90,56,38,1,1.4,Credito,Mobile,1
+CLI02456,72,41,Básico,19.90,30,104,3,1.8,"Cartão de Crédito",TV,0
+CLI02457,27,36,PREMIUM,39.90,27,57,1,0.3,Boleto,tv,0
+CLI02458,22,55,basico,19.90,2,17,0,2.8,Credito,mobile,0
+CLI02459,59,51,Premium,39.90,32,84,5,2.4,"Cartão de Crédito",tv,1
+CLI02460,34,47,basico,19.90,99,171,4,0.0,"Cartão de Crédito",Desktop,1
+CLI02461,28,41,Básico,19.90,97,125,3,2.3,,Desktop,0
+CLI02462,35,24,Padrão,29.90,52,103,9,4.9,,Tablet,0
+CLI02463,57,7,Básico,19.90,0,181,9,2.5,,mobile,0
+CLI02464,33,27,Premium,39.90,59,74,6,0.4,PIX,Desktop,0
+CLI02465,30,4,Básico,19.90,83,49,2,4.4,PIX,mobile,0
+CLI02466,62,16,basico,19.90,80,57,0,3.7,Credito,Tablet,1
+CLI02467,29,41,Premium,39.90,73,141,2,3.2,Boleto,tv,0
+CLI02468,35,53,basico,19.90,92,33,7,4.6,"Cartão de Crédito",tv,0
+CLI02469,23,33,Padrão,29.90,84,88,4,0.8,Credito,Desktop,0
+CLI02470,72,11,basico,19.90,37,123,5,3.6,,Desktop,1
+CLI02471,20,43,basico,19.90,56,83,2,0.5,"Cartão de Crédito",mobile,0
+CLI02472,65,47,Padrão,29.90,4,44,9,3.0,Credito,mobile,1
+CLI02473,55,NaN,PREMIUM,39.90,22,160,3,0.8,Credito,mobile,1
+CLI02474,34,54,Padrão,29.90,68,161,9,5.0,,Mobile,0
+CLI02475,49,24,Premium,39.90,55,139,0,0.9,"Cartão de Crédito",TV,0
+CLI02476,51,60,PREMIUM,39.90,49,23,0,2.6,"Cartão de Crédito",tv,1
+CLI02477,49,5,PREMIUM,39.90,94,88,1,1.3,Credito,tv,1
+CLI02478,56,48,Premium,39.90,77,30,6,0.1,"Cartão de Crédito",tv,0
+CLI02479,36,46,PREMIUM,39.90,54,124,5,2.5,Credito,Mobile,1
+CLI02480,65,30,basico,19.90,59,59,2,1.2,PIX,Mobile,0
+CLI02481,70,15,basico,19.90,13,21,9,1.7,Credito,tv,1
+CLI02482,32,22,Premium,39.90,46,47,3,1.4,,Mobile,0
+CLI02483,67,49,Premium,39.90,41,64,2,1.0,"Cartão de Crédito",mobile,0
+CLI02484,42,17,Padrão,29.90,15,181,7,1.4,PIX,TV,1
+CLI02485,19,10,Premium,39.90,91,112,8,3.2,"Cartão de Crédito",Desktop,1
+CLI02486,23,3,Premium,39.90,16,130,0,1.3,,tv,1
+CLI02487,24,46,basico,19.90,88,160,0,0.8,,mobile,0
+CLI02488,75,57,Básico,19.90,1,61,6,1.3,Débito,Desktop,1
+CLI02489,41,11,Básico,19.90,7,60,7,4.7,PIX,tv,1
+CLI02490,18,5,Padrão,29.90,98,45,5,1.9,,tv,0
+CLI02491,23,8,PREMIUM,39.90,10,149,2,1.0,"Cartão de Crédito",mobile,0
+CLI02492,62,41,Premium,39.90,40,164,4,3.0,Credito,tv,0
+CLI02493,61,8,Premium,39.90,4,165,5,4.8,Débito,tv,1
+CLI02494,29,55,basico,19.90,70,30,3,0.4,Débito,TV,0
+CLI02495,31,16,Básico,19.90,16,152,1,4.3,Credito,mobile,1
+CLI02496,61,58,Padrão,29.90,82,157,2,3.4,Credito,Desktop,0
+CLI02497,52,31,PREMIUM,39.90,34,174,4,3.4,PIX,Desktop,0
+CLI02498,59,52,Padrão,29.90,11,143,0,4.6,Débito,TV,0
+CLI02499,21,56,basico,19.90,50,93,9,2.8,Credito,Mobile,1
+CLI02500,43,48,Premium,39.90,54,71,0,0.6,"Cartão de Crédito",Desktop,0
+CLI02501,28,23,Padrão,29.90,87,128,2,3.0,Débito,Mobile,0
+CLI02502,57,52,Premium,39.90,24,108,3,2.4,Débito,tv,0
+CLI02503,64,13,Padrão,29.90,22,15,6,1.6,"Cartão de Crédito",mobile,0
+CLI02504,74,12,Padrão,29.90,86,151,2,2.2,Débito,Tablet,0
+CLI02505,63,27,basico,19.90,62,170,0,0.8,"Cartão de Crédito",TV,1
+CLI02506,40,1,basico,19.90,43,35,6,5.0,PIX,tv,0
+CLI02507,77,54,Padrão,29.90,38,56,2,0.1,PIX,TV,1
+CLI02508,32,47,Básico,19.90,25,156,9,3.4,,Desktop,0
+CLI02509,55,17,Básico,19.90,83,70,1,0.6,,Desktop,0
+CLI02510,63,7,basico,19.90,61,12,8,3.5,PIX,Mobile,1
+CLI02511,42,1,Básico,19.90,40,144,8,2.3,Boleto,Desktop,1
+CLI02512,74,51,PREMIUM,39.90,16,25,4,1.5,,Desktop,1
+CLI02513,58,42,Básico,19.90,6,128,4,1.8,"Cartão de Crédito",Tablet,1
+CLI02514,63,22,PREMIUM,39.90,29,38,4,1.1,,Mobile,0
+CLI02515,31,2,Premium,39.90,48,56,5,4.2,Débito,tv,1
+CLI02516,23,51,Padrão,29.90,15,182,2,3.9,Boleto,Mobile,0
+CLI02517,54,28,PREMIUM,39.90,26,83,3,0.6,PIX,Desktop,1
+CLI02518,47,21,PREMIUM,39.90,99,138,2,2.5,PIX,mobile,0
+CLI02519,59,9,Padrão,29.90,65,136,0,1.6,Débito,tv,0
+CLI02520,50,14,Básico,19.90,78,122,4,3.5,,tv,0
+CLI02521,45,14,Padrão,29.90,74,113,0,3.5,,Tablet,0
+CLI02522,73,59,Premium,39.90,59,135,,4.2,Credito,Tablet,0
+CLI02523,57,36,PREMIUM,39.90,89,16,2,2.7,Débito,Mobile,0
+CLI02524,36,24,Premium,39.90,67,154,8,1.0,"Cartão de Crédito",TV,1
+CLI02525,57,24,basico,19.90,93,27,5,3.6,,Desktop,1
+CLI02526,59,51,Básico,19.90,82,168,4,0.5,Débito,Desktop,1
+CLI02527,44,47,Básico,19.90,91,170,0,0.8,"Cartão de Crédito",TV,0
+CLI02528,48,53,Básico,19.90,85,154,8,3.4,,Mobile,1
+CLI02529,19,13,basico,19.90,4,66,5,4.6,Débito,TV,0
+CLI02530,37,53,PREMIUM,39.90,51,35,9,2.1,Débito,tv,0
+CLI02531,51,32,Básico,19.90,34,116,2,2.3,Credito,tv,0
+CLI02532,55,42,PREMIUM,39.90,13,119,8,3.1,,Desktop,0
+CLI02533,30,34,basico,19.90,94,146,8,4.9,"Cartão de Crédito",Tablet,1
+CLI02534,51,5,PREMIUM,39.90,76,116,2,4.8,"Cartão de Crédito",Tablet,1
+CLI02535,22,20,basico,19.90,45,26,4,2.5,,TV,1
+CLI02536,33,14,Premium,39.90,23,106,1,0.2,,Desktop,0
+CLI02537,60,39,basico,19.90,61,18,4,2.6,PIX,mobile,1
+CLI02538,21,48,PREMIUM,39.90,87,137,8,3.7,Débito,TV,0
+CLI02539,72,33,Premium,39.90,28,166,6,4.4,,TV,0
+CLI02540,38,24,Premium,39.90,25,30,4,1.7,PIX,TV,0
+CLI02541,34,12,Básico,19.90,6,101,0,2.0,"Cartão de Crédito",Mobile,1
+CLI02542,27,35,Básico,19.90,6,17,5,0.5,,mobile,1
+CLI02543,60,11,PREMIUM,39.90,69,13,0,0.3,PIX,TV,1
+CLI02544,18,16,Premium,39.90,50,36,5,4.1,,tv,0
+CLI02545,61,14,PREMIUM,39.90,41,189,4,2.8,,mobile,0
+CLI02546,68,43,Premium,39.90,65,55,7,0.4,,mobile,1
+CLI02547,58,10,basico,19.90,15,188,8,2.7,Credito,TV,0
+CLI02548,71,59,PREMIUM,39.90,64,71,9,3.4,Débito,tv,0
+CLI02549,28,9,Básico,19.90,44,59,6,3.1,,Mobile,0
+CLI02550,35,19,Básico,19.90,64,168,5,4.8,Boleto,mobile,1
+CLI02551,20,15,PREMIUM,39.90,60,74,7,1.0,PIX,Mobile,1
+CLI02552,27,23,Básico,19.90,57,28,9,1.9,Boleto,mobile,1
+CLI02553,53,14,Padrão,29.90,60,65,7,4.3,"Cartão de Crédito",Tablet,0
+CLI02554,72,52,basico,19.90,86,93,9,1.8,PIX,tv,1
+CLI02555,62,47,Premium,39.90,7,48,0,1.6,Débito,tv,1
+CLI02556,23,7,Padrão,29.90,59,45,4,1.1,"Cartão de Crédito",TV,0
+CLI02557,57,19,Básico,19.90,31,85,1,2.5,Boleto,Mobile,0
+CLI02558,74,16,basico,19.90,81,73,7,3.0,Credito,TV,1
+CLI02559,61,NaN,PREMIUM,39.90,6,165,0,3.1,,Desktop,0
+CLI02560,64,14,PREMIUM,39.90,0,10,9,3.3,Débito,tv,1
+CLI02561,71,13,basico,19.90,5,136,8,3.1,Credito,mobile,1
+CLI02562,55,30,Premium,39.90,16,176,5,3.7,Credito,tv,0
+CLI02563,44,60,basico,19.90,42,78,1,4.8,Credito,Mobile,0
+CLI02564,22,44,Premium,39.90,59,91,4,3.6,"Cartão de Crédito",TV,1
+CLI02565,61,3,Premium,39.90,44,102,2,3.7,Boleto,mobile,0
+CLI02566,67,59,Premium,39.90,90,101,9,1.7,,tv,0
+CLI02567,52,59,PREMIUM,39.90,85,174,7,2.4,Boleto,Desktop,0
+CLI02568,29,37,PREMIUM,39.90,79,173,8,3.8,Boleto,tv,0
+CLI02569,34,47,Padrão,29.90,32,39,1,4.1,Boleto,Mobile,0
+CLI02570,51,43,PREMIUM,39.90,6,14,9,4.4,Débito,mobile,1
+CLI02571,75,16,Básico,19.90,6,128,8,4.0,Boleto,mobile,0
+CLI02572,28,43,Premium,39.90,43,144,1,3.9,"Cartão de Crédito",tv,0
+CLI02573,71,7,basico,19.90,30,53,5,1.1,"Cartão de Crédito",tv,0
+CLI02574,66,59,basico,19.90,34,163,3,0.8,Boleto,Desktop,0
+CLI02575,50,18,Básico,,39,96,2,4.3,,Mobile,0
+CLI02576,35,42,basico,19.90,75,27,4,0.7,Credito,mobile,0
+CLI02577,40,30,PREMIUM,39.90,21,38,7,2.6,"Cartão de Crédito",Tablet,1
+CLI02578,43,25,Padrão,29.90,35,54,0,0.1,PIX,TV,1
+CLI02579,46,19,Padrão,29.90,45,64,8,0.9,Boleto,Desktop,0
+CLI02580,49,51,PREMIUM,39.90,74,163,9,1.0,,mobile,0
+CLI02581,30,13,basico,19.90,99,143,9,1.7,,tv,0
+CLI02582,73,35,Premium,39.90,96,102,3,1.0,Débito,TV,0
+CLI02583,43,14,Padrão,29.90,52,80,2,3.4,Credito,Tablet,0
+CLI02584,75,25,Padrão,29.90,88,151,4,4.1,Credito,Mobile,0
+CLI02585,65,11,Padrão,29.90,12,109,1,2.5,"Cartão de Crédito",TV,1
+CLI02586,43,10,Premium,39.90,92,133,0,1.8,Credito,Tablet,0
+CLI02587,58,37,Padrão,29.90,62,172,6,2.1,Débito,Mobile,1
+CLI02588,20,20,Premium,39.90,34,132,2,1.5,Boleto,Desktop,0
+CLI02589,59,41,Padrão,29.90,27,137,5,3.3,PIX,Tablet,0
+CLI02590,76,2,Premium,39.90,64,112,6,3.3,PIX,mobile,0
+CLI02591,68,36,Básico,19.90,53,107,0,1.6,"Cartão de Crédito",Mobile,1
+CLI02592,58,39,PREMIUM,39.90,6,60,0,1.1,Credito,Mobile,0
+CLI02593,26,55,Padrão,29.90,95,68,2,0.4,"Cartão de Crédito",Desktop,0
+CLI02594,73,37,basico,19.90,49,73,1,2.0,Credito,mobile,0
+CLI02595,29,7,PREMIUM,39.90,46,22,8,1.8,Boleto,mobile,1
+CLI02596,20,50,PREMIUM,39.90,9,24,3,2.9,,Desktop,1
+CLI02597,61,55,basico,19.90,74,159,3,0.2,Boleto,TV,0
+CLI02598,36,45,Padrão,29.90,51,137,0,2.2,"Cartão de Crédito",TV,0
+CLI02599,46,59,Padrão,29.90,16,94,8,4.5,Boleto,Tablet,0
+CLI02600,64,48,Premium,39.90,81,88,0,0.9,Boleto,tv,0
+CLI02601,74,12,PREMIUM,39.90,16,111,2,2.7,Credito,mobile,0
+CLI02602,26,19,PREMIUM,39.90,99,138,2,2.9,Boleto,Desktop,0
+CLI02603,19,57,Premium,39.90,60,11,5,4.7,,Desktop,1
+CLI02604,36,31,PREMIUM,39.90,28,40,2,4.9,"Cartão de Crédito",Mobile,0
+CLI02605,,NaN,PREMIUM,39.90,79,16,0,0.2,Boleto,Desktop,1
+CLI02606,45,44,Básico,19.90,18,51,4,2.1,Débito,TV,0
+CLI02607,29,40,Básico,19.90,60,169,5,1.7,Credito,tv,0
+CLI02608,67,34,Premium,39.90,43,142,4,0.6,Débito,mobile,1
+CLI02609,73,46,Premium,39.90,72,54,8,2.5,PIX,TV,1
+CLI02610,30,3,PREMIUM,39.90,50,114,9,2.9,,Tablet,1
+CLI02611,50,34,Padrão,29.90,53,149,1,2.8,Credito,mobile,0
+CLI02612,32,19,Básico,19.90,78,165,2,1.1,Boleto,Desktop,0
+CLI02613,40,58,PREMIUM,39.90,96,115,1,2.8,,Tablet,0
+CLI02614,65,23,Premium,39.90,96,46,6,4.0,Boleto,Tablet,0
+CLI02615,27,33,Premium,39.90,28,123,8,4.7,Débito,TV,0
+CLI02616,28,39,basico,19.90,91,180,5,0.5,Débito,mobile,0
+CLI02617,20,42,basico,19.90,3,39,1,1.3,,TV,1
+CLI02618,31,5,basico,19.90,68,56,1,0.2,"Cartão de Crédito",Mobile,1
+CLI02619,42,55,Padrão,29.90,99,54,0,1.5,Débito,mobile,0
+CLI02620,46,38,basico,19.90,37,73,1,5.0,"Cartão de Crédito",Tablet,0
+CLI02621,42,44,Premium,39.90,7,54,7,2.0,"Cartão de Crédito",tv,1
+CLI02622,42,28,basico,19.90,13,81,4,3.6,,Tablet,0
+CLI02623,49,1,Básico,19.90,42,169,8,4.7,Credito,mobile,0
+CLI02624,68,17,Padrão,29.90,45,187,2,2.9,"Cartão de Crédito",Desktop,0
+CLI02625,21,39,Padrão,29.90,95,95,7,2.9,PIX,TV,0
+CLI02626,18,15,PREMIUM,39.90,67,20,6,4.8,PIX,Mobile,0
+CLI02627,67,27,Premium,39.90,10,133,5,0.1,Boleto,TV,0
+CLI02628,51,55,Premium,39.90,64,127,2,1.9,"Cartão de Crédito",TV,0
+CLI02629,61,57,Básico,19.90,89,89,8,3.1,"Cartão de Crédito",Desktop,1
+CLI02630,34,21,Premium,39.90,3,166,3,4.0,Boleto,Mobile,0
+CLI02631,55,48,PREMIUM,39.90,74,100,0,3.7,"Cartão de Crédito",TV,0
+CLI02632,55,10,Básico,19.90,51,129,8,3.8,,TV,1
+CLI02633,22,19,Premium,39.90,65,87,5,0.8,Credito,tv,0
+CLI02634,52,NaN,Básico,,53,189,6,1.9,Boleto,Mobile,0
+CLI02635,25,57,Básico,19.90,25,102,5,1.9,Credito,TV,0
+CLI02636,70,5,basico,19.90,49,42,8,2.0,Credito,TV,1
+CLI02637,23,34,Padrão,29.90,29,117,2,0.3,"Cartão de Crédito",mobile,0
+CLI02638,32,12,Premium,39.90,87,56,2,2.5,Boleto,mobile,0
+CLI02639,66,6,Padrão,29.90,63,33,3,1.6,"Cartão de Crédito",Tablet,0
+CLI02640,41,40,Básico,19.90,0,81,9,4.0,Boleto,mobile,0
+CLI02641,59,19,basico,19.90,50,39,0,4.8,Boleto,Mobile,0
+CLI02642,19,11,Padrão,29.90,55,75,3,3.0,PIX,TV,0
+CLI02643,68,36,Padrão,29.90,59,22,4,0.2,Débito,TV,1
+CLI02644,18,49,Básico,19.90,12,55,9,3.4,"Cartão de Crédito",mobile,1
+CLI02645,19,41,Premium,39.90,79,80,4,1.8,Credito,mobile,1
+CLI02646,75,17,basico,19.90,65,26,0,2.2,Credito,TV,1
+CLI02647,48,59,PREMIUM,39.90,71,173,6,3.9,Boleto,tv,0
+CLI02648,41,19,basico,19.90,72,58,3,0.6,,Desktop,0
+CLI02649,42,5,PREMIUM,39.90,89,90,2,1.0,Débito,mobile,1
+CLI02650,69,53,Premium,39.90,5,53,1,0.9,Credito,mobile,0
+CLI02651,61,46,PREMIUM,39.90,46,157,8,0.7,"Cartão de Crédito",mobile,0
+CLI02652,70,NaN,Padrão,,7,25,3,4.4,Débito,Tablet,0
+CLI02653,72,8,Básico,19.90,52,82,3,0.2,"Cartão de Crédito",Desktop,0
+CLI02654,45,7,Premium,39.90,26,45,9,3.8,Boleto,tv,0
+CLI02655,23,29,Premium,39.90,22,97,4,1.6,Credito,TV,1
+CLI02656,45,44,Padrão,29.90,90,93,2,0.6,PIX,tv,0
+CLI02657,41,2,PREMIUM,39.90,73,64,7,4.0,Boleto,Desktop,0
+CLI02658,56,38,Premium,39.90,13,91,6,1.1,Credito,Mobile,1
+CLI02659,56,36,basico,19.90,81,70,0,2.9,Credito,TV,1
+CLI02660,25,17,Premium,39.90,96,108,0,4.8,Boleto,Mobile,0
+CLI02661,64,21,Básico,19.90,17,141,2,3.6,Boleto,Tablet,0
+CLI02662,,NaN,Básico,19.90,94,152,4,0.7,,Tablet,0
+CLI02663,73,43,PREMIUM,39.90,66,79,6,0.7,Boleto,Mobile,0
+CLI02664,39,5,basico,19.90,82,184,1,0.7,Boleto,TV,1
+CLI02665,37,42,PREMIUM,39.90,31,37,8,2.0,Credito,Desktop,1
+CLI02666,65,42,basico,19.90,61,188,3,3.0,"Cartão de Crédito",Mobile,0
+CLI02667,59,60,Padrão,29.90,63,41,7,0.5,Credito,Tablet,1
+CLI02668,56,24,PREMIUM,39.90,95,120,8,2.1,Credito,Tablet,1
+CLI02669,65,6,Premium,39.90,16,134,2,1.4,"Cartão de Crédito",tv,1
+CLI02670,42,39,basico,19.90,45,99,8,3.2,PIX,Tablet,0
+CLI02671,42,42,Premium,39.90,67,139,8,2.2,Débito,Desktop,1
+CLI02672,34,12,Padrão,29.90,10,80,9,1.0,Credito,Desktop,1
+CLI02673,65,9,Padrão,29.90,34,34,0,4.9,Credito,TV,0
+CLI02674,43,44,PREMIUM,39.90,53,37,7,0.7,Credito,Desktop,0
+CLI02675,74,18,Básico,19.90,59,56,7,0.9,Boleto,tv,1
+CLI02676,44,57,Premium,39.90,35,150,3,4.3,Boleto,TV,0
+CLI02677,49,3,basico,19.90,30,61,2,0.4,Débito,mobile,0
+CLI02678,61,42,Premium,39.90,48,183,8,3.1,,tv,0
+CLI02679,61,6,Padrão,29.90,26,52,9,2.9,Débito,tv,1
+CLI02680,44,29,Básico,19.90,89,140,6,0.4,"Cartão de Crédito",Mobile,0
+CLI02681,75,50,Premium,39.90,92,182,9,0.8,,Mobile,1
+CLI02682,59,3,Premium,39.90,31,120,7,1.1,,Tablet,0
+CLI02683,67,58,basico,19.90,67,142,6,4.3,Boleto,mobile,1
+CLI02684,39,17,PREMIUM,39.90,65,159,0,3.3,Boleto,Mobile,0
+CLI02685,50,1,Padrão,29.90,10,89,8,2.8,,Mobile,1
+CLI02686,64,3,Padrão,29.90,5,61,9,3.8,Débito,mobile,1
+CLI02687,26,38,PREMIUM,39.90,93,74,3,4.4,Boleto,tv,0
+CLI02688,31,50,basico,19.90,32,166,0,2.9,Credito,Mobile,1
+CLI02689,43,24,Básico,19.90,57,46,9,2.2,Credito,TV,1
+CLI02690,22,6,PREMIUM,39.90,81,45,9,0.3,"Cartão de Crédito",mobile,0
+CLI02691,41,47,Básico,19.90,65,186,0,3.4,Credito,TV,0
+CLI02692,25,60,Premium,39.90,22,182,0,4.3,"Cartão de Crédito",tv,0
+CLI02693,27,NaN,Básico,19.90,70,187,,3.2,Débito,Mobile,0
+CLI02694,39,20,PREMIUM,39.90,55,74,6,1.4,Débito,Mobile,0
+CLI02695,34,41,Padrão,29.90,28,83,7,0.7,Débito,Mobile,1
+CLI02696,53,12,PREMIUM,39.90,63,80,8,2.4,Débito,Desktop,0
+CLI02697,62,56,basico,19.90,51,126,2,0.4,Boleto,tv,0
+CLI02698,68,12,PREMIUM,39.90,40,161,5,4.0,Boleto,TV,0
+CLI02699,54,10,Básico,19.90,58,87,8,1.9,Débito,tv,0
+CLI02700,54,6,PREMIUM,39.90,76,54,5,5.0,PIX,Tablet,0
+CLI02701,44,44,Básico,19.90,89,28,6,3.8,Credito,mobile,0
+CLI02702,22,44,Premium,39.90,79,145,7,1.0,Credito,Desktop,1
+CLI02703,58,57,Padrão,29.90,92,187,7,4.3,PIX,mobile,0
+CLI02704,71,26,Básico,19.90,47,80,2,4.9,,TV,0
+CLI02705,43,53,basico,19.90,32,148,3,3.6,,tv,0
+CLI02706,33,53,Premium,39.90,5,91,6,2.8,Credito,mobile,1
+CLI02707,41,56,PREMIUM,39.90,2,23,4,2.0,"Cartão de Crédito",tv,1
+CLI02708,51,54,basico,19.90,15,70,2,4.3,PIX,tv,0
+CLI02709,18,37,PREMIUM,39.90,75,113,0,0.9,Credito,Tablet,0
+CLI02710,74,52,Premium,39.90,41,51,0,3.1,,Desktop,0
+CLI02711,44,53,Padrão,29.90,37,186,1,3.7,Débito,Mobile,0
+CLI02712,53,29,basico,19.90,20,178,9,2.1,Credito,Tablet,1
+CLI02713,,8,PREMIUM,39.90,26,126,1,3.9,Boleto,Desktop,1
+CLI02714,40,31,PREMIUM,39.90,67,111,6,0.7,"Cartão de Crédito",mobile,0
+CLI02715,32,42,PREMIUM,39.90,60,162,5,2.9,PIX,Desktop,1
+CLI02716,48,30,basico,19.90,84,87,5,3.9,PIX,Tablet,0
+CLI02717,29,42,Padrão,29.90,97,37,4,0.7,"Cartão de Crédito",Mobile,0
+CLI02718,68,10,Básico,19.90,70,96,8,1.7,,Mobile,1
+CLI02719,26,46,Padrão,29.90,93,121,8,0.6,,mobile,1
+CLI02720,76,48,Básico,19.90,16,109,6,2.0,Boleto,mobile,1
+CLI02721,56,29,PREMIUM,39.90,51,175,1,1.1,Credito,tv,1
+CLI02722,69,43,Básico,19.90,69,166,8,2.5,PIX,TV,0
+CLI02723,41,9,basico,19.90,68,117,1,4.7,Boleto,tv,0
+CLI02724,49,44,Básico,19.90,60,107,7,0.5,PIX,mobile,0
+CLI02725,28,51,Premium,39.90,90,140,7,1.1,Credito,TV,0
+CLI02726,47,30,Premium,39.90,76,96,2,4.0,"Cartão de Crédito",TV,0
+CLI02727,66,19,Premium,39.90,23,46,2,3.8,PIX,Desktop,0
+CLI02728,46,10,basico,19.90,62,109,4,2.9,Boleto,mobile,0
+CLI02729,36,20,basico,19.90,63,111,9,3.9,Boleto,mobile,0
+CLI02730,53,1,basico,19.90,12,15,5,1.2,Boleto,mobile,1
+CLI02731,42,13,PREMIUM,39.90,68,172,2,3.5,"Cartão de Crédito",Mobile,0
+CLI02732,44,4,Básico,19.90,39,108,6,3.0,Boleto,tv,1
+CLI02733,27,41,Premium,39.90,37,29,9,0.4,PIX,TV,1
+CLI02734,48,39,Básico,19.90,42,37,5,5.0,Boleto,Desktop,1
+CLI02735,41,16,Premium,39.90,42,133,0,1.2,Débito,Tablet,0
+CLI02736,63,20,Básico,19.90,9,11,4,4.5,"Cartão de Crédito",Desktop,1
+CLI02737,65,3,Padrão,29.90,14,134,2,4.9,,Tablet,1
+CLI02738,26,3,basico,19.90,5,28,1,1.4,Boleto,Mobile,1
+CLI02739,36,29,PREMIUM,39.90,1,60,9,2.5,Credito,tv,1
+CLI02740,52,39,Básico,19.90,36,86,7,1.6,PIX,TV,0
+CLI02741,54,27,PREMIUM,39.90,25,95,9,1.9,Débito,Desktop,0
+CLI02742,38,11,Premium,39.90,27,180,5,1.0,"Cartão de Crédito",Tablet,1
+CLI02743,27,15,Básico,19.90,17,41,1,3.2,Débito,Tablet,1
+CLI02744,50,48,Premium,39.90,92,163,5,4.6,PIX,Desktop,0
+CLI02745,30,39,Básico,19.90,88,139,5,0.5,,TV,1
+CLI02746,58,59,Padrão,29.90,17,132,1,4.4,PIX,Desktop,0
+CLI02747,76,8,Premium,39.90,8,154,3,0.7,PIX,mobile,1
+CLI02748,56,3,Básico,19.90,51,182,2,2.7,Débito,Mobile,1
+CLI02749,63,15,Padrão,29.90,37,62,1,1.2,PIX,mobile,1
+CLI02750,43,6,Premium,39.90,83,167,8,3.8,Credito,TV,1
+CLI02751,23,23,basico,19.90,3,74,0,1.0,"Cartão de Crédito",Tablet,1
+CLI02752,35,27,Básico,19.90,27,185,3,0.4,PIX,mobile,1
+CLI02753,53,8,Premium,39.90,35,111,6,0.9,"Cartão de Crédito",mobile,0
+CLI02754,32,31,Padrão,29.90,21,160,9,1.1,Débito,tv,0
+CLI02755,41,34,Padrão,29.90,90,63,2,2.7,Boleto,Mobile,0
+CLI02756,20,11,PREMIUM,39.90,97,36,6,3.5,,mobile,1
+CLI02757,28,22,Premium,39.90,4,130,6,1.1,Credito,TV,1
+CLI02758,54,39,PREMIUM,39.90,20,127,0,0.9,Débito,mobile,0
+CLI02759,30,36,Premium,39.90,96,121,9,2.8,Débito,tv,0
+CLI02760,32,22,basico,19.90,40,140,7,1.1,Boleto,Tablet,0
+CLI02761,21,53,PREMIUM,39.90,97,33,6,3.5,PIX,tv,0
+CLI02762,59,16,Padrão,29.90,74,93,7,2.7,Credito,Desktop,1
+CLI02763,67,35,PREMIUM,39.90,94,24,5,4.0,,Mobile,0
+CLI02764,25,1,Premium,39.90,89,167,9,0.1,Débito,Tablet,0
+CLI02765,50,16,Premium,39.90,6,118,2,4.8,Credito,Desktop,0
+CLI02766,26,27,Básico,19.90,42,53,3,1.0,Credito,TV,0
+CLI02767,47,60,PREMIUM,39.90,44,111,9,4.8,,Desktop,1
+CLI02768,61,21,PREMIUM,39.90,36,82,8,2.5,Débito,mobile,0
+CLI02769,48,45,Premium,39.90,83,159,9,1.8,,Desktop,0
+CLI02770,67,47,Premium,39.90,20,59,7,1.5,Credito,Mobile,1
+CLI02771,35,24,PREMIUM,39.90,7,69,8,2.3,Boleto,tv,0
+CLI02772,68,3,PREMIUM,39.90,77,116,0,4.2,Credito,Desktop,0
+CLI02773,31,53,basico,19.90,51,87,5,2.5,Boleto,tv,0
+CLI02774,26,12,Premium,39.90,77,145,2,0.0,Credito,Desktop,0
+CLI02775,58,9,PREMIUM,39.90,33,27,1,0.2,,tv,0
+CLI02776,35,22,Premium,39.90,95,76,4,0.8,,mobile,1
+CLI02777,26,40,Padrão,29.90,43,158,9,0.2,Boleto,Tablet,0
+CLI02778,46,24,PREMIUM,39.90,48,44,8,5.0,Boleto,TV,1
+CLI02779,29,7,Padrão,29.90,88,132,6,3.3,PIX,mobile,0
+CLI02780,35,4,Premium,39.90,3,19,4,1.6,PIX,Tablet,1
+CLI02781,36,29,Básico,19.90,9,33,0,0.2,,Tablet,1
+CLI02782,45,40,Premium,39.90,60,13,5,1.2,Boleto,TV,0
+CLI02783,76,6,PREMIUM,39.90,48,106,4,0.9,PIX,Mobile,1
+CLI02784,22,57,Básico,19.90,29,125,1,1.9,Credito,TV,0
+CLI02785,24,35,basico,19.90,78,182,4,0.7,Credito,Desktop,1
+CLI02786,54,1,Premium,39.90,6,141,1,2.4,Débito,tv,1
+CLI02787,20,26,basico,19.90,55,18,8,0.2,Débito,Tablet,1
+CLI02788,25,8,Básico,19.90,61,95,8,0.2,,Mobile,0
+CLI02789,53,55,Premium,39.90,38,29,6,1.2,Débito,TV,0
+CLI02790,28,4,Premium,39.90,91,10,6,3.2,Credito,Mobile,1
+CLI02791,50,7,basico,19.90,18,72,6,3.2,Credito,tv,0
+CLI02792,20,34,Básico,19.90,3,13,1,2.0,Credito,tv,1
+CLI02793,19,24,Premium,39.90,28,33,0,2.0,Credito,Mobile,1
+CLI02794,37,39,PREMIUM,39.90,54,147,8,1.3,Débito,tv,0
+CLI02795,22,10,Premium,39.90,57,113,4,0.1,Débito,Mobile,0
+CLI02796,28,16,Premium,39.90,30,142,9,0.7,Credito,Desktop,0
+CLI02797,57,18,Premium,39.90,22,52,5,4.3,,Desktop,0
+CLI02798,39,41,Básico,19.90,53,135,5,1.1,"Cartão de Crédito",TV,1
+CLI02799,23,1,Padrão,29.90,70,189,8,0.5,Débito,mobile,1
+CLI02800,21,23,Premium,39.90,58,119,9,3.2,Débito,Mobile,0
+CLI02801,38,37,Padrão,29.90,6,131,8,4.1,Boleto,Desktop,1
+CLI02802,31,48,Premium,39.90,27,123,8,0.4,,tv,0
+CLI02803,31,22,PREMIUM,39.90,59,130,1,0.6,"Cartão de Crédito",Desktop,0
+CLI02804,20,23,Padrão,29.90,54,142,0,4.8,PIX,Tablet,0
+CLI02805,26,41,Premium,39.90,35,57,8,3.7,Boleto,Tablet,0
+CLI02806,28,35,basico,19.90,15,182,0,1.5,Credito,Desktop,1
+CLI02807,39,52,Padrão,29.90,69,25,4,3.9,"Cartão de Crédito",Tablet,1
+CLI02808,42,5,basico,19.90,21,62,9,4.4,Boleto,mobile,1
+CLI02809,39,51,PREMIUM,39.90,97,34,7,2.9,Credito,mobile,1
+CLI02810,37,15,PREMIUM,39.90,39,185,7,4.8,PIX,mobile,0
+CLI02811,55,3,PREMIUM,39.90,25,51,9,1.6,,Tablet,1
+CLI02812,64,18,Premium,39.90,7,150,4,3.0,PIX,mobile,0
+CLI02813,49,55,Padrão,29.90,38,100,8,0.9,Débito,tv,0
+CLI02814,20,59,Básico,19.90,54,28,3,5.0,"Cartão de Crédito",Desktop,0
+CLI02815,74,48,basico,19.90,95,170,9,3.7,"Cartão de Crédito",Desktop,0
+CLI02816,47,12,Premium,39.90,68,171,0,1.8,Boleto,tv,0
+CLI02817,34,59,PREMIUM,39.90,61,128,9,3.4,PIX,TV,1
+CLI02818,66,27,Premium,39.90,15,20,6,4.1,"Cartão de Crédito",Mobile,0
+CLI02819,69,24,PREMIUM,39.90,79,41,4,3.1,Boleto,Tablet,1
+CLI02820,18,17,Padrão,29.90,22,12,8,3.3,Débito,mobile,1
+CLI02821,59,57,Premium,39.90,35,21,9,3.0,,tv,1
+CLI02822,21,31,Premium,39.90,59,151,4,4.0,Débito,Tablet,0
+CLI02823,44,42,Premium,39.90,76,169,2,2.3,"Cartão de Crédito",mobile,0
+CLI02824,75,13,Padrão,29.90,92,52,3,3.3,PIX,tv,0
+CLI02825,77,21,Básico,19.90,11,76,6,0.5,Débito,tv,0
+CLI02826,19,1,Padrão,29.90,26,12,0,3.0,PIX,tv,1
+CLI02827,36,11,PREMIUM,39.90,61,31,4,2.5,Boleto,Mobile,0
+CLI02828,65,2,Básico,19.90,41,48,1,0.5,PIX,Desktop,0
+CLI02829,18,57,Básico,19.90,71,142,6,2.6,Débito,TV,1
+CLI02830,65,39,Padrão,29.90,50,83,,0.2,"Cartão de Crédito",Tablet,0
+CLI02831,55,10,Premium,39.90,59,94,6,4.7,PIX,mobile,0
+CLI02832,31,5,Premium,39.90,5,18,3,1.1,Boleto,mobile,1
+CLI02833,46,17,Padrão,29.90,65,181,0,0.7,PIX,Desktop,0
+CLI02834,73,45,Básico,19.90,78,83,0,1.8,Boleto,mobile,0
+CLI02835,18,15,basico,19.90,25,85,9,1.1,,TV,0
+CLI02836,,NaN,Básico,19.90,36,61,,4.1,PIX,Desktop,0
+CLI02837,55,NaN,Premium,39.90,21,169,,2.6,Credito,Mobile,0
+CLI02838,48,1,Básico,19.90,47,184,5,2.5,PIX,mobile,1
+CLI02839,41,41,basico,19.90,93,120,0,1.8,PIX,mobile,1
+CLI02840,25,3,Padrão,29.90,96,99,6,2.3,Boleto,TV,0
+CLI02841,47,53,Premium,39.90,56,186,7,0.5,,Tablet,1
+CLI02842,63,15,Padrão,29.90,87,96,3,4.7,,Mobile,0
+CLI02843,53,15,Padrão,29.90,71,100,4,3.4,Boleto,Tablet,0
+CLI02844,77,36,Premium,39.90,79,165,8,1.2,PIX,Tablet,1
+CLI02845,60,38,PREMIUM,39.90,90,158,8,1.0,PIX,Mobile,0
+CLI02846,56,25,Básico,19.90,24,111,8,0.7,,Desktop,0
+CLI02847,62,2,Premium,39.90,20,155,9,2.1,Débito,Tablet,1
+CLI02848,26,21,Premium,39.90,58,144,2,1.7,"Cartão de Crédito",tv,1
+CLI02849,31,7,Premium,39.90,19,180,5,1.6,Boleto,mobile,0
+CLI02850,39,59,Premium,39.90,97,139,8,4.7,Boleto,tv,0
+CLI02851,37,22,Padrão,29.90,54,101,1,2.3,"Cartão de Crédito",Mobile,0
+CLI02852,64,29,Padrão,29.90,75,132,2,3.9,Débito,TV,0
+CLI02853,50,9,Básico,19.90,8,140,8,1.9,Débito,Desktop,1
+CLI02854,20,23,basico,19.90,66,171,0,0.6,Credito,mobile,1
+CLI02855,28,10,Básico,19.90,55,161,8,3.5,,Mobile,1
+CLI02856,18,24,Padrão,29.90,86,94,8,3.2,Credito,mobile,0
+CLI02857,51,3,Padrão,29.90,12,72,1,3.5,,tv,1
+CLI02858,59,55,Premium,39.90,35,79,7,3.7,Débito,Tablet,0
+CLI02859,32,55,PREMIUM,39.90,30,115,6,3.9,"Cartão de Crédito",Desktop,1
+CLI02860,53,3,Premium,39.90,78,124,8,0.5,,tv,0
+CLI02861,26,43,Básico,19.90,49,57,7,4.8,,Tablet,1
+CLI02862,72,25,Básico,19.90,7,139,2,2.6,Credito,mobile,1
+CLI02863,44,39,Padrão,29.90,26,96,3,1.3,Boleto,tv,0
+CLI02864,,60,Padrão,,41,154,,1.8,,Mobile,1
+CLI02865,27,31,Premium,39.90,72,41,5,2.4,Credito,Desktop,0
+CLI02866,46,NaN,basico,,58,27,,1.6,"Cartão de Crédito",Desktop,1
+CLI02867,21,15,basico,19.90,39,164,4,0.2,Boleto,Desktop,0
+CLI02868,63,45,basico,19.90,52,40,5,4.5,Boleto,Desktop,1
+CLI02869,33,32,PREMIUM,39.90,6,139,1,3.9,Boleto,tv,0
+CLI02870,44,22,PREMIUM,39.90,81,10,0,2.6,Débito,mobile,0
+CLI02871,52,52,PREMIUM,39.90,45,63,7,3.6,"Cartão de Crédito",TV,1
+CLI02872,71,6,basico,19.90,0,128,9,0.3,Credito,Tablet,1
+CLI02873,77,18,basico,19.90,46,10,2,1.4,"Cartão de Crédito",tv,0
+CLI02874,55,7,Básico,19.90,21,82,4,2.5,Boleto,Tablet,1
+CLI02875,23,NaN,Premium,,1,36,9,3.3,"Cartão de Crédito",mobile,1
+CLI02876,74,46,PREMIUM,39.90,68,93,3,0.5,,Desktop,0
+CLI02877,69,39,basico,19.90,39,167,1,1.0,Débito,tv,0
+CLI02878,48,19,PREMIUM,39.90,32,12,4,4.1,PIX,tv,1
+CLI02879,51,6,basico,,2,29,,3.1,Credito,Tablet,1
+CLI02880,23,11,PREMIUM,39.90,83,185,5,0.4,PIX,Mobile,0
+CLI02881,77,18,PREMIUM,39.90,48,174,0,1.3,Boleto,tv,0
+CLI02882,57,60,Premium,39.90,76,106,0,2.3,,Tablet,0
+CLI02883,,14,Premium,,46,18,3,4.5,PIX,TV,0
+CLI02884,70,43,basico,19.90,87,178,7,4.5,"Cartão de Crédito",Mobile,0
+CLI02885,70,8,basico,19.90,98,83,3,0.5,"Cartão de Crédito",Tablet,0
+CLI02886,51,11,Premium,39.90,23,136,9,2.8,"Cartão de Crédito",Tablet,1
+CLI02887,38,38,PREMIUM,39.90,75,43,4,2.6,Credito,Mobile,0
+CLI02888,42,41,Básico,19.90,74,41,8,1.8,"Cartão de Crédito",Tablet,0
+CLI02889,66,49,Básico,19.90,78,133,3,0.9,"Cartão de Crédito",Tablet,0
+CLI02890,22,58,Premium,39.90,61,82,4,3.4,Boleto,Tablet,0
+CLI02891,76,32,PREMIUM,39.90,90,84,0,0.2,Débito,tv,0
+CLI02892,37,16,Básico,19.90,79,168,1,4.7,,mobile,0
+CLI02893,19,44,PREMIUM,39.90,73,148,1,4.8,PIX,Desktop,0
+CLI02894,51,50,Básico,19.90,46,171,4,0.7,"Cartão de Crédito",TV,0
+CLI02895,39,39,PREMIUM,39.90,22,33,0,2.6,Boleto,mobile,1
+CLI02896,72,42,basico,19.90,13,32,8,0.0,Credito,Tablet,1
+CLI02897,71,50,Básico,19.90,61,111,7,1.6,,TV,1
+CLI02898,38,24,PREMIUM,39.90,57,68,1,4.7,Débito,Desktop,0
+CLI02899,37,2,Básico,19.90,38,139,0,0.1,Boleto,Tablet,1
+CLI02900,31,45,basico,19.90,85,169,0,0.9,Credito,Tablet,0
+CLI02901,66,40,Padrão,29.90,95,184,7,3.3,Boleto,Desktop,0
+CLI02902,30,50,basico,19.90,61,179,3,0.0,,tv,0
+CLI02903,49,44,Básico,19.90,94,181,3,3.0,Boleto,Mobile,1
+CLI02904,57,50,Premium,39.90,15,36,8,4.2,PIX,tv,0
+CLI02905,43,20,Padrão,29.90,1,127,3,3.0,"Cartão de Crédito",tv,0
+CLI02906,62,9,Básico,19.90,59,79,8,2.7,Débito,Desktop,0
+CLI02907,44,44,Premium,39.90,48,113,8,1.5,PIX,tv,0
+CLI02908,52,8,Básico,19.90,11,95,0,1.9,PIX,TV,1
+CLI02909,76,41,PREMIUM,39.90,24,49,3,3.2,Credito,mobile,0
+CLI02910,30,2,PREMIUM,39.90,53,81,7,4.2,Débito,Tablet,1
+CLI02911,51,37,basico,19.90,6,185,5,4.8,,mobile,0
+CLI02912,49,15,basico,19.90,74,50,8,1.8,Débito,mobile,1
+CLI02913,60,18,Padrão,29.90,15,157,5,2.3,Credito,Tablet,1
+CLI02914,73,38,Premium,39.90,58,170,4,4.3,Débito,TV,0
+CLI02915,49,8,Padrão,29.90,20,97,0,4.9,,Mobile,0
+CLI02916,40,53,Premium,39.90,3,185,7,3.9,Boleto,TV,1
+CLI02917,64,24,Padrão,29.90,58,117,9,0.8,Débito,Mobile,0
+CLI02918,76,30,Padrão,29.90,73,145,,0.7,"Cartão de Crédito",TV,0
+CLI02919,74,3,Básico,19.90,82,13,8,0.6,Débito,Mobile,1
+CLI02920,37,7,Básico,19.90,91,115,4,4.8,,Mobile,0
+CLI02921,54,14,basico,19.90,45,133,0,3.8,PIX,tv,0
+CLI02922,31,21,Padrão,29.90,70,102,3,1.4,PIX,mobile,1
+CLI02923,61,3,Básico,19.90,2,77,7,4.7,"Cartão de Crédito",Tablet,1
+CLI02924,58,44,Padrão,29.90,0,41,9,3.9,PIX,Tablet,1
+CLI02925,44,24,Padrão,29.90,85,183,6,1.4,Boleto,Mobile,0
+CLI02926,65,4,PREMIUM,39.90,63,152,5,3.3,,Desktop,0
+CLI02927,36,60,Premium,39.90,2,84,5,0.3,Débito,Desktop,0
+CLI02928,74,51,PREMIUM,39.90,70,109,5,4.4,"Cartão de Crédito",mobile,0
+CLI02929,72,28,PREMIUM,39.90,71,172,4,2.3,"Cartão de Crédito",TV,1
+CLI02930,37,58,Premium,39.90,16,141,0,1.7,Boleto,TV,1
+CLI02931,41,29,Padrão,29.90,95,13,3,1.9,Débito,tv,1
+CLI02932,43,14,Básico,19.90,56,79,9,2.4,PIX,tv,1
+CLI02933,48,12,PREMIUM,39.90,90,56,9,2.5,Boleto,Tablet,0
+CLI02934,38,47,Básico,19.90,40,166,7,0.9,Credito,Desktop,1
+CLI02935,75,7,basico,19.90,46,13,5,4.6,"Cartão de Crédito",TV,0
+CLI02936,50,43,Padrão,29.90,68,187,0,1.9,,tv,0
+CLI02937,51,17,Premium,39.90,25,160,1,1.6,Boleto,Desktop,0
+CLI02938,71,5,Premium,39.90,9,172,4,2.8,PIX,Tablet,1
+CLI02939,54,36,Premium,39.90,48,135,0,0.3,Boleto,TV,1
+CLI02940,46,16,PREMIUM,39.90,73,52,3,4.1,"Cartão de Crédito",Mobile,0
+CLI02941,36,55,PREMIUM,39.90,87,98,1,2.7,PIX,TV,1
+CLI02942,50,37,Básico,19.90,94,169,5,3.1,,Tablet,0
+CLI02943,52,16,Padrão,29.90,53,92,5,1.5,Boleto,mobile,0
+CLI02944,72,58,basico,19.90,11,177,4,1.7,"Cartão de Crédito",TV,1
+CLI02945,47,58,Padrão,29.90,94,110,2,1.6,Débito,Tablet,0
+CLI02946,66,25,PREMIUM,39.90,89,88,3,1.1,"Cartão de Crédito",tv,0
+CLI02947,65,42,Padrão,29.90,45,73,6,4.3,"Cartão de Crédito",TV,1
+CLI02948,39,38,Básico,19.90,62,43,8,0.6,PIX,Mobile,0
+CLI02949,30,34,basico,19.90,45,74,1,5.0,Credito,TV,0
+CLI02950,46,NaN,Premium,39.90,98,150,2,1.3,PIX,mobile,0
+CLI02951,34,2,Básico,19.90,65,129,5,0.8,PIX,Mobile,1
+CLI02952,30,52,Padrão,29.90,2,58,4,4.1,PIX,mobile,0
+CLI02953,56,23,Padrão,29.90,62,38,5,4.9,Débito,tv,0
+CLI02954,38,45,basico,19.90,56,52,6,3.4,Débito,Desktop,0
+CLI02955,36,12,Padrão,29.90,65,120,0,2.7,PIX,tv,0
+CLI02956,30,18,Básico,19.90,93,168,6,3.4,Débito,Tablet,0
+CLI02957,64,53,Básico,19.90,77,116,2,0.4,Débito,mobile,0
+CLI02958,62,58,Padrão,29.90,12,170,7,0.8,,Tablet,0
+CLI02959,51,15,basico,19.90,16,116,3,0.9,Boleto,tv,0
+CLI02960,68,26,Premium,39.90,75,108,8,4.6,Boleto,tv,0
+CLI02961,71,28,Básico,19.90,24,124,2,4.8,Débito,Mobile,0
+CLI02962,42,29,Premium,39.90,6,29,7,0.9,Credito,Mobile,1
+CLI02963,40,57,PREMIUM,39.90,2,151,8,3.9,Credito,Tablet,0
+CLI02964,38,56,PREMIUM,39.90,21,84,0,2.3,PIX,TV,0
+CLI02965,67,56,Premium,39.90,93,23,7,0.2,Boleto,tv,1
+CLI02966,30,13,Básico,19.90,79,186,8,2.6,,tv,0
+CLI02967,32,14,Premium,39.90,50,168,7,4.1,Credito,Mobile,1
+CLI02968,28,43,Básico,19.90,50,87,1,3.6,Boleto,mobile,0
+CLI02969,30,52,basico,19.90,66,74,2,4.4,"Cartão de Crédito",mobile,0
+CLI02970,45,58,PREMIUM,39.90,56,28,5,2.6,"Cartão de Crédito",mobile,0
+CLI02971,57,55,basico,19.90,22,167,0,2.6,Débito,Tablet,1
+CLI02972,24,55,Padrão,29.90,1,45,8,3.4,Boleto,tv,0
+CLI02973,35,59,Premium,39.90,39,22,5,0.4,"Cartão de Crédito",Tablet,1
+CLI02974,19,57,Básico,19.90,33,121,9,5.0,Credito,mobile,0
+CLI02975,18,31,Padrão,29.90,20,53,7,3.3,PIX,mobile,0
+CLI02976,64,11,Padrão,29.90,28,171,9,2.6,Boleto,TV,0
+CLI02977,26,13,PREMIUM,39.90,1,76,3,0.0,,TV,0
+CLI02978,38,42,PREMIUM,39.90,49,26,6,0.2,Credito,Tablet,1
+CLI02979,59,23,basico,19.90,78,130,5,1.5,Credito,Desktop,0
+CLI02980,65,17,basico,19.90,64,97,5,2.3,,TV,1
+CLI02981,70,25,PREMIUM,39.90,31,62,2,2.6,,tv,0
+CLI02982,26,6,Padrão,29.90,38,125,1,2.3,Credito,mobile,0
+CLI02983,23,12,Básico,19.90,96,95,6,4.9,,Desktop,0
+CLI02984,53,30,Premium,39.90,30,86,4,1.3,"Cartão de Crédito",tv,0
+CLI02985,71,25,PREMIUM,39.90,78,10,4,2.3,Credito,mobile,1
+CLI02986,48,1,basico,19.90,31,134,5,4.8,Boleto,Mobile,0
+CLI02987,30,41,basico,19.90,19,128,9,3.5,Boleto,Mobile,0
+CLI02988,41,1,Padrão,29.90,86,189,4,3.3,Boleto,Desktop,1
+CLI02989,67,11,basico,19.90,33,172,5,3.6,Débito,TV,0
+CLI02990,54,1,PREMIUM,39.90,11,133,2,0.3,Débito,Mobile,1
+CLI02991,61,16,Básico,19.90,22,156,0,2.4,,tv,0
+CLI02992,38,32,Premium,39.90,65,121,8,3.7,PIX,tv,0
+CLI02993,58,6,basico,19.90,54,18,6,3.1,,TV,0
+CLI02994,70,51,Básico,19.90,37,152,6,2.4,Débito,tv,1
+CLI02995,70,9,Padrão,29.90,32,114,0,4.3,Boleto,TV,0
+CLI02996,41,27,Básico,19.90,12,103,9,2.4,Boleto,tv,1
+CLI02997,66,1,Básico,19.90,66,133,0,0.3,Débito,Desktop,1
+CLI02998,28,22,Premium,39.90,71,139,9,2.2,Boleto,Tablet,0
+CLI02999,54,34,basico,19.90,74,144,9,5.0,Débito,Desktop,1
+CLI03000,66,49,basico,19.90,66,164,9,1.4,,Mobile,1
