@@ -1,11 +1,15 @@
 import joblib
 import pandas as pd
 import uvicorn
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
+from sqlalchemy.orm import Session
 from pydantic import BaseModel
 import sys
 import os
 import json
+
+# Imports locais (Banco de Dados)
+from database import SessionLocal, init_db, HistoricoPrevisao
 
 # Adicionar caminho local para importar dependências do treino se necessário
 sys.path.append(os.getcwd())
@@ -18,6 +22,19 @@ except ImportError:
 
 app = FastAPI(title="ChurnInsight API", description="API para previsão de Churn de clientes de Streaming")
 
+# --- Configuração de Banco de Dados ---
+# Dependência para obter sessão do banco a cada request (Padrão FastAPI)
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+# Inicializar tabelas ao arrancar
+init_db()
+
+# --- Carregamento do Modelo ---
 # Carregar o modelo e os metadados (dicionário de tradução)
 try:
     model = joblib.load('churn_model.joblib')
@@ -29,12 +46,9 @@ try:
     reversed_mappings = {}
     
     for col, map_dict in mappings.items():
-        # map_dict vem como chaves string do JSON, ex: "0", "1". Converter valores.
-        # map_dict: { "0": "basico", "1": "padrao" }
         reversed_mappings[col] = {v: int(k) for k, v in map_dict.items()}
         
     print("Modelo e metadados carregados com sucesso!")
-    print(f"Colunas categóricas mapeadas: {list(reversed_mappings.keys())}")
 
 except Exception as e:
     print(f"ERRO CRÍTICO: Não foi possível carregar o modelo ou metadados. {e}")
@@ -55,10 +69,26 @@ class ClienteInput(BaseModel):
 
 @app.get("/")
 def home():
-    return {"status": "online", "mensagem": "API ChurnInsight operante."}
+    return {"status": "online", "mensagem": "API ChurnInsight operante com Persistência SQLite."}
+
+@app.get("/stats")
+def get_stats(db: Session = Depends(get_db)):
+    """Retorna estatísticas baseadas no histórico de previsões"""
+    total = db.query(HistoricoPrevisao).count()
+    churn_count = db.query(HistoricoPrevisao).filter(HistoricoPrevisao.previsao == "Vai cancelar").count()
+    
+    taxa_churn = 0.0
+    if total > 0:
+        taxa_churn = (churn_count / total) * 100
+        
+    return {
+        "total_analisados": total,
+        "total_churn_previsto": churn_count,
+        "taxa_risco_base": f"{taxa_churn:.1f}%"
+    }
 
 @app.post("/predict")
-def predict_churn(cliente: ClienteInput):
+def predict_churn(cliente: ClienteInput, db: Session = Depends(get_db)):
     if not model:
         raise HTTPException(status_code=500, detail="Modelo não carregado no servidor.")
 
@@ -84,27 +114,19 @@ def predict_churn(cliente: ClienteInput):
 
         # 3. Aplicar Encoding (Texto -> Número)
         processed_data = raw_data.copy()
-        
         for col, mapping in reversed_mappings.items():
             if col in processed_data:
                 val = processed_data[col]
                 if val in mapping:
                     processed_data[col] = mapping[val]
                 else:
-                    # Fallback: se vier algo novo (ex: "smart watch"), usa o valor mais comum '0' ou gera erro?
-                    # Para MVP, vamos usar 0 (primeira categoria) pra não quebrar
-                    print(f"AVISO: Valor '{val}' desconhecido para coluna '{col}'. Usando padrão 0.")
                     processed_data[col] = 0 
 
         # Converter para DataFrame
         df_input = pd.DataFrame([processed_data])
         
-        # Garantir ordem das colunas (se o metadados tiver a lista)
         if 'columns' in metadata:
-            # Filtrar colunas que o modelo espera (remove extras se houver)
-            # e reordenar
             expected_cols = metadata['columns']
-            # Preencher colunas faltantes com 0 se necessário
             for col in expected_cols:
                 if col not in df_input.columns:
                     df_input[col] = 0
@@ -120,17 +142,31 @@ def predict_churn(cliente: ClienteInput):
             
         prediction_val = int(prediction)
         resultado = "Vai cancelar" if prediction_val == 1 else "Vai continuar"
+        risco = bool(probabilidade > 0.6)
+
+        # 5. SALVAR NO BANCO (Persistência)
+        # Salvamos o raw_data (input original do cliente) para auditoria futura
+        novo_registro = HistoricoPrevisao(
+            cliente_input=raw_data,
+            previsao=resultado,
+            probabilidade=probabilidade,
+            risco_alto=risco
+        )
+        db.add(novo_registro)
+        db.commit()
+        db.refresh(novo_registro)
         
         return {
+            "id_analise": novo_registro.id,  # Retorna o ID do banco pra referência
             "cliente": raw_data,
             "previsao": resultado,
             "probabilidade_churn": probabilidade,
-            "risco_alto": bool(probabilidade > 0.6)
+            "risco_alto": risco
         }
         
     except Exception as e:
         import traceback
-        traceback.print_exc() # Print no terminal do servidor pra gente ver
+        traceback.print_exc()
         raise HTTPException(status_code=400, detail=f"Erro no processamento: {str(e)}")
 
 if __name__ == "__main__":
