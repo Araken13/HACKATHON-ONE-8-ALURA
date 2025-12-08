@@ -12,19 +12,11 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copiar apenas arquivos de requisitos primeiro (cache layer)
-# Como não temos requirements.txt, vamos instalar direto
-RUN pip install --no-cache-dir \
-    pandas \
-    scikit-learn \
-    joblib \
-    numpy \
-    fastapi \
-    uvicorn \
-    requests \
-    sqlalchemy \
-    psycopg2-binary \
-    python-multipart \
-    strawberry-graphql
+# Copiar requirements primeiro para aproveitar cache do Docker
+COPY requirements.txt .
+
+# Instalar dependências a partir do arquivo
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar o restante do código
 COPY . .

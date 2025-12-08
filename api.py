@@ -203,4 +203,5 @@ async def predict_batch(file: UploadFile = File(...), db: Session = Depends(get_
         raise HTTPException(status_code=400, detail=f"Erro ao processar arquivo: {str(e)}")
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    # Host 0.0.0.0 permite acesso externo (necessário para Docker)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

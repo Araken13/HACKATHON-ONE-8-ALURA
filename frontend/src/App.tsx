@@ -139,6 +139,14 @@ function App() {
                                 <input type="number" step="0.1" value={formData.valorMensal} onChange={e => setFormData({ ...formData, valorMensal: +e.target.value })} />
                             </div>
                             <div>
+                                <label>Tempo Assinatura (Meses)</label>
+                                <input type="number" value={formData.tempoAssinaturaMeses} onChange={e => setFormData({ ...formData, tempoAssinaturaMeses: +e.target.value })} />
+                            </div>
+                            <div>
+                                <label>Visualizações (Mês)</label>
+                                <input type="number" value={formData.visualizacoesMes} onChange={e => setFormData({ ...formData, visualizacoesMes: +e.target.value })} />
+                            </div>
+                            <div>
                                 <label>Suporte (Chamados)</label>
                                 <input type="number" value={formData.contatosSuporte} onChange={e => setFormData({ ...formData, contatosSuporte: +e.target.value })} />
                             </div>
