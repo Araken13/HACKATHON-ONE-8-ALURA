@@ -1,112 +1,132 @@
-# 🔮 ChurnInsight - Previsão de Churn (MVP)
+# 🔮 ChurnInsight: AI-Powered Customer Retention Platform
 
-Projeto desenvolvido durante o Hackathon One 8 Alura. O objetivo é fornecer uma solução completa de Data Science e Engenharia de Backend para prever a probabilidade de cancelamento (Churn) de clientes de um serviço de streaming.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## 🚀 Funcionalidades
+> **Preveja o futuro, retenha seus clientes.**
+> O ChurnInsight é uma solução completa de **Analytics & Machine Learning** projetada para identificar clientes em risco de cancelamento (Churn) em serviços de streaming, permitindo ações proativas de retenção.
 
-- **Pipeline de Dados**: Limpeza, tratamento de valores nulos e encoding de variáveis categóricas.
-- **Modelo Preditivo**: Classificação binária ("Vai cancelar" vs "Vai continuar") utilizando Random Forest (com fallback robusto para ambientes restritos).
-- **API REST**: Microserviço em Python (FastAPI) de alta performance para servir o modelo.
-- **Validação de Contrato**: Entrada de dados tipada e validada via Pydantic.
-- **Metadados Inteligentes**: Sincronização automática de encodings entre treino e inferência para evitar erros de consistência.
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 📋 Sobre o Projeto
+
+O **ChurnInsight** não é apenas um modelo preditivo; é um ecossistema completo de engenharia de dados e software. Ele combina um backend robusto em **Python/FastAPI** com um frontend moderno em **React**, utilizando **Machine Learning (Random Forest)** para analisar padrões de comportamento de usuários em tempo real.
+
+Desenvolvido durante o **Hackathon One 8 Alura**, este projeto demonstra a aplicação prática de Data Science em problemas reais de negócio.
+
+### 🌟 Diferenciais
+
+- **Pipelines Robustos**: Tratamento automático de dados sujos, nulos e encoding de variáveis.
+- **Hybrid AI Core**: Funciona com modelos treinados (Scikit-learn) ou Fallback Lógico Inteligente para ambientes leves.
+- **Arquitetura Moderna**: API REST + GraphQL servindo um Frontend reativo.
+- **Developer Experience**: Scripts de automação para testes, treino e setup.
+
+---
+
+## 🚀 Stack Tecnológico
+
+### Backend & Data Science
 
 - **Linguagem**: Python 3.10+
-- **Data Science**: Pandas, Scikit-learn, Numpy, Joblib
-- **API**: FastAPI, Uvicorn, Pydantic
-- **Ferramentas**: Git, WSL (Windows Subsystem for Linux)
+- **API Framework**: FastAPI (Alta performance, Async I/O)
+- **ML & Dados**: Pandas, Scikit-learn, Joblib, Numpy
+- **Qualidade**: Pydantic para validação rigorosa de dados
 
-## 📂 Estrutura do Projeto
+### Frontend
+
+- **Framework**: React 18
+- **Build Tool**: Vite (Ultra-rápido)
+- **Data Fetching**: Apollo Client (GraphQL Integation)
+- **Linguagem**: TypeScript / JavaScript
+
+---
+
+## 📂 Estrutura do Repositório
 
 ```bash
-📦 HACKATHON-ONE-8-ALURA
-├── 📄 dataset_churn_...csv    # Base de dados original
-├── 📄 train_model.py          # Script de pipeline (Limpeza + Treinamento)
-├── 📄 api.py                  # Servidor da API (FastAPI)
-├── 📄 test_model.py           # Teste unitário do modelo
-├── 📄 test_api_request.py     # Script de teste de integração com a API
-├── 📄 churn_model.joblib      # Artefato do modelo treinado (binário)
-├── 📄 model_metadata.json     # Metadados para garantir consistência da API
-└── 📄 README.md               # Documentação
+📦 CHURN-INSIGHT
+├── 📂 analytics          # Dashboards e Análises Exploratórias
+├── 📂 frontend           # Aplicação Web (React/Vite)
+├── 📄 api.py             # Gateway da API (FastAPI + GraphQL)
+├── 📄 train_model.py     # Pipeline de Treinamento de ML
+├── 📄 churn_model.joblib # Artefato do Modelo Serializado
+├── 📄 requirements.txt   # Dependências do Backend
+└── 📄 RELATORIO_VALIDACAO.md # Logs de Execução e Testes
 ```
 
-## ⚡ Como Rodar o Projeto
+---
 
-### 1. Preparar o Ambiente
+## ⚡ Guia de Início Rápido (Quickstart)
 
-Recomendamos o uso de um ambiente virtual (venv).
-
-```bash
-# Instalar dependências
-pip install pandas scikit-learn joblib numpy fastapi uvicorn requests
-```
-
-### 2. Treinar o Modelo
-
-Execute o pipeline para processar os dados e gerar o artefato do modelo (`.joblib`).
+### 1. Backend Setup
 
 ```bash
+# Instale as dependências
+pip install -r requirements.txt
+
+# Treine o modelo (Gera o arquivo joblib)
 python train_model.py
-```
 
-*Saída esperada: "Pipeline finalizado com sucesso. Modelo e metadados salvos."*
-
-### 3. Iniciar a API
-
-Suba o servidor localmente na porta 8000.
-
-```bash
+# Inicie a API (Disponível em http://localhost:8000)
 python api.py
 ```
 
-*Acesse a documentação interativa em: <http://127.0.0.1:8000/docs>*
-
-### 4. Testar Previsão
-
-Em outro terminal, execute o script de teste ou faça uma requisição manual.
+### 2. Frontend Setup
 
 ```bash
-python test_api_request.py
+cd frontend
+
+# Instale os pacotes npm
+npm install
+
+# Inicie a interface (Disponível em http://localhost:5173 ou 5174)
+npm run dev
 ```
-
-#### Exemplo de Payload (Request)
-
-```json
-POST /predict
-{
-  "idade": 40,
-  "tempo_assinatura_meses": 2,
-  "plano_assinatura": "basico",
-  "valor_mensal": 19.90,
-  "visualizacoes_mes": 10,
-  "tempo_medio_sessao_min": 15,
-  "contatos_suporte": 5,
-  "avaliacao_conteudo": 1.5,
-  "metodo_pagamento": "boleto",
-  "dispositivo_principal": "tv"
-}
-```
-
-#### Exemplo de Resposta
-
-```json
-{
-  "previsao": "Vai cancelar",
-  "probabilidade_churn": 0.9,
-  "risco_alto": true
-}
-```
-
-## 📈 Próximos Passos (Roadmap)
-
-Para evoluir este MVP para um produto final robusto, planejamos as seguintes etapas:
-
-1. **🐳 Containerização**: Criar `Dockerfile` e `docker-compose.yml` para facilitar o deploy e garantir reproducibilidade do ambiente.
-2. **🗄️ Persistência de Dados**: Integrar um banco de dados (PostgreSQL ou SQLite) para salvar o histórico de todas as previsões realizadas pela API.
-3. **📊 Dashboard de Monitoramento**: Criar uma interface visual (Streamlit ou React) para acompanhar em tempo real os clientes de alto risco identificados.
-4. **🔄 Pipeline de CI/CD**: Automatizar o retreino do modelo (MLOps) sempre que novos dados do `dataset` forem adicionados ao repositório.
-5. **🔐 Autenticação**: Proteger a API com chave de acesso (API Key) ou OAuth2.
 
 ---
-*Desenvolvido com 💻 e ☕ por [Araken Carmo Neto / hackathon ONE ALURA]*
+
+## 🧠 Como Funciona a Inteligência Artificial
+
+O modelo analisa variáveis comportamentais chave para calcular o `churn_probability`:
+
+| Variável | Impacto na Previsão |
+|----------|---------------------|
+| `tempo_assinatura_meses` | Clientes recentes (< 3 meses) têm maior risco. |
+| `avaliacao_conteudo` | Notas baixas são fortes indicativos de insatisfação. |
+| `visualizacoes_mes` | Baixo engajamento correlaciona com cancelamento. |
+| `contatos_suporte` | Alto volume de contatos indica problemas técnicos/fustração. |
+
+---
+
+## 🧪 Testes e Validação
+
+O projeto inclui uma suíte de testes automatizados para garantir a estabilidade:
+
+- **Teste de Modelo**: `python test_model.py` (Valida a acurácia das previsões).
+- **Teste de Integração API**: `python test_api_request.py` (Simula requisições reais HTTP).
+
+Para ver os resultados da última execução, consulte o arquivo [RELATORIO_VALIDACAO.md](./RELATORIO_VALIDACAO.md).
+
+---
+
+## 🗺️ Roadmap de Evolução
+
+- [x] **MVP**: API Preditiva + Frontend Básico
+- [x] **Integração GraphQL**: Consultas otimizadas
+- [ ] **Docker Compose**: Orquestração completa do ambiente
+- [ ] **Banco de Dados Real**: Migração para PostgreSQL
+- [ ] **Dashboard Analytics**: Gráficos de tendências de churn
+
+---
+
+<div align="center">
+  <p>Desenvolvido com 💙 por <strong>Araken Carmo Neto</strong> no Hackathon One Alura</p>
+  <p>
+    <a href="https://linkedin.com/in/araken">LinkedIn</a> •
+    <a href="https://github.com/Araken13">GitHub</a>
+  </p>
+</div>
