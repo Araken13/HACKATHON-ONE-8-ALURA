@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   # --- Serviço 1: Nossa API (Producer/Consumer HTTP) ---
@@ -13,7 +13,7 @@ services:
     depends_on:
       - db
     volumes:
-      # Montamos o diretório atual para hot-reload se quisermos, 
+      # Montamos o diretório atual para hot-reload se quisermos,
       # mas para prod, deixamos o copy do Dockerfile.
       - .:/app
 
@@ -32,6 +32,22 @@ services:
       - postgres_data:/var/lib/postgresql/data
       # Script SQL roda na primeira vez que o banco sobe
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # --- Serviço 3: Analytics (Grafana) ---
+  grafana:
+    image: grafana/grafana-oss:latest
+    container_name: churn_grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - ./analytics/provisioning:/etc/grafana/provisioning
+      - ./analytics/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - db
 
 volumes:
   postgres_data:

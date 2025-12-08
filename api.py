@@ -142,8 +142,8 @@ def predict_churn(cliente: ClienteInput, db: Session = Depends(get_db)):
         raise HTTPException(status_code=400, detail=f"Erro: {str(e)}")
 
 @app.post("/predict/batch")
-async def predict_batch(file: UploadFile = File(...)):
-    """Recebe um arquivo CSV, processa previsões em lote e retorna CSV preenchido."""
+async def predict_batch(file: UploadFile = File(...), db: Session = Depends(get_db)):
+    """Recebe um arquivo CSV, processa previsões em lote, salva no banco e retorna CSV preenchido."""
     if not model:
         raise HTTPException(status_code=500, detail="Modelo não carregado.")
         
@@ -156,9 +156,40 @@ async def predict_batch(file: UploadFile = File(...)):
         predictions = model.predict(df_processed)
         df['previsao_churn'] = ["Vai cancelar" if p == 1 else "Vai continuar" for p in predictions]
         
+        probs = []
         if hasattr(model, 'predict_proba'):
-            probs = model.predict_proba(df_processed)
-            df['probabilidade'] = [round(float(p[1]), 4) for p in probs]
+            raw_probs = model.predict_proba(df_processed)
+            probs = [float(p[1]) for p in raw_probs]
+        else:
+            probs = [0.9 if p == 1 else 0.1 for p in predictions] # Fallback
+            
+        df['probabilidade'] = [round(p, 4) for p in probs]
+        df['risco_alto'] = [bool(p > 0.6) for p in probs]
+
+        # --- SALVAR NO BANCO ---
+        batch_records = []
+        for index, row in df.iterrows():
+            # Extrair apenas input para o JSONB
+            # Ignora as colunas de resultado que acabamos de adicionar para não duplicar no JSON
+            input_cols = [c for c in row.index if c not in ['previsao_churn', 'probabilidade', 'risco_alto']]
+            cliente_input = row[input_cols].to_dict()
+            
+            # Converter tipos numpy para python nativo (evita erro json)
+            for k, v in cliente_input.items():
+                if hasattr(v, 'item'): cliente_input[k] = v.item()
+
+            record = HistoricoPrevisao(
+                cliente_input=cliente_input,
+                previsao=row['previsao_churn'],
+                probabilidade=row['probabilidade'],
+                risco_alto=row['risco_alto']
+            )
+            batch_records.append(record)
+        
+        # Bulk Insert (Mais rápido)
+        db.add_all(batch_records)
+        db.commit()
+        # -----------------------
         
         stream = io.StringIO()
         df.to_csv(stream, index=False)
@@ -167,6 +198,8 @@ async def predict_batch(file: UploadFile = File(...)):
         return response
 
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=400, detail=f"Erro ao processar arquivo: {str(e)}")
 
 if __name__ == "__main__":

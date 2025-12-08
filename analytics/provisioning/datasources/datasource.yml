@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: ChurnDB
+    type: postgres
+    uid: P01
+    access: proxy
+    url: db:5432
+    database: churn_db
+    user: user
+    secureJsonData:
+      password: password
+    jsonData:
+      sslmode: disable
+    isDefault: true
