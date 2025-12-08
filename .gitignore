@@ -3,5 +3,21 @@ __pycache__/
 .venv/
 .venv_wsl/
 venv/
+env/
 *.joblib
 *.pkl
+*.db
+*.sqlite3
+.DS_Store
+
+# Node modules
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.idea/
+.vscode/
