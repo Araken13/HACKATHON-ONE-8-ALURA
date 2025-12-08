@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  # --- Serviço 1: Nossa API (Producer/Consumer HTTP) ---
+  api:
+    build: .
+    container_name: churn_api
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://user:password@db:5432/churn_db
+    depends_on:
+      - db
+    volumes:
+      # Montamos o diretório atual para hot-reload se quisermos, 
+      # mas para prod, deixamos o copy do Dockerfile.
+      - .:/app
+
+  # --- Serviço 2: Banco de Dados (PostgreSQL) ---
+  db:
+    image: postgres:15-alpine
+    container_name: churn_db
+    restart: always
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=churn_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Script SQL roda na primeira vez que o banco sobe
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:
