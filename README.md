@@ -87,6 +87,11 @@ npm install
 npm run dev
 ```
 
+### 💡 Simulação Avançada (Windows vs WSL)
+
+Quer testar como um profissional usando Windows ou Linux (WSL)?
+👉 **[Leia o Guia de Simulação Completo](./GUIA_SIMULACAO_WIN_WSL.md)**
+
 ---
 
 ## 🧠 Como Funciona a Inteligência Artificial
