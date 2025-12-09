@@ -124,9 +124,13 @@ Para ver os resultados da última execução, consulte o arquivo [RELATORIO_VALI
 
 - [x] **MVP**: API Preditiva + Frontend Básico
 - [x] **Integração GraphQL**: Consultas otimizadas
-- [ ] **Docker Compose**: Orquestração completa do ambiente
-- [ ] **Banco de Dados Real**: Migração para PostgreSQL
-- [ ] **Dashboard Analytics**: Gráficos de tendências de churn
+- [x] **Docker Compose**: Orquestração completa do ambiente
+- [x] **Banco de Dados Real**: Migração para PostgreSQL
+- [x] **Dashboard Analytics**: Gráficos de tendências de churn
+
+## 📚 Documentação Técnica
+
+Para detalhes profundos sobre a arquitetura, decisões técnicas e infraestrutura, leia a [Especificação Técnica Completa](./ESPECIFICACAO_TECNICA.md).
 
 ---
 

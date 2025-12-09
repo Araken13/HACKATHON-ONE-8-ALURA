@@ -13,11 +13,27 @@ services:
     depends_on:
       - db
     volumes:
-      # Montamos o diretório atual para hot-reload se quisermos,
-      # mas para prod, deixamos o copy do Dockerfile.
       - .:/app
 
-  # --- Serviço 2: Banco de Dados (PostgreSQL) ---
+  # --- Serviço 2: Frontend (React/Vite) ---
+  frontend:
+    build: ./frontend
+    container_name: churn_frontend
+    restart: always
+    ports:
+      - "5173:5173"
+    environment:
+      # Aponta para o serviço 'api' dentro da rede do Docker
+      - API_URL=http://api:8000
+    depends_on:
+      - api
+    volumes:
+      # Monta o código local para permitir hot-reload
+      - ./frontend:/app
+      # Evita que o node_modules local (Windows) sobrescreva o do container (Linux)
+      - /app/node_modules
+
+  # --- Serviço 3: Banco de Dados (PostgreSQL) ---
   db:
     image: postgres:15-alpine
     container_name: churn_db
@@ -30,10 +46,9 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      # Script SQL roda na primeira vez que o banco sobe
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
-  # --- Serviço 3: Analytics (Grafana) ---
+  # --- Serviço 4: Analytics (Grafana) ---
   grafana:
     image: grafana/grafana-oss:latest
     container_name: churn_grafana
