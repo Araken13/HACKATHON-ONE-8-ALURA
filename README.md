@@ -1,6 +1,6 @@
 # 🔮 ChurnInsight: AI-Powered Customer Retention Platform
 
-[![Manual de Instalação](https://img.shields.io/badge/Instalação-PASSO%20A%20PASSO-success?style=for-the-badge)](./MANUAL_INSTALACAO.md)
+[![Manual de Instalação](https://img.shields.io/badge/Instalação-PASSO%20A%20PASSO-success?style=for-the-badge)](./docs/MANUAL_INSTALACAO.md)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
@@ -52,12 +52,14 @@ Desenvolvido durante o **Hackathon One 8 Alura**, este projeto demonstra a aplic
 ```bash
 📦 CHURN-INSIGHT
 ├── 📂 analytics          # Dashboards e Análises Exploratórias
+├── 📂 docs               # Documentação Completa (Guias, Manuais)
 ├── 📂 frontend           # Aplicação Web (React/Vite)
+├── 📂 scripts            # Scripts Utilitários (Setup, Automação)
+├── 📂 tests              # Testes Automatizados
 ├── 📄 api.py             # Gateway da API (FastAPI + GraphQL)
 ├── 📄 train_model.py     # Pipeline de Treinamento de ML
 ├── 📄 churn_model.joblib # Artefato do Modelo Serializado
-├── 📄 requirements.txt   # Dependências do Backend
-└── 📄 RELATORIO_VALIDACAO.md # Logs de Execução e Testes
+└── 📄 requirements.txt   # Dependências do Backend
 ```
 
 ---
@@ -92,7 +94,7 @@ npm run dev
 ### 💡 Simulação Avançada (Windows vs WSL)
 
 Quer testar como um profissional usando Windows ou Linux (WSL)?
-👉 **[Leia o Guia de Simulação Completo](./GUIA_SIMULACAO_WIN_WSL.md)**
+👉 **[Leia o Guia de Simulação Completo](./docs/GUIA_SIMULACAO_WIN_WSL.md)**
 
 ---
 
@@ -113,10 +115,10 @@ O modelo analisa variáveis comportamentais chave para calcular o `churn_probabi
 
 O projeto inclui uma suíte de testes automatizados para garantir a estabilidade:
 
-- **Teste de Modelo**: `python test_model.py` (Valida a acurácia das previsões).
-- **Teste de Integração API**: `python test_api_request.py` (Simula requisições reais HTTP).
+- **Teste de Modelo**: `python tests/test_model.py` (Valida a acurácia das previsões).
+- **Teste de Integração API**: `python tests/test_api_request.py` (Simula requisições reais HTTP).
 
-Para ver os resultados da última execução, consulte o arquivo [RELATORIO_VALIDACAO.md](./RELATORIO_VALIDACAO.md).
+Para ver os resultados da última execução, consulte o arquivo [RELATORIO_VALIDACAO.md](./docs/RELATORIO_VALIDACAO.md).
 
 ---
 
